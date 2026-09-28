@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this dataset and companion calculation code when using these materials."
+type: dataset
+title: "Iron Factory copper screening: data and reproducibility code"
+authors:
+  - family-names: Malkawi
+    given-names: Ghassan
+version: 11.0.0
+doi: 10.5281/zenodo.23019081
+repository-code: "https://github.com/shaikhamalkawi-ux/iron-factory-copper-screening"
+license:
+  - CC-BY-4.0
+  - MIT
+abstract: "A metadata-sanitized 32-record workbook with unchanged cell values and reproducible calculations comparing highest recorded magnetic values with nearest recorded distance for operational chemical targets. This companion data/code release includes cutoff-tie enumeration, candidate-omission checks, fraction attribution, and supplementary finite-table analyses."
+keywords:
+  - environmental monitoring
+  - sample prioritization
+  - copper
+  - operational extraction fractions
+  - reproducibility

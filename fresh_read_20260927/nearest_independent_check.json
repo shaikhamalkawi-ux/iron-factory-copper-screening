@@ -1,0 +1,5610 @@
+{
+  "source": "source/Iron Factory.xlsx",
+  "source_sha256_before_and_after": "1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b",
+  "source_unchanged": true,
+  "method": "Independent openpyxl extraction; standard-library sorted and math.fsum; root CSV loaded only after calculations.",
+  "k": 8,
+  "n": 32,
+  "magnetic_ordered_IDs": [
+    12,
+    8,
+    31,
+    19,
+    24,
+    26,
+    29,
+    16
+  ],
+  "magnetic_cutoff_unambiguous": true,
+  "distance_cutoff_m": 200.0,
+  "strictly_closer_IDs": [
+    2,
+    8,
+    12,
+    14,
+    15,
+    31
+  ],
+  "distance_cutoff_tied_IDs": [
+    3,
+    5,
+    9,
+    11
+  ],
+  "nearest_sets": [
+    [
+      2,
+      3,
+      5,
+      8,
+      12,
+      14,
+      15,
+      31
+    ],
+    [
+      2,
+      3,
+      8,
+      9,
+      12,
+      14,
+      15,
+      31
+    ],
+    [
+      2,
+      3,
+      8,
+      11,
+      12,
+      14,
+      15,
+      31
+    ],
+    [
+      2,
+      5,
+      8,
+      9,
+      12,
+      14,
+      15,
+      31
+    ],
+    [
+      2,
+      5,
+      8,
+      11,
+      12,
+      14,
+      15,
+      31
+    ],
+    [
+      2,
+      8,
+      9,
+      11,
+      12,
+      14,
+      15,
+      31
+    ]
+  ],
+  "distance_by_ID": {
+    "1": 800.0,
+    "2": 0.0,
+    "3": 200.0,
+    "4": 400.0,
+    "5": 200.0,
+    "6": 1200.0,
+    "7": 400.0,
+    "8": 0.0,
+    "9": 200.0,
+    "10": 400.0,
+    "11": 200.0,
+    "12": 0.0,
+    "13": 700.0,
+    "14": 0.0,
+    "15": 0.0,
+    "16": 600.0,
+    "17": 600.0,
+    "18": 600.0,
+    "19": 360.0,
+    "20": 930.0,
+    "21": 770.0,
+    "22": 600.0,
+    "23": 500.0,
+    "24": 400.0,
+    "25": 260.0,
+    "26": 400.0,
+    "27": 1150.0,
+    "28": 1150.0,
+    "29": 310.0,
+    "30": 480.0,
+    "31": 150.0,
+    "32": 250.0
+  },
+  "reference_csv": "fresh_read_20260927/magnetic_vs_nearest_k8.csv",
+  "reference_csv_sha256": "30e5bd33dd8dceaf7f04ff2dd47271ed5d9a5eb9e434938ad70c8272f39b5b99",
+  "all_36_rows_passed": true,
+  "comparison_cell_count_including_9_expected_blank_cells": 144,
+  "numeric_comparison_cell_count": 135,
+  "maximum_absolute_difference": 3.3306690738754696e-16,
+  "absolute_tolerance": 1e-12,
+  "independent_rows": [
+    {
+      "element": "Cd",
+      "target": "total",
+      "magnetic_retention": 0.35138620109719604,
+      "nearest_min_retention": 0.3131892249301973,
+      "nearest_max_retention": 0.5003345328367521,
+      "uniform_expected_retention": 0.32276316716832065
+    },
+    {
+      "element": "Cd",
+      "target": "F1",
+      "magnetic_retention": 0.35180400955833935,
+      "nearest_min_retention": 0.2968573562897503,
+      "nearest_max_retention": 0.5097040466923987,
+      "uniform_expected_retention": 0.3354696067836762
+    },
+    {
+      "element": "Cd",
+      "target": "F1_plus_F2_plus_F3",
+      "magnetic_retention": 0.36213142245622504,
+      "nearest_min_retention": 0.32908681541726703,
+      "nearest_max_retention": 0.530467468246931,
+      "uniform_expected_retention": 0.32548678419351385
+    },
+    {
+      "element": "Cd",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.20129504091503228,
+      "nearest_min_retention": 0.21985698381832314,
+      "nearest_max_retention": 0.3689781983989531,
+      "uniform_expected_retention": null
+    },
+    {
+      "element": "Co",
+      "target": "total",
+      "magnetic_retention": 0.6682676925803855,
+      "nearest_min_retention": 0.8224069191637556,
+      "nearest_max_retention": 0.8612938016612635,
+      "uniform_expected_retention": 0.6874108285899637
+    },
+    {
+      "element": "Co",
+      "target": "F1",
+      "magnetic_retention": 0.5125291407578125,
+      "nearest_min_retention": 0.7483416961579105,
+      "nearest_max_retention": 0.8093315364557,
+      "uniform_expected_retention": 0.6453772357150731
+    },
+    {
+      "element": "Co",
+      "target": "F1_plus_F2_plus_F3",
+      "magnetic_retention": 0.6026196883467443,
+      "nearest_min_retention": 0.8157292702985184,
+      "nearest_max_retention": 0.8716272047730064,
+      "uniform_expected_retention": 0.656756943779138
+    },
+    {
+      "element": "Co",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.4951752493199968,
+      "nearest_min_retention": 0.6847965850508065,
+      "nearest_max_retention": 0.7632227544292399,
+      "uniform_expected_retention": null
+    },
+    {
+      "element": "Cr",
+      "target": "total",
+      "magnetic_retention": 0.4971136416055218,
+      "nearest_min_retention": 0.5427063129802627,
+      "nearest_max_retention": 0.5913287320691574,
+      "uniform_expected_retention": 0.4716462217310054
+    },
+    {
+      "element": "Cr",
+      "target": "F1",
+      "magnetic_retention": 0.07310997670228882,
+      "nearest_min_retention": 0.05405757264347911,
+      "nearest_max_retention": 0.3633905814036079,
+      "uniform_expected_retention": 0.27005436421143564
+    },
+    {
+      "element": "Cr",
+      "target": "F1_plus_F2_plus_F3",
+      "magnetic_retention": 0.2745697022741916,
+      "nearest_min_retention": 0.30992220703249046,
+      "nearest_max_retention": 0.43487812900256323,
+      "uniform_expected_retention": 0.34704637181073467
+    },
+    {
+      "element": "Cr",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.05596665949935788,
+      "nearest_min_retention": 0.05405757264347911,
+      "nearest_max_retention": 0.19719214827794138,
+      "uniform_expected_retention": null
+    },
+    {
+      "element": "Cu",
+      "target": "total",
+      "magnetic_retention": 0.9167781667564778,
+      "nearest_min_retention": 0.8465787147468589,
+      "nearest_max_retention": 0.8760145499948326,
+      "uniform_expected_retention": 0.817724179744881
+    },
+    {
+      "element": "Cu",
+      "target": "F1",
+      "magnetic_retention": 0.8432435750738719,
+      "nearest_min_retention": 0.7414268148068227,
+      "nearest_max_retention": 0.7730323629130462,
+      "uniform_expected_retention": 0.7600683966667263
+    },
+    {
+      "element": "Cu",
+      "target": "F1_plus_F2_plus_F3",
+      "magnetic_retention": 0.603460800395946,
+      "nearest_min_retention": 0.8075266952986847,
+      "nearest_max_retention": 0.8664897139788137,
+      "uniform_expected_retention": 0.5829314085743806
+    },
+    {
+      "element": "Cu",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.44935477877601154,
+      "nearest_min_retention": 0.6342773426902178,
+      "nearest_max_retention": 0.6859117408137712,
+      "uniform_expected_retention": null
+    },
+    {
+      "element": "Fe",
+      "target": "total",
+      "magnetic_retention": 0.6645721762251372,
+      "nearest_min_retention": 0.8615825084658191,
+      "nearest_max_retention": 0.9046201170738041,
+      "uniform_expected_retention": 0.7064987432401629
+    },
+    {
+      "element": "Fe",
+      "target": "F1",
+      "magnetic_retention": 0.5729329998984481,
+      "nearest_min_retention": 0.641448893822395,
+      "nearest_max_retention": 0.7334146857875087,
+      "uniform_expected_retention": 0.6085922434317778
+    },
+    {
+      "element": "Fe",
+      "target": "F1_plus_F2_plus_F3",
+      "magnetic_retention": 0.27591699197032055,
+      "nearest_min_retention": 0.45567980817174125,
+      "nearest_max_retention": 0.6571117573676778,
+      "uniform_expected_retention": 0.34843143196256066
+    },
+    {
+      "element": "Fe",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.1339301409225315,
+      "nearest_min_retention": 0.3994041941605103,
+      "nearest_max_retention": 0.5489143760253847,
+      "uniform_expected_retention": null
+    },
+    {
+      "element": "Mn",
+      "target": "total",
+      "magnetic_retention": 0.7652845051509203,
+      "nearest_min_retention": 0.5698507696627672,
+      "nearest_max_retention": 0.6274489662366656,
+      "uniform_expected_retention": 0.7022319238157552
+    },
+    {
+      "element": "Mn",
+      "target": "F1",
+      "magnetic_retention": 0.7203312701651942,
+      "nearest_min_retention": 0.5055264302085385,
+      "nearest_max_retention": 0.545323012176668,
+      "uniform_expected_retention": 0.6503886357542383
+    },
+    {
+      "element": "Mn",
+      "target": "F1_plus_F2_plus_F3",
+      "magnetic_retention": 0.7307605395252654,
+      "nearest_min_retention": 0.5281585613306272,
+      "nearest_max_retention": 0.5909585273610406,
+      "uniform_expected_retention": 0.6799424170075569
+    },
+    {
+      "element": "Mn",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.7019320424142698,
+      "nearest_min_retention": 0.4987241098118254,
+      "nearest_max_retention": 0.545323012176668,
+      "uniform_expected_retention": null
+    },
+    {
+      "element": "Ni",
+      "target": "total",
+      "magnetic_retention": 0.7122005730807166,
+      "nearest_min_retention": 0.7696074427483529,
+      "nearest_max_retention": 0.7986451610064005,
+      "uniform_expected_retention": 0.7292769164324747
+    },
+    {
+      "element": "Ni",
+      "target": "F1",
+      "magnetic_retention": 0.6339515329409315,
+      "nearest_min_retention": 0.6312610038685594,
+      "nearest_max_retention": 0.7253849541195893,
+      "uniform_expected_retention": 0.6606674866992093
+    },
+    {
+      "element": "Ni",
+      "target": "F1_plus_F2_plus_F3",
+      "magnetic_retention": 0.6305507552815707,
+      "nearest_min_retention": 0.7343969406861413,
+      "nearest_max_retention": 0.7963167436208889,
+      "uniform_expected_retention": 0.683028546024246
+    },
+    {
+      "element": "Ni",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.5349066329520055,
+      "nearest_min_retention": 0.6312610038685594,
+      "nearest_max_retention": 0.6807272063268452,
+      "uniform_expected_retention": null
+    },
+    {
+      "element": "Pb",
+      "target": "total",
+      "magnetic_retention": 0.14415106755773627,
+      "nearest_min_retention": 0.25731125005180816,
+      "nearest_max_retention": 0.2733129514801275,
+      "uniform_expected_retention": 0.34538298176184634
+    },
+    {
+      "element": "Pb",
+      "target": "F1",
+      "magnetic_retention": 0.292134671692225,
+      "nearest_min_retention": 0.4691189313722105,
+      "nearest_max_retention": 0.5236006672695602,
+      "uniform_expected_retention": 0.4403811814778619
+    },
+    {
+      "element": "Pb",
+      "target": "F1_plus_F2_plus_F3",
+      "magnetic_retention": 0.1229711937641392,
+      "nearest_min_retention": 0.21623660208220688,
+      "nearest_max_retention": 0.23033037931539854,
+      "uniform_expected_retention": 0.3263859097818427
+    },
+    {
+      "element": "Pb",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.04033337761582306,
+      "nearest_min_retention": 0.06140410872144435,
+      "nearest_max_retention": 0.08931559314679195,
+      "uniform_expected_retention": null
+    },
+    {
+      "element": "Zn",
+      "target": "total",
+      "magnetic_retention": 0.6039068277550929,
+      "nearest_min_retention": 0.6434130653159016,
+      "nearest_max_retention": 0.9472159493340173,
+      "uniform_expected_retention": 0.4438358164162407
+    },
+    {
+      "element": "Zn",
+      "target": "F1",
+      "magnetic_retention": 0.775569697478803,
+      "nearest_min_retention": 0.7611981223887538,
+      "nearest_max_retention": 0.8653344257101202,
+      "uniform_expected_retention": 0.30892196154513274
+    },
+    {
+      "element": "Zn",
+      "target": "F1_plus_F2_plus_F3",
+      "magnetic_retention": 0.6899700025350186,
+      "nearest_min_retention": 0.7284295726955683,
+      "nearest_max_retention": 0.9562354480916412,
+      "uniform_expected_retention": 0.3940716731453155
+    },
+    {
+      "element": "Zn",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.4717649848826631,
+      "nearest_min_retention": 0.5094036419141675,
+      "nearest_max_retention": 0.8653344257101202,
+      "uniform_expected_retention": null
+    }
+  ],
+  "summary": [
+    {
+      "element": "Cd",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.20129504091503228,
+      "nearest_min_retention": 0.21985698381832314,
+      "nearest_max_retention": 0.3689781983989531,
+      "uniform_expected_retention": null,
+      "comparison": "all six nearest choices higher minimum retention",
+      "nearest_componentwise_strict_choices": 3,
+      "magnetic_componentwise_strict_choices": 0
+    },
+    {
+      "element": "Co",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.4951752493199968,
+      "nearest_min_retention": 0.6847965850508065,
+      "nearest_max_retention": 0.7632227544292399,
+      "uniform_expected_retention": null,
+      "comparison": "all six nearest choices higher minimum retention",
+      "nearest_componentwise_strict_choices": 6,
+      "magnetic_componentwise_strict_choices": 0
+    },
+    {
+      "element": "Cr",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.05596665949935788,
+      "nearest_min_retention": 0.05405757264347911,
+      "nearest_max_retention": 0.19719214827794138,
+      "uniform_expected_retention": null,
+      "comparison": "ranking depends on the nearest cutoff tie choice",
+      "nearest_componentwise_strict_choices": 3,
+      "magnetic_componentwise_strict_choices": 0
+    },
+    {
+      "element": "Cu",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.44935477877601154,
+      "nearest_min_retention": 0.6342773426902178,
+      "nearest_max_retention": 0.6859117408137712,
+      "uniform_expected_retention": null,
+      "comparison": "all six nearest choices higher minimum retention",
+      "nearest_componentwise_strict_choices": 0,
+      "magnetic_componentwise_strict_choices": 0
+    },
+    {
+      "element": "Fe",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.1339301409225315,
+      "nearest_min_retention": 0.3994041941605103,
+      "nearest_max_retention": 0.5489143760253847,
+      "uniform_expected_retention": null,
+      "comparison": "all six nearest choices higher minimum retention",
+      "nearest_componentwise_strict_choices": 6,
+      "magnetic_componentwise_strict_choices": 0
+    },
+    {
+      "element": "Mn",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.7019320424142698,
+      "nearest_min_retention": 0.4987241098118254,
+      "nearest_max_retention": 0.545323012176668,
+      "uniform_expected_retention": null,
+      "comparison": "magnetic higher minimum retention than all six nearest choices",
+      "nearest_componentwise_strict_choices": 0,
+      "magnetic_componentwise_strict_choices": 6
+    },
+    {
+      "element": "Ni",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.5349066329520055,
+      "nearest_min_retention": 0.6312610038685594,
+      "nearest_max_retention": 0.6807272063268452,
+      "uniform_expected_retention": null,
+      "comparison": "all six nearest choices higher minimum retention",
+      "nearest_componentwise_strict_choices": 0,
+      "magnetic_componentwise_strict_choices": 0
+    },
+    {
+      "element": "Pb",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.04033337761582306,
+      "nearest_min_retention": 0.06140410872144435,
+      "nearest_max_retention": 0.08931559314679195,
+      "uniform_expected_retention": null,
+      "comparison": "all six nearest choices higher minimum retention",
+      "nearest_componentwise_strict_choices": 6,
+      "magnetic_componentwise_strict_choices": 0
+    },
+    {
+      "element": "Zn",
+      "target": "minimum_four_fraction",
+      "magnetic_retention": 0.4717649848826631,
+      "nearest_min_retention": 0.5094036419141675,
+      "nearest_max_retention": 0.8653344257101202,
+      "uniform_expected_retention": null,
+      "comparison": "all six nearest choices higher minimum retention",
+      "nearest_componentwise_strict_choices": 3,
+      "magnetic_componentwise_strict_choices": 0
+    }
+  ],
+  "per_choice_details": [
+    {
+      "element": "Cd",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        20.473262432170024,
+        24.5641071053348,
+        7.113381396787548,
+        15.431626936185294
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        7.202575812377533,
+        9.852549643361973,
+        1.4318883993105789,
+        4.530668820400356
+      ],
+      "nearest_selected_sums_F1_F4": [
+        10.43530471067252,
+        13.597226902711004,
+        3.0481325516263715,
+        5.6939339052784055
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.35180400955833935,
+        0.4010953706199323,
+        0.20129504091503228,
+        0.2935963161328432
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.5097040466923987,
+        0.5535404500722917,
+        0.4285068354415706,
+        0.3689781983989531
+      ],
+      "magnetic_minimum_four_fraction": 0.20129504091503228,
+      "nearest_minimum_four_fraction": 0.3689781983989531
+    },
+    {
+      "element": "Cd",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        20.473262432170024,
+        24.5641071053348,
+        7.113381396787548,
+        15.431626936185294
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        7.202575812377533,
+        9.852549643361973,
+        1.4318883993105789,
+        4.530668820400356
+      ],
+      "nearest_selected_sums_F1_F4": [
+        7.846639867277969,
+        11.374308657962908,
+        1.8063792107911667,
+        4.084356408728304
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.35180400955833935,
+        0.4010953706199323,
+        0.20129504091503228,
+        0.2935963161328432
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.3832627991398379,
+        0.4630458827258839,
+        0.25394100358613414,
+        0.2646743875819719
+      ],
+      "magnetic_minimum_four_fraction": 0.20129504091503228,
+      "nearest_minimum_four_fraction": 0.25394100358613414
+    },
+    {
+      "element": "Cd",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        20.473262432170024,
+        24.5641071053348,
+        7.113381396787548,
+        15.431626936185294
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        7.202575812377533,
+        9.852549643361973,
+        1.4318883993105789,
+        4.530668820400356
+      ],
+      "nearest_selected_sums_F1_F4": [
+        7.505840421751549,
+        11.084135137642173,
+        1.714672023134534,
+        3.997004360259809
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.35180400955833935,
+        0.4010953706199323,
+        0.20129504091503228,
+        0.2935963161328432
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.36661672494157455,
+        0.45123297541863167,
+        0.2410487962741449,
+        0.25901380177143335
+      ],
+      "magnetic_minimum_four_fraction": 0.20129504091503228,
+      "nearest_minimum_four_fraction": 0.2410487962741449
+    },
+    {
+      "element": "Cd",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        20.473262432170024,
+        24.5641071053348,
+        7.113381396787548,
+        15.431626936185294
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        7.202575812377533,
+        9.852549643361973,
+        1.4318883993105789,
+        4.530668820400356
+      ],
+      "nearest_selected_sums_F1_F4": [
+        9.007102849161228,
+        11.671594609425194,
+        2.8973871071389183,
+        5.412437228388851
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.35180400955833935,
+        0.4010953706199323,
+        0.20129504091503228,
+        0.2935963161328432
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.4399446780405744,
+        0.4751483357150146,
+        0.40731502298574884,
+        0.35073665600983017
+      ],
+      "magnetic_minimum_four_fraction": 0.20129504091503228,
+      "nearest_minimum_four_fraction": 0.35073665600983017
+    },
+    {
+      "element": "Cd",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        20.473262432170024,
+        24.5641071053348,
+        7.113381396787548,
+        15.431626936185294
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        7.202575812377533,
+        9.852549643361973,
+        1.4318883993105789,
+        4.530668820400356
+      ],
+      "nearest_selected_sums_F1_F4": [
+        8.666303403634808,
+        11.381421089104458,
+        2.8056799194822855,
+        5.325085179920356
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.35180400955833935,
+        0.4010953706199323,
+        0.20129504091503228,
+        0.2935963161328432
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.42329860384231105,
+        0.4633354284077624,
+        0.3944228156737596,
+        0.3450760701992916
+      ],
+      "magnetic_minimum_four_fraction": 0.20129504091503228,
+      "nearest_minimum_four_fraction": 0.3450760701992916
+    },
+    {
+      "element": "Cd",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        20.473262432170024,
+        24.5641071053348,
+        7.113381396787548,
+        15.431626936185294
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        7.202575812377533,
+        9.852549643361973,
+        1.4318883993105789,
+        4.530668820400356
+      ],
+      "nearest_selected_sums_F1_F4": [
+        6.077638560240256,
+        9.158502844356365,
+        1.5639265786470808,
+        3.7155076833702543
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.35180400955833935,
+        0.4010953706199323,
+        0.20129504091503228,
+        0.2935963161328432
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.2968573562897503,
+        0.3728408610613546,
+        0.21985698381832314,
+        0.24077225938231045
+      ],
+      "magnetic_minimum_four_fraction": 0.20129504091503228,
+      "nearest_minimum_four_fraction": 0.21985698381832314
+    },
+    {
+      "element": "Co",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        180.36458505108746,
+        331.93145850265466,
+        158.31068997138962,
+        351.47759328322877
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        92.44210579937325,
+        206.77899581166966,
+        78.39153537660357,
+        261.0379689179949
+      ],
+      "nearest_selected_sums_F1_F4": [
+        145.9747467415914,
+        270.31096585705194,
+        110.97572140789096,
+        272.48764667301776
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.5125291407578125,
+        0.6229569102743419,
+        0.4951752493199968,
+        0.7426873687155484
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.8093315364557,
+        0.814357780598521,
+        0.700999543542807,
+        0.7752632084670072
+      ],
+      "magnetic_minimum_four_fraction": 0.4951752493199968,
+      "nearest_minimum_four_fraction": 0.700999543542807
+    },
+    {
+      "element": "Co",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        180.36458505108746,
+        331.93145850265466,
+        158.31068997138962,
+        351.47759328322877
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        92.44210579937325,
+        206.77899581166966,
+        78.39153537660357,
+        261.0379689179949
+      ],
+      "nearest_selected_sums_F1_F4": [
+        143.290730841362,
+        273.1167800987462,
+        108.41061986944457,
+        270.4002861567615
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.5125291407578125,
+        0.6229569102743419,
+        0.4951752493199968,
+        0.7426873687155484
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7944504781843705,
+        0.8228107734373176,
+        0.6847965850508065,
+        0.7693243931452174
+      ],
+      "magnetic_minimum_four_fraction": 0.4951752493199968,
+      "nearest_minimum_four_fraction": 0.6847965850508065
+    },
+    {
+      "element": "Co",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        180.36458505108746,
+        331.93145850265466,
+        158.31068997138962,
+        351.47759328322877
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        92.44210579937325,
+        206.77899581166966,
+        78.39153537660357,
+        261.0379689179949
+      ],
+      "nearest_selected_sums_F1_F4": [
+        143.94300735929005,
+        286.7602761211004,
+        115.4744362809365,
+        276.9442333137458
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.5125291407578125,
+        0.6229569102743419,
+        0.4951752493199968,
+        0.7426873687155484
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7980669116307885,
+        0.8639141267738772,
+        0.7294165435183523,
+        0.7879427838535863
+      ],
+      "magnetic_minimum_four_fraction": 0.4951752493199968,
+      "nearest_minimum_four_fraction": 0.7294165435183523
+    },
+    {
+      "element": "Co",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        180.36458505108746,
+        331.93145850265466,
+        158.31068997138962,
+        351.47759328322877
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        92.44210579937325,
+        206.77899581166966,
+        78.39153537660357,
+        261.0379689179949
+      ],
+      "nearest_selected_sums_F1_F4": [
+        137.0060788862498,
+        259.5228163772506,
+        114.62214540444653,
+        274.80746526677575
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.5125291407578125,
+        0.6229569102743419,
+        0.4951752493199968,
+        0.7426873687155484
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7596063209828219,
+        0.7818566445854815,
+        0.7240328838511245,
+        0.7818633976059166
+      ],
+      "magnetic_minimum_four_fraction": 0.4951752493199968,
+      "nearest_minimum_four_fraction": 0.7240328838511245
+    },
+    {
+      "element": "Co",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        180.36458505108746,
+        331.93145850265466,
+        158.31068997138962,
+        351.47759328322877
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        92.44210579937325,
+        206.77899581166966,
+        78.39153537660357,
+        261.0379689179949
+      ],
+      "nearest_selected_sums_F1_F4": [
+        137.65835540417788,
+        273.1663123996048,
+        121.68596181593846,
+        281.35141242376
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.5125291407578125,
+        0.6229569102743419,
+        0.4951752493199968,
+        0.7426873687155484
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7632227544292399,
+        0.8229599979220412,
+        0.7686528423186704,
+        0.8004817883142853
+      ],
+      "magnetic_minimum_four_fraction": 0.4951752493199968,
+      "nearest_minimum_four_fraction": 0.7632227544292399
+    },
+    {
+      "element": "Co",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        180.36458505108746,
+        331.93145850265466,
+        158.31068997138962,
+        351.47759328322877
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        92.44210579937325,
+        206.77899581166966,
+        78.39153537660357,
+        261.0379689179949
+      ],
+      "nearest_selected_sums_F1_F4": [
+        134.9743395039485,
+        275.97212664129904,
+        119.12086027749207,
+        279.26405190750376
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.5125291407578125,
+        0.6229569102743419,
+        0.4951752493199968,
+        0.7426873687155484
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7483416961579105,
+        0.8314129907608379,
+        0.7524498838266699,
+        0.7945429729924955
+      ],
+      "magnetic_minimum_four_fraction": 0.4951752493199968,
+      "nearest_minimum_four_fraction": 0.7483416961579105
+    },
+    {
+      "element": "Cr",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        45.3956528177103,
+        85.70501803523763,
+        162.40927274260366,
+        597.9038578482523
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        3.3188751198879918,
+        4.796623561764471,
+        61.52726858894469,
+        328.3372536225773
+      ],
+      "nearest_selected_sums_F1_F4": [
+        8.288327478385742,
+        22.861760340411603,
+        56.70191265697303,
+        351.8230733158749
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.07310997670228882,
+        0.05596665949935788,
+        0.3788408601918743,
+        0.5491472405015141
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.18257976180380425,
+        0.2667493790271649,
+        0.3491297738081603,
+        0.5884275016756414
+      ],
+      "magnetic_minimum_four_fraction": 0.05596665949935788,
+      "nearest_minimum_four_fraction": 0.18257976180380425
+    },
+    {
+      "element": "Cr",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        45.3956528177103,
+        85.70501803523763,
+        162.40927274260366,
+        597.9038578482523
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        3.3188751198879918,
+        4.796623561764471,
+        61.52726858894469,
+        328.3372536225773
+      ],
+      "nearest_selected_sums_F1_F4": [
+        2.4539787998915314,
+        10.998032501205433,
+        78.8393878240829,
+        376.48167580799367
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.07310997670228882,
+        0.05596665949935788,
+        0.3788408601918743,
+        0.5491472405015141
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.05405757264347911,
+        0.1283242539740624,
+        0.48543649320462434,
+        0.6296692534530268
+      ],
+      "magnetic_minimum_four_fraction": 0.05596665949935788,
+      "nearest_minimum_four_fraction": 0.05405757264347911
+    },
+    {
+      "element": "Cr",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        45.3956528177103,
+        85.70501803523763,
+        162.40927274260366,
+        597.9038578482523
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        3.3188751198879918,
+        4.796623561764471,
+        61.52726858894469,
+        328.3372536225773
+      ],
+      "nearest_selected_sums_F1_F4": [
+        10.693772466517958,
+        10.906906802246626,
+        57.009014217370485,
+        355.87097994936846
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.07310997670228882,
+        0.05596665949935788,
+        0.3788408601918743,
+        0.5491472405015141
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.23556820538432646,
+        0.12726100585804964,
+        0.35102068530115227,
+        0.5951976647718643
+      ],
+      "magnetic_minimum_four_fraction": 0.05596665949935788,
+      "nearest_minimum_four_fraction": 0.12726100585804964
+    },
+    {
+      "element": "Cr",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        45.3956528177103,
+        85.70501803523763,
+        162.40927274260366,
+        597.9038578482523
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        3.3188751198879918,
+        4.796623561764471,
+        61.52726858894469,
+        328.3372536225773
+      ],
+      "nearest_selected_sums_F1_F4": [
+        8.25655900399765,
+        16.991482323527027,
+        85.05588542894546,
+        363.10295941054903
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.07310997670228882,
+        0.05596665949935788,
+        0.3788408601918743,
+        0.5491472405015141
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.18187994866276053,
+        0.19825539639395418,
+        0.5237132338111465,
+        0.6072932205476828
+      ],
+      "magnetic_minimum_four_fraction": 0.05596665949935788,
+      "nearest_minimum_four_fraction": 0.18187994866276053
+    },
+    {
+      "element": "Cr",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        45.3956528177103,
+        85.70501803523763,
+        162.40927274260366,
+        597.9038578482523
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        3.3188751198879918,
+        4.796623561764471,
+        61.52726858894469,
+        328.3372536225773
+      ],
+      "nearest_selected_sums_F1_F4": [
+        16.496352670624077,
+        16.900356624568218,
+        63.22551182223303,
+        342.49226355192377
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.07310997670228882,
+        0.05596665949935788,
+        0.3788408601918743,
+        0.5491472405015141
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.3633905814036079,
+        0.19719214827794138,
+        0.3892974259076744,
+        0.5728216318665201
+      ],
+      "magnetic_minimum_four_fraction": 0.05596665949935788,
+      "nearest_minimum_four_fraction": 0.19719214827794138
+    },
+    {
+      "element": "Cr",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        45.3956528177103,
+        85.70501803523763,
+        162.40927274260366,
+        597.9038578482523
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        3.3188751198879918,
+        4.796623561764471,
+        61.52726858894469,
+        328.3372536225773
+      ],
+      "nearest_selected_sums_F1_F4": [
+        10.662003992129865,
+        5.0366287853620495,
+        85.36298698934291,
+        367.1508660440426
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.07310997670228882,
+        0.05596665949935788,
+        0.3788408601918743,
+        0.5491472405015141
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.2348683922432827,
+        0.058767023224838934,
+        0.5256041453041385,
+        0.6140633836439057
+      ],
+      "magnetic_minimum_four_fraction": 0.05596665949935788,
+      "nearest_minimum_four_fraction": 0.058767023224838934
+    },
+    {
+      "element": "Cu",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        27.46642930379755,
+        100.8464649022515,
+        33.2324416649246,
+        230.59037543015933
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        23.160890040648006,
+        45.31584092649403,
+        19.342958553578462,
+        203.85010059850998
+      ],
+      "nearest_selected_sums_F1_F4": [
+        20.364347192831396,
+        76.28933432170028,
+        28.647332007052906,
+        146.98195321889983
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.8432435750738719,
+        0.44935477877601154,
+        0.5820504779218229,
+        0.8840355987028246
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7414268148068227,
+        0.7564899215420792,
+        0.8620291068558144,
+        0.6374158199131662
+      ],
+      "magnetic_minimum_four_fraction": 0.44935477877601154,
+      "nearest_minimum_four_fraction": 0.6374158199131662
+    },
+    {
+      "element": "Cu",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        27.46642930379755,
+        100.8464649022515,
+        33.2324416649246,
+        230.59037543015933
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        23.160890040648006,
+        45.31584092649403,
+        19.342958553578462,
+        203.85010059850998
+      ],
+      "nearest_selected_sums_F1_F4": [
+        20.382714151143382,
+        76.20746309687758,
+        28.90625997225704,
+        146.25825057778115
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.8432435750738719,
+        0.44935477877601154,
+        0.5820504779218229,
+        0.8840355987028246
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7420955205242218,
+        0.7556780812370961,
+        0.8698205284978004,
+        0.6342773426902178
+      ],
+      "magnetic_minimum_four_fraction": 0.44935477877601154,
+      "nearest_minimum_four_fraction": 0.6342773426902178
+    },
+    {
+      "element": "Cu",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        27.46642930379755,
+        100.8464649022515,
+        33.2324416649246,
+        230.59037543015933
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        23.160890040648006,
+        45.31584092649403,
+        19.342958553578462,
+        203.85010059850998
+      ],
+      "nearest_selected_sums_F1_F4": [
+        20.78124623094624,
+        77.02053366846032,
+        28.295652783196125,
+        152.60355432100124
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.8432435750738719,
+        0.44935477877601154,
+        0.5820504779218229,
+        0.8840355987028246
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7566053090152856,
+        0.7637405410602623,
+        0.8514466998391201,
+        0.6617949861798176
+      ],
+      "magnetic_minimum_four_fraction": 0.44935477877601154,
+      "nearest_minimum_four_fraction": 0.6617949861798176
+    },
+    {
+      "element": "Cu",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        27.46642930379755,
+        100.8464649022515,
+        33.2324416649246,
+        230.59037543015933
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        23.160890040648006,
+        45.31584092649403,
+        19.342958553578462,
+        203.85010059850998
+      ],
+      "nearest_selected_sums_F1_F4": [
+        20.815539707383913,
+        68.89351170453541,
+        27.80768474442037,
+        151.81934208298154
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.8432435750738719,
+        0.44935477877601154,
+        0.5820504779218229,
+        0.8840355987028246
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7578538687045835,
+        0.6831524711482206,
+        0.836763215438671,
+        0.6583940973241714
+      ],
+      "magnetic_minimum_four_fraction": 0.44935477877601154,
+      "nearest_minimum_four_fraction": 0.6583940973241714
+    },
+    {
+      "element": "Cu",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        27.46642930379755,
+        100.8464649022515,
+        33.2324416649246,
+        230.59037543015933
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        23.160890040648006,
+        45.31584092649403,
+        19.342958553578462,
+        203.85010059850998
+      ],
+      "nearest_selected_sums_F1_F4": [
+        21.21407178718677,
+        69.70658227611816,
+        27.197077555359453,
+        158.16464582620162
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.8432435750738719,
+        0.44935477877601154,
+        0.5820504779218229,
+        0.8840355987028246
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7723636571956473,
+        0.6912149309713869,
+        0.8183893867799906,
+        0.6859117408137712
+      ],
+      "magnetic_minimum_four_fraction": 0.44935477877601154,
+      "nearest_minimum_four_fraction": 0.6859117408137712
+    },
+    {
+      "element": "Cu",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        27.46642930379755,
+        100.8464649022515,
+        33.2324416649246,
+        230.59037543015933
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        23.160890040648006,
+        45.31584092649403,
+        19.342958553578462,
+        203.85010059850998
+      ],
+      "nearest_selected_sums_F1_F4": [
+        21.232438745498754,
+        69.62471105129545,
+        27.456005520563586,
+        157.44094318508297
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.8432435750738719,
+        0.44935477877601154,
+        0.5820504779218229,
+        0.8840355987028246
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7730323629130462,
+        0.6904030906664038,
+        0.8261808084219766,
+        0.6827732635908228
+      ],
+      "magnetic_minimum_four_fraction": 0.44935477877601154,
+      "nearest_minimum_four_fraction": 0.6827732635908228
+    },
+    {
+      "element": "Fe",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        436.70525027566106,
+        55483.11681593719,
+        19380.54585280613,
+        151810.17369366853
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        250.2028491118371,
+        17358.764800258476,
+        2595.6392372219084,
+        95463.56236000982
+      ],
+      "nearest_selected_sums_F1_F4": [
+        287.70623131411537,
+        30455.480446963695,
+        17375.21532140703,
+        106389.48889431692
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.5729329998984481,
+        0.31286571116481104,
+        0.1339301409225315,
+        0.6288350776321605
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.6588110198641002,
+        0.5489143760253847,
+        0.8965286867238187,
+        0.7008060547311926
+      ],
+      "magnetic_minimum_four_fraction": 0.1339301409225315,
+      "nearest_minimum_four_fraction": 0.5489143760253847
+    },
+    {
+      "element": "Fe",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        436.70525027566106,
+        55483.11681593719,
+        19380.54585280613,
+        151810.17369366853
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        250.2028491118371,
+        17358.764800258476,
+        2595.6392372219084,
+        95463.56236000982
+      ],
+      "nearest_selected_sums_F1_F4": [
+        286.6754403038603,
+        27857.555235927066,
+        14396.453031394047,
+        111047.63446178602
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.5729329998984481,
+        0.31286571116481104,
+        0.1339301409225315,
+        0.6288350776321605
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.6564506383261992,
+        0.502090668920841,
+        0.7428301112225675,
+        0.7314900692088294
+      ],
+      "magnetic_minimum_four_fraction": 0.1339301409225315,
+      "nearest_minimum_four_fraction": 0.502090668920841
+    },
+    {
+      "element": "Fe",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        436.70525027566106,
+        55483.11681593719,
+        19380.54585280613,
+        151810.17369366853
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        250.2028491118371,
+        17358.764800258476,
+        2595.6392372219084,
+        95463.56236000982
+      ],
+      "nearest_selected_sums_F1_F4": [
+        320.2860439126793,
+        28622.050802288395,
+        14548.260258855358,
+        113957.69301133005
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.5729329998984481,
+        0.31286571116481104,
+        0.1339301409225315,
+        0.6288350776321605
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7334146857875087,
+        0.5158695553683618,
+        0.7506630808723532,
+        0.7506591306672276
+      ],
+      "magnetic_minimum_four_fraction": 0.1339301409225315,
+      "nearest_minimum_four_fraction": 0.5158695553683618
+    },
+    {
+      "element": "Fe",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        436.70525027566106,
+        55483.11681593719,
+        19380.54585280613,
+        151810.17369366853
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        250.2028491118371,
+        17358.764800258476,
+        2595.6392372219084,
+        95463.56236000982
+      ],
+      "nearest_selected_sums_F1_F4": [
+        280.12409971575494,
+        23993.619206058156,
+        13722.181922879208,
+        111961.70913275787
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.5729329998984481,
+        0.31286571116481104,
+        0.1339301409225315,
+        0.6288350776321605
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.641448893822395,
+        0.4324490148175334,
+        0.7080389802794104,
+        0.7375112379403554
+      ],
+      "magnetic_minimum_four_fraction": 0.1339301409225315,
+      "nearest_minimum_four_fraction": 0.4324490148175334
+    },
+    {
+      "element": "Fe",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        436.70525027566106,
+        55483.11681593719,
+        19380.54585280613,
+        151810.17369366853
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        250.2028491118371,
+        17358.764800258476,
+        2595.6392372219084,
+        95463.56236000982
+      ],
+      "nearest_selected_sums_F1_F4": [
+        313.734703324574,
+        24758.11477241948,
+        13873.98915034052,
+        114871.7676823019
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.5729329998984481,
+        0.31286571116481104,
+        0.1339301409225315,
+        0.6288350776321605
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7184129412837046,
+        0.44622790126505407,
+        0.7158719499291961,
+        0.7566802993987536
+      ],
+      "magnetic_minimum_four_fraction": 0.1339301409225315,
+      "nearest_minimum_four_fraction": 0.44622790126505407
+    },
+    {
+      "element": "Fe",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        436.70525027566106,
+        55483.11681593719,
+        19380.54585280613,
+        151810.17369366853
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        250.2028491118371,
+        17358.764800258476,
+        2595.6392372219084,
+        95463.56236000982
+      ],
+      "nearest_selected_sums_F1_F4": [
+        312.70391231431887,
+        22160.189561382853,
+        10895.226860327535,
+        119529.913249771
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.5729329998984481,
+        0.31286571116481104,
+        0.1339301409225315,
+        0.6288350776321605
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7160525597458035,
+        0.3994041941605103,
+        0.5621733744279448,
+        0.7873643138763905
+      ],
+      "magnetic_minimum_four_fraction": 0.1339301409225315,
+      "nearest_minimum_four_fraction": 0.3994041941605103
+    },
+    {
+      "element": "Mn",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        859.5829247194731,
+        8486.275519364515,
+        1390.6815398620504,
+        2110.3222545566896
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        619.1844599754905,
+        5956.788707797752,
+        1032.3593478052567,
+        1898.6683636410894
+      ],
+      "nearest_selected_sums_F1_F4": [
+        434.5418874016501,
+        4247.418877352898,
+        818.4235288989175,
+        1586.8273663878924
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.7203312701651942,
+        0.7019320424142698,
+        0.7423405849679017,
+        0.8997054168108265
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.5055264302085385,
+        0.5005044754510823,
+        0.5885053518292201,
+        0.7519360433988473
+      ],
+      "magnetic_minimum_four_fraction": 0.7019320424142698,
+      "nearest_minimum_four_fraction": 0.5005044754510823
+    },
+    {
+      "element": "Mn",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        859.5829247194731,
+        8486.275519364515,
+        1390.6815398620504,
+        2110.3222545566896
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        619.1844599754905,
+        5956.788707797752,
+        1032.3593478052567,
+        1898.6683636410894
+      ],
+      "nearest_selected_sums_F1_F4": [
+        443.27962727365224,
+        4232.310204012954,
+        823.3468767128539,
+        1580.2236980243072
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.7203312701651942,
+        0.7019320424142698,
+        0.7423405849679017,
+        0.8997054168108265
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.5156915226280439,
+        0.4987241098118254,
+        0.5920455928353852,
+        0.7488068206702683
+      ],
+      "magnetic_minimum_four_fraction": 0.7019320424142698,
+      "nearest_minimum_four_fraction": 0.4987241098118254
+    },
+    {
+      "element": "Mn",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        859.5829247194731,
+        8486.275519364515,
+        1390.6815398620504,
+        2110.3222545566896
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        619.1844599754905,
+        5956.788707797752,
+        1032.3593478052567,
+        1898.6683636410894
+      ],
+      "nearest_selected_sums_F1_F4": [
+        436.2045169469934,
+        4577.31742264333,
+        794.5160490531091,
+        1603.3006541084342
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.7203312701651942,
+        0.7019320424142698,
+        0.7423405849679017,
+        0.8997054168108265
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.5074606584226296,
+        0.539378837300123,
+        0.5713141551673445,
+        0.7597420965667804
+      ],
+      "magnetic_minimum_four_fraction": 0.7019320424142698,
+      "nearest_minimum_four_fraction": 0.5074606584226296
+    },
+    {
+      "element": "Mn",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        859.5829247194731,
+        8486.275519364515,
+        1390.6815398620504,
+        2110.3222545566896
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        619.1844599754905,
+        5956.788707797752,
+        1032.3593478052567,
+        1898.6683636410894
+      ],
+      "nearest_selected_sums_F1_F4": [
+        467.08772017830984,
+        4482.866459379455,
+        893.7247405468275,
+        1618.8359717065105
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.7203312701651942,
+        0.7019320424142698,
+        0.7423405849679017,
+        0.8997054168108265
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.543388783962577,
+        0.5282489885168316,
+        0.6426523362318315,
+        0.7671036820139944
+      ],
+      "magnetic_minimum_four_fraction": 0.7019320424142698,
+      "nearest_minimum_four_fraction": 0.5282489885168316
+    },
+    {
+      "element": "Mn",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        859.5829247194731,
+        8486.275519364515,
+        1390.6815398620504,
+        2110.3222545566896
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        619.1844599754905,
+        5956.788707797752,
+        1032.3593478052567,
+        1898.6683636410894
+      ],
+      "nearest_selected_sums_F1_F4": [
+        460.012609851651,
+        4827.873678009831,
+        864.8939128870827,
+        1641.9129277906375
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.7203312701651942,
+        0.7019320424142698,
+        0.7423405849679017,
+        0.8997054168108265
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.5351579197571626,
+        0.5689037160051292,
+        0.6219208985637908,
+        0.7780389579105066
+      ],
+      "magnetic_minimum_four_fraction": 0.7019320424142698,
+      "nearest_minimum_four_fraction": 0.5351579197571626
+    },
+    {
+      "element": "Mn",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        859.5829247194731,
+        8486.275519364515,
+        1390.6815398620504,
+        2110.3222545566896
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        619.1844599754905,
+        5956.788707797752,
+        1032.3593478052567,
+        1898.6683636410894
+      ],
+      "nearest_selected_sums_F1_F4": [
+        468.75034972365313,
+        4812.765004669887,
+        869.8172607010192,
+        1635.3092594270522
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.7203312701651942,
+        0.7019320424142698,
+        0.7423405849679017,
+        0.8997054168108265
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.545323012176668,
+        0.5671233503658724,
+        0.625461139569956,
+        0.7749097351819274
+      ],
+      "magnetic_minimum_four_fraction": 0.7019320424142698,
+      "nearest_minimum_four_fraction": 0.545323012176668
+    },
+    {
+      "element": "Ni",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        128.36214693295457,
+        297.59293663282324,
+        218.28703020832182,
+        401.35427821569476
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        81.37537981973564,
+        174.2314953482229,
+        116.76318034582613,
+        318.6816603937928
+      ],
+      "nearest_selected_sums_F1_F4": [
+        87.3796056797862,
+        230.92212548731686,
+        151.9609836816872,
+        304.6666095231614
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.6339515329409315,
+        0.5854691892878948,
+        0.5349066329520055,
+        0.7940158550459695
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.6807272063268452,
+        0.7759664194323056,
+        0.6961521421435964,
+        0.7590964543286325
+      ],
+      "magnetic_minimum_four_fraction": 0.5349066329520055,
+      "nearest_minimum_four_fraction": 0.6807272063268452
+    },
+    {
+      "element": "Ni",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        128.36214693295457,
+        297.59293663282324,
+        218.28703020832182,
+        401.35427821569476
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        81.37537981973564,
+        174.2314953482229,
+        116.76318034582613,
+        318.6816603937928
+      ],
+      "nearest_selected_sums_F1_F4": [
+        91.00400332560272,
+        219.6233808618155,
+        144.82266952339208,
+        302.356733665461
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.6339515329409315,
+        0.5854691892878948,
+        0.5349066329520055,
+        0.7940158550459695
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7089629263768504,
+        0.7379993065251803,
+        0.6634506382957377,
+        0.753341250053822
+      ],
+      "magnetic_minimum_four_fraction": 0.5349066329520055,
+      "nearest_minimum_four_fraction": 0.6634506382957377
+    },
+    {
+      "element": "Ni",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        128.36214693295457,
+        297.59293663282324,
+        218.28703020832182,
+        401.35427821569476
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        81.37537981973564,
+        174.2314953482229,
+        116.76318034582613,
+        318.6816603937928
+      ],
+      "nearest_selected_sums_F1_F4": [
+        81.03001773162043,
+        238.7380532274783,
+        145.20270947651767,
+        306.70616389445604
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.6339515329409315,
+        0.5854691892878948,
+        0.5349066329520055,
+        0.7940158550459695
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.6312610038685594,
+        0.8022302408408255,
+        0.6651916485278293,
+        0.764178135232501
+      ],
+      "magnetic_minimum_four_fraction": 0.5349066329520055,
+      "nearest_minimum_four_fraction": 0.6312610038685594
+    },
+    {
+      "element": "Ni",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        128.36214693295457,
+        297.59293663282324,
+        218.28703020832182,
+        401.35427821569476
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        81.37537981973564,
+        174.2314953482229,
+        116.76318034582613,
+        318.6816603937928
+      ],
+      "nearest_selected_sums_F1_F4": [
+        93.11197006365323,
+        197.461556432096,
+        148.41454939668736,
+        311.0181878004411
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.6339515329409315,
+        0.5854691892878948,
+        0.5349066329520055,
+        0.7940158550459695
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7253849541195893,
+        0.6635290429481142,
+        0.6799054861621793,
+        0.774921820151359
+      ],
+      "magnetic_minimum_four_fraction": 0.5349066329520055,
+      "nearest_minimum_four_fraction": 0.6635290429481142
+    },
+    {
+      "element": "Ni",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        128.36214693295457,
+        297.59293663282324,
+        218.28703020832182,
+        401.35427821569476
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        81.37537981973564,
+        174.2314953482229,
+        116.76318034582613,
+        318.6816603937928
+      ],
+      "nearest_selected_sums_F1_F4": [
+        83.13798446967095,
+        216.57622879775883,
+        148.79458934981295,
+        315.3676180294362
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.6339515329409315,
+        0.5854691892878948,
+        0.5349066329520055,
+        0.7940158550459695
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.6476830316112985,
+        0.7277599772637594,
+        0.6816464963942709,
+        0.785758705330038
+      ],
+      "magnetic_minimum_four_fraction": 0.5349066329520055,
+      "nearest_minimum_four_fraction": 0.6476830316112985
+    },
+    {
+      "element": "Ni",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        128.36214693295457,
+        297.59293663282324,
+        218.28703020832182,
+        401.35427821569476
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        81.37537981973564,
+        174.2314953482229,
+        116.76318034582613,
+        318.6816603937928
+      ],
+      "nearest_selected_sums_F1_F4": [
+        86.76238211548747,
+        205.27748417225746,
+        141.65627519151784,
+        313.05774217173575
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.6339515329409315,
+        0.5854691892878948,
+        0.5349066329520055,
+        0.7940158550459695
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.6759187516613034,
+        0.6897928643566341,
+        0.6489449925464121,
+        0.7800035010552275
+      ],
+      "magnetic_minimum_four_fraction": 0.5349066329520055,
+      "nearest_minimum_four_fraction": 0.6489449925464121
+    },
+    {
+      "element": "Pb",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        2118.586543200446,
+        4438.928642366327,
+        5460.460286799115,
+        3446.8285537948495
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        618.9125842494283,
+        571.8321834060429,
+        220.23880670367421,
+        720.4258663316209
+      ],
+      "nearest_selected_sums_F1_F4": [
+        993.8690551657388,
+        1127.4753451009053,
+        487.70424936996466,
+        1299.1549796336499
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.292134671692225,
+        0.12882211665858354,
+        0.04033337761582306,
+        0.2090112273029811
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.4691189313722105,
+        0.253997177233258,
+        0.08931559314679195,
+        0.3769131418513176
+      ],
+      "magnetic_minimum_four_fraction": 0.04033337761582306,
+      "nearest_minimum_four_fraction": 0.08931559314679195
+    },
+    {
+      "element": "Pb",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        2118.586543200446,
+        4438.928642366327,
+        5460.460286799115,
+        3446.8285537948495
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        618.9125842494283,
+        571.8321834060429,
+        220.23880670367421,
+        720.4258663316209
+      ],
+      "nearest_selected_sums_F1_F4": [
+        1085.708086966032,
+        1117.2712615650128,
+        439.8540821444319,
+        1398.3562387279626
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.292134671692225,
+        0.12882211665858354,
+        0.04033337761582306,
+        0.2090112273029811
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.5124681313824949,
+        0.25169840553449674,
+        0.08055256499306424,
+        0.4056935866996972
+      ],
+      "magnetic_minimum_four_fraction": 0.04033337761582306,
+      "nearest_minimum_four_fraction": 0.08055256499306424
+    },
+    {
+      "element": "Pb",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        2118.586543200446,
+        4438.928642366327,
+        5460.460286799115,
+        3446.8285537948495
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        618.9125842494283,
+        571.8321834060429,
+        220.23880670367421,
+        720.4258663316209
+      ],
+      "nearest_selected_sums_F1_F4": [
+        1030.9252710660664,
+        1169.113276994374,
+        418.0297768970126,
+        1355.6941543026057
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.292134671692225,
+        0.12882211665858354,
+        0.04033337761582306,
+        0.2090112273029811
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.4866099401862043,
+        0.26337735322799355,
+        0.0765557764255912,
+        0.3933163872656298
+      ],
+      "magnetic_minimum_four_fraction": 0.04033337761582306,
+      "nearest_minimum_four_fraction": 0.0765557764255912
+    },
+    {
+      "element": "Pb",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        2118.586543200446,
+        4438.928642366327,
+        5460.460286799115,
+        3446.8285537948495
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        618.9125842494283,
+        571.8321834060429,
+        220.23880670367421,
+        720.4258663316209
+      ],
+      "nearest_selected_sums_F1_F4": [
+        1072.237111787737,
+        1028.6788685849262,
+        404.96916959269413,
+        1366.1314674238777
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.292134671692225,
+        0.12882211665858354,
+        0.04033337761582306,
+        0.2090112273029811
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.5061096584555664,
+        0.2317403480576234,
+        0.0741639254426451,
+        0.39634447901965125
+      ],
+      "magnetic_minimum_four_fraction": 0.04033337761582306,
+      "nearest_minimum_four_fraction": 0.0741639254426451
+    },
+    {
+      "element": "Pb",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        2118.586543200446,
+        4438.928642366327,
+        5460.460286799115,
+        3446.8285537948495
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        618.9125842494283,
+        571.8321834060429,
+        220.23880670367421,
+        720.4258663316209
+      ],
+      "nearest_selected_sums_F1_F4": [
+        1017.4542958877714,
+        1080.5208840142877,
+        383.1448643452748,
+        1323.4693829985208
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.292134671692225,
+        0.12882211665858354,
+        0.04033337761582306,
+        0.2090112273029811
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.4802514672592758,
+        0.24341929575112026,
+        0.07016713687517206,
+        0.3839672795855839
+      ],
+      "magnetic_minimum_four_fraction": 0.04033337761582306,
+      "nearest_minimum_four_fraction": 0.07016713687517206
+    },
+    {
+      "element": "Pb",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        2118.586543200446,
+        4438.928642366327,
+        5460.460286799115,
+        3446.8285537948495
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        618.9125842494283,
+        571.8321834060429,
+        220.23880670367421,
+        720.4258663316209
+      ],
+      "nearest_selected_sums_F1_F4": [
+        1109.2933276880647,
+        1070.3168004783952,
+        335.29469711974207,
+        1422.6706420928335
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.292134671692225,
+        0.12882211665858354,
+        0.04033337761582306,
+        0.2090112273029811
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.5236006672695602,
+        0.24112052405235898,
+        0.06140410872144435,
+        0.4127477244339635
+      ],
+      "magnetic_minimum_four_fraction": 0.04033337761582306,
+      "nearest_minimum_four_fraction": 0.06140410872144435
+    },
+    {
+      "element": "Zn",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        950.019195262231,
+        1629.581162983122,
+        589.0381165848975,
+        2490.250588538492
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        736.8060998685844,
+        1054.0057670921854,
+        325.50279113557605,
+        1174.8130312559047
+      ],
+      "nearest_selected_sums_F1_F4": [
+        726.7574973930175,
+        1179.2562825059956,
+        424.5117309124864,
+        1270.9366615789725
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.775569697478803,
+        0.6467955024484423,
+        0.5526005566885274,
+        0.4717649848826631
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7649924349080259,
+        0.7236560591724325,
+        0.7206863511205425,
+        0.5103649678584655
+      ],
+      "magnetic_minimum_four_fraction": 0.4717649848826631,
+      "nearest_minimum_four_fraction": 0.5103649678584655
+    },
+    {
+      "element": "Zn",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        950.019195262231,
+        1629.581162983122,
+        589.0381165848975,
+        2490.250588538492
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        736.8060998685844,
+        1054.0057670921854,
+        325.50279113557605,
+        1174.8130312559047
+      ],
+      "nearest_selected_sums_F1_F4": [
+        729.7981864163302,
+        1164.4835700382373,
+        412.08818136561166,
+        1268.542719080407
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.775569697478803,
+        0.6467955024484423,
+        0.5526005566885274,
+        0.4717649848826631
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.76819309552465,
+        0.7145907160012367,
+        0.6995951021893128,
+        0.5094036419141675
+      ],
+      "magnetic_minimum_four_fraction": 0.4717649848826631,
+      "nearest_minimum_four_fraction": 0.5094036419141675
+    },
+    {
+      "element": "Zn",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        950.019195262231,
+        1629.581162983122,
+        589.0381165848975,
+        2490.250588538492
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        736.8060998685844,
+        1054.0057670921854,
+        325.50279113557605,
+        1174.8130312559047
+      ],
+      "nearest_selected_sums_F1_F4": [
+        822.0843147458332,
+        1526.7227166179055,
+        584.211923014582,
+        2229.0499201161574
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.775569697478803,
+        0.6467955024484423,
+        0.5526005566885274,
+        0.4717649848826631
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.8653344257101202,
+        0.9368804397708407,
+        0.9918066531953881,
+        0.8951106890107668
+      ],
+      "magnetic_minimum_four_fraction": 0.4717649848826631,
+      "nearest_minimum_four_fraction": 0.8653344257101202
+    },
+    {
+      "element": "Zn",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        950.019195262231,
+        1629.581162983122,
+        589.0381165848975,
+        2490.250588538492
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        736.8060998685844,
+        1054.0057670921854,
+        325.50279113557605,
+        1174.8130312559047
+      ],
+      "nearest_selected_sums_F1_F4": [
+        723.1528276668852,
+        1104.0918313653403,
+        407.03534795727734,
+        1272.1459144125988
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.775569697478803,
+        0.6467955024484423,
+        0.5526005566885274,
+        0.4717649848826631
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.7611981223887538,
+        0.6775310469005315,
+        0.6910169927833724,
+        0.5108505626974718
+      ],
+      "magnetic_minimum_four_fraction": 0.4717649848826631,
+      "nearest_minimum_four_fraction": 0.5108505626974718
+    },
+    {
+      "element": "Zn",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        950.019195262231,
+        1629.581162983122,
+        589.0381165848975,
+        2490.250588538492
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        736.8060998685844,
+        1054.0057670921854,
+        325.50279113557605,
+        1174.8130312559047
+      ],
+      "nearest_selected_sums_F1_F4": [
+        815.4389559963882,
+        1466.3309779450085,
+        579.1590896062477,
+        2232.653115448349
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.775569697478803,
+        0.6467955024484423,
+        0.5526005566885274,
+        0.4717649848826631
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.8583394525742241,
+        0.8998207706701354,
+        0.9832285437894477,
+        0.8965576097940711
+      ],
+      "magnetic_minimum_four_fraction": 0.4717649848826631,
+      "nearest_minimum_four_fraction": 0.8583394525742241
+    },
+    {
+      "element": "Zn",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "fraction_oracles_F1_F4": [
+        950.019195262231,
+        1629.581162983122,
+        589.0381165848975,
+        2490.250588538492
+      ],
+      "magnetic_selected_sums_F1_F4": [
+        736.8060998685844,
+        1054.0057670921854,
+        325.50279113557605,
+        1174.8130312559047
+      ],
+      "nearest_selected_sums_F1_F4": [
+        818.4796450197009,
+        1451.5582654772502,
+        566.7355400593729,
+        2230.259172949784
+      ],
+      "magnetic_fraction_ratios_F1_F4": [
+        0.775569697478803,
+        0.6467955024484423,
+        0.5526005566885274,
+        0.4717649848826631
+      ],
+      "nearest_fraction_ratios_F1_F4": [
+        0.861540113190848,
+        0.8907554274989397,
+        0.962137294858218,
+        0.8955962838497731
+      ],
+      "magnetic_minimum_four_fraction": 0.4717649848826631,
+      "nearest_minimum_four_fraction": 0.861540113190848
+    }
+  ],
+  "componentwise_comparisons": [
+    {
+      "element": "Cd",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        3.2327288982949876,
+        3.7446772593490305,
+        1.6162441523157927,
+        1.1632650848780495
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cd",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        0.6440640549004364,
+        1.521759014600935,
+        0.3744908114805878,
+        -0.4463124116720518
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cd",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        0.30326460937401656,
+        1.2315854942801998,
+        0.28278362382395517,
+        -0.5336644601405469
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cd",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        1.8045270367836954,
+        1.8190449660632204,
+        1.4654987078283395,
+        0.8817684079884947
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cd",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        1.4637275912572756,
+        1.5288714457424852,
+        1.3737915201717066,
+        0.7944163595199996
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cd",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -1.1249372521372765,
+        -0.6940467990056085,
+        0.13203817933650197,
+        -0.8151611370301017
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Co",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        53.53264094221814,
+        63.53197004538228,
+        32.58418603128739,
+        11.44967775502289
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Co",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        50.848625041988754,
+        66.33778428707652,
+        30.019084492841003,
+        9.36231723876665
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Co",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        51.5009015599168,
+        79.98128030943073,
+        37.08290090433293,
+        15.906264395750952
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Co",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        44.56397308687656,
+        52.74382056558093,
+        36.23061002784296,
+        13.769496348780876
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Co",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        45.21624960480463,
+        66.38731658793515,
+        43.294426439334885,
+        20.31344350576512
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Co",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        42.53223370457525,
+        69.19313082962938,
+        40.7293249008885,
+        18.226082989508882
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cr",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        4.969452358497751,
+        18.065136778647133,
+        -4.825355931971664,
+        23.48581969329763
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cr",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -0.8648963199964603,
+        6.201408939440962,
+        17.312119235138212,
+        48.144422185416374
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cr",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        7.374897346629966,
+        6.110283240482155,
+        -4.5182543715742085,
+        27.533726326791168
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cr",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        4.937683884109658,
+        12.194858761762557,
+        23.528616840000765,
+        34.76570578797174
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cr",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        13.177477550736086,
+        12.103733062803748,
+        1.6982432332883377,
+        14.155009929346477
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cr",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        7.3431288722418735,
+        0.2400052235975787,
+        23.83571840039822,
+        38.81361242146528
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cu",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -2.7965428478166103,
+        30.973493395206248,
+        9.304373453474444,
+        -56.86814737961015
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cu",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -2.778175889504624,
+        30.891622170383542,
+        9.563301418678577,
+        -57.59185002072883
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cu",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -2.379643809701765,
+        31.704692741966284,
+        8.952694229617663,
+        -51.24654627750874
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cu",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -2.3453503332640935,
+        23.57767077804138,
+        8.464726190841908,
+        -52.03075851552845
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cu",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -1.9468182534612346,
+        24.390741349624122,
+        7.85411900178099,
+        -45.68545477230836
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Cu",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -1.9284512951492516,
+        24.308870124801416,
+        8.113046966985124,
+        -46.40915741342701
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Fe",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        37.50338220227826,
+        13096.71564670522,
+        14779.576084185122,
+        10925.926534307102
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Fe",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        36.472591192023174,
+        10498.79043566859,
+        11800.813794172138,
+        15584.072101776197
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Fe",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        70.0831948008422,
+        11263.28600202992,
+        11952.62102163345,
+        18494.13065132023
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Fe",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        29.921250603917827,
+        6634.8544057996805,
+        11126.5426856573,
+        16498.14677274805
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Fe",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        63.5318542127369,
+        7399.349972161006,
+        11278.34991311861,
+        19408.20532229208
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Fe",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        62.50106320248176,
+        4801.424761124377,
+        8299.587623105626,
+        24066.350889761175
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Mn",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -184.64257257384043,
+        -1709.3698304448544,
+        -213.93581890633914,
+        -311.840997253197
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": true,
+      "magnetic_componentwise_strictly_above_nearest": true
+    },
+    {
+      "element": "Mn",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -175.9048327018383,
+        -1724.4785037847978,
+        -209.01247109240273,
+        -318.44466561678223
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": true,
+      "magnetic_componentwise_strictly_above_nearest": true
+    },
+    {
+      "element": "Mn",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -182.97994302849713,
+        -1379.4712851544218,
+        -237.84329875214758,
+        -295.3677095326552
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": true,
+      "magnetic_componentwise_strictly_above_nearest": true
+    },
+    {
+      "element": "Mn",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -152.0967397971807,
+        -1473.9222484182974,
+        -138.63460725842913,
+        -279.83239193457894
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": true,
+      "magnetic_componentwise_strictly_above_nearest": true
+    },
+    {
+      "element": "Mn",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -159.17185012383953,
+        -1128.9150297879214,
+        -167.46543491817397,
+        -256.75543585045193
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": true,
+      "magnetic_componentwise_strictly_above_nearest": true
+    },
+    {
+      "element": "Mn",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -150.4341102518374,
+        -1144.0237031278648,
+        -162.54208710423745,
+        -263.3591042140372
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": true,
+      "magnetic_componentwise_strictly_above_nearest": true
+    },
+    {
+      "element": "Ni",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        6.004225860050553,
+        56.69063013909397,
+        35.19780333586107,
+        -14.015050870631399
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Ni",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        9.628623505867083,
+        45.3918855135926,
+        28.05948917756595,
+        -16.324926728331832
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Ni",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -0.3453620881152091,
+        64.50655787925541,
+        28.43952913069154,
+        -11.97549649933677
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Ni",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        11.73659024391759,
+        23.230061083873096,
+        31.651369050861234,
+        -7.663472593351685
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Ni",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        1.7626046499353123,
+        42.34473344953594,
+        32.03140900398682,
+        -3.3140423643566237
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Ni",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        5.387002295751827,
+        31.045988824034566,
+        24.893094845691706,
+        -5.623918222057057
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Pb",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        374.95647091631054,
+        555.6431616948624,
+        267.4654426662904,
+        578.729113302029
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Pb",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        466.79550271660366,
+        545.4390781589699,
+        219.6152754407577,
+        677.9303723963417
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Pb",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        412.01268681663817,
+        597.2810935883311,
+        197.79097019333838,
+        635.2682879709848
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Pb",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        453.32452753830864,
+        456.8466851788834,
+        184.73036288901991,
+        645.7056010922568
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Pb",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        398.54171163834314,
+        508.68870060824486,
+        162.9060576416006,
+        603.0435166668999
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Pb",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        490.3807434386364,
+        498.4846170723523,
+        115.05589041606785,
+        702.2447757612126
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Zn",
+      "choice_number": 1,
+      "nearest_IDs": [
+        2,
+        3,
+        5,
+        8,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -10.048602475566895,
+        125.25051541381026,
+        99.00893977691038,
+        96.1236303230678
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Zn",
+      "choice_number": 2,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -7.007913452254229,
+        110.47780294605195,
+        86.58539023003561,
+        93.72968782450243
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Zn",
+      "choice_number": 3,
+      "nearest_IDs": [
+        2,
+        3,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        85.27821487724884,
+        472.7169495257201,
+        258.70913187900595,
+        1054.2368888602527
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Zn",
+      "choice_number": 4,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        9,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        -13.653272201699224,
+        50.08606427315499,
+        81.53255682170129,
+        97.33288315669415
+      ],
+      "nearest_componentwise_at_least_magnetic": false,
+      "nearest_componentwise_strictly_above_magnetic": false,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Zn",
+      "choice_number": 5,
+      "nearest_IDs": [
+        2,
+        5,
+        8,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        78.63285612780385,
+        412.32521085282315,
+        253.65629847067163,
+        1057.8400841924445
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    },
+    {
+      "element": "Zn",
+      "choice_number": 6,
+      "nearest_IDs": [
+        2,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        31
+      ],
+      "nearest_minus_magnetic_selected_sums_F1_F4": [
+        81.67354515111651,
+        397.55249838506484,
+        241.2327489237968,
+        1055.4461416938793
+      ],
+      "nearest_componentwise_at_least_magnetic": true,
+      "nearest_componentwise_strictly_above_magnetic": true,
+      "magnetic_componentwise_at_least_nearest": false,
+      "magnetic_componentwise_strictly_above_nearest": false
+    }
+  ],
+  "reference_comparisons": [
+    {
+      "element": "Cd",
+      "target": "total",
+      "field": "magnetic_retention",
+      "independent": 0.35138620109719604,
+      "reference": 0.35138620109719604,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "total",
+      "field": "nearest_min_retention",
+      "independent": 0.3131892249301973,
+      "reference": 0.31318922493019724,
+      "difference": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "total",
+      "field": "nearest_max_retention",
+      "independent": 0.5003345328367521,
+      "reference": 0.500334532836752,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "total",
+      "field": "uniform_expected_retention",
+      "independent": 0.32276316716832065,
+      "reference": 0.32276316716832065,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "F1",
+      "field": "magnetic_retention",
+      "independent": 0.35180400955833935,
+      "reference": 0.35180400955833935,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "F1",
+      "field": "nearest_min_retention",
+      "independent": 0.2968573562897503,
+      "reference": 0.2968573562897503,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "F1",
+      "field": "nearest_max_retention",
+      "independent": 0.5097040466923987,
+      "reference": 0.5097040466923987,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "F1",
+      "field": "uniform_expected_retention",
+      "independent": 0.3354696067836762,
+      "reference": 0.3354696067836762,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "magnetic_retention",
+      "independent": 0.36213142245622504,
+      "reference": 0.3621314224562251,
+      "difference": -5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_min_retention",
+      "independent": 0.32908681541726703,
+      "reference": 0.3290868154172671,
+      "difference": -5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_max_retention",
+      "independent": 0.530467468246931,
+      "reference": 0.530467468246931,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "uniform_expected_retention",
+      "independent": 0.32548678419351385,
+      "reference": 0.3254867841935139,
+      "difference": -5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "minimum_four_fraction",
+      "field": "magnetic_retention",
+      "independent": 0.20129504091503228,
+      "reference": 0.20129504091503228,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "minimum_four_fraction",
+      "field": "nearest_min_retention",
+      "independent": 0.21985698381832314,
+      "reference": 0.21985698381832317,
+      "difference": -2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "minimum_four_fraction",
+      "field": "nearest_max_retention",
+      "independent": 0.3689781983989531,
+      "reference": 0.3689781983989531,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cd",
+      "target": "minimum_four_fraction",
+      "field": "uniform_expected_retention",
+      "independent": null,
+      "reference": null,
+      "difference": null,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "total",
+      "field": "magnetic_retention",
+      "independent": 0.6682676925803855,
+      "reference": 0.6682676925803855,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "total",
+      "field": "nearest_min_retention",
+      "independent": 0.8224069191637556,
+      "reference": 0.8224069191637556,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "total",
+      "field": "nearest_max_retention",
+      "independent": 0.8612938016612635,
+      "reference": 0.8612938016612635,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "total",
+      "field": "uniform_expected_retention",
+      "independent": 0.6874108285899637,
+      "reference": 0.6874108285899637,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "F1",
+      "field": "magnetic_retention",
+      "independent": 0.5125291407578125,
+      "reference": 0.5125291407578126,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "F1",
+      "field": "nearest_min_retention",
+      "independent": 0.7483416961579105,
+      "reference": 0.7483416961579106,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "F1",
+      "field": "nearest_max_retention",
+      "independent": 0.8093315364557,
+      "reference": 0.8093315364557001,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "F1",
+      "field": "uniform_expected_retention",
+      "independent": 0.6453772357150731,
+      "reference": 0.6453772357150731,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "magnetic_retention",
+      "independent": 0.6026196883467443,
+      "reference": 0.6026196883467443,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_min_retention",
+      "independent": 0.8157292702985184,
+      "reference": 0.8157292702985183,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_max_retention",
+      "independent": 0.8716272047730064,
+      "reference": 0.8716272047730064,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "uniform_expected_retention",
+      "independent": 0.656756943779138,
+      "reference": 0.6567569437791378,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "minimum_four_fraction",
+      "field": "magnetic_retention",
+      "independent": 0.4951752493199968,
+      "reference": 0.4951752493199969,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "minimum_four_fraction",
+      "field": "nearest_min_retention",
+      "independent": 0.6847965850508065,
+      "reference": 0.6847965850508066,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "minimum_four_fraction",
+      "field": "nearest_max_retention",
+      "independent": 0.7632227544292399,
+      "reference": 0.7632227544292398,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Co",
+      "target": "minimum_four_fraction",
+      "field": "uniform_expected_retention",
+      "independent": null,
+      "reference": null,
+      "difference": null,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "total",
+      "field": "magnetic_retention",
+      "independent": 0.4971136416055218,
+      "reference": 0.4971136416055218,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "total",
+      "field": "nearest_min_retention",
+      "independent": 0.5427063129802627,
+      "reference": 0.5427063129802627,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "total",
+      "field": "nearest_max_retention",
+      "independent": 0.5913287320691574,
+      "reference": 0.5913287320691574,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "total",
+      "field": "uniform_expected_retention",
+      "independent": 0.4716462217310054,
+      "reference": 0.4716462217310054,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "F1",
+      "field": "magnetic_retention",
+      "independent": 0.07310997670228882,
+      "reference": 0.07310997670228883,
+      "difference": -1.3877787807814457e-17,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "F1",
+      "field": "nearest_min_retention",
+      "independent": 0.05405757264347911,
+      "reference": 0.05405757264347911,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "F1",
+      "field": "nearest_max_retention",
+      "independent": 0.3633905814036079,
+      "reference": 0.3633905814036079,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "F1",
+      "field": "uniform_expected_retention",
+      "independent": 0.27005436421143564,
+      "reference": 0.27005436421143564,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "magnetic_retention",
+      "independent": 0.2745697022741916,
+      "reference": 0.27456970227419164,
+      "difference": -5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_min_retention",
+      "independent": 0.30992220703249046,
+      "reference": 0.30992220703249046,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_max_retention",
+      "independent": 0.43487812900256323,
+      "reference": 0.43487812900256323,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "uniform_expected_retention",
+      "independent": 0.34704637181073467,
+      "reference": 0.34704637181073467,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "minimum_four_fraction",
+      "field": "magnetic_retention",
+      "independent": 0.05596665949935788,
+      "reference": 0.0559666594993579,
+      "difference": -1.3877787807814457e-17,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "minimum_four_fraction",
+      "field": "nearest_min_retention",
+      "independent": 0.05405757264347911,
+      "reference": 0.054057572643479115,
+      "difference": -6.938893903907228e-18,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "minimum_four_fraction",
+      "field": "nearest_max_retention",
+      "independent": 0.19719214827794138,
+      "reference": 0.1971921482779414,
+      "difference": -2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "element": "Cr",
+      "target": "minimum_four_fraction",
+      "field": "uniform_expected_retention",
+      "independent": null,
+      "reference": null,
+      "difference": null,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "total",
+      "field": "magnetic_retention",
+      "independent": 0.9167781667564778,
+      "reference": 0.9167781667564776,
+      "difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "total",
+      "field": "nearest_min_retention",
+      "independent": 0.8465787147468589,
+      "reference": 0.8465787147468588,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "total",
+      "field": "nearest_max_retention",
+      "independent": 0.8760145499948326,
+      "reference": 0.8760145499948324,
+      "difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "total",
+      "field": "uniform_expected_retention",
+      "independent": 0.817724179744881,
+      "reference": 0.8177241797448808,
+      "difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "F1",
+      "field": "magnetic_retention",
+      "independent": 0.8432435750738719,
+      "reference": 0.8432435750738719,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "F1",
+      "field": "nearest_min_retention",
+      "independent": 0.7414268148068227,
+      "reference": 0.7414268148068227,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "F1",
+      "field": "nearest_max_retention",
+      "independent": 0.7730323629130462,
+      "reference": 0.7730323629130462,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "F1",
+      "field": "uniform_expected_retention",
+      "independent": 0.7600683966667263,
+      "reference": 0.7600683966667262,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "magnetic_retention",
+      "independent": 0.603460800395946,
+      "reference": 0.6034608003959459,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_min_retention",
+      "independent": 0.8075266952986847,
+      "reference": 0.8075266952986846,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_max_retention",
+      "independent": 0.8664897139788137,
+      "reference": 0.8664897139788135,
+      "difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "uniform_expected_retention",
+      "independent": 0.5829314085743806,
+      "reference": 0.5829314085743806,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "minimum_four_fraction",
+      "field": "magnetic_retention",
+      "independent": 0.44935477877601154,
+      "reference": 0.4493547787760116,
+      "difference": -5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "minimum_four_fraction",
+      "field": "nearest_min_retention",
+      "independent": 0.6342773426902178,
+      "reference": 0.6342773426902176,
+      "difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "minimum_four_fraction",
+      "field": "nearest_max_retention",
+      "independent": 0.6859117408137712,
+      "reference": 0.6859117408137708,
+      "difference": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "element": "Cu",
+      "target": "minimum_four_fraction",
+      "field": "uniform_expected_retention",
+      "independent": null,
+      "reference": null,
+      "difference": null,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "total",
+      "field": "magnetic_retention",
+      "independent": 0.6645721762251372,
+      "reference": 0.6645721762251372,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "total",
+      "field": "nearest_min_retention",
+      "independent": 0.8615825084658191,
+      "reference": 0.8615825084658191,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "total",
+      "field": "nearest_max_retention",
+      "independent": 0.9046201170738041,
+      "reference": 0.9046201170738041,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "total",
+      "field": "uniform_expected_retention",
+      "independent": 0.7064987432401629,
+      "reference": 0.7064987432401629,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "F1",
+      "field": "magnetic_retention",
+      "independent": 0.5729329998984481,
+      "reference": 0.5729329998984481,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "F1",
+      "field": "nearest_min_retention",
+      "independent": 0.641448893822395,
+      "reference": 0.641448893822395,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "F1",
+      "field": "nearest_max_retention",
+      "independent": 0.7334146857875087,
+      "reference": 0.7334146857875087,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "F1",
+      "field": "uniform_expected_retention",
+      "independent": 0.6085922434317778,
+      "reference": 0.6085922434317779,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "magnetic_retention",
+      "independent": 0.27591699197032055,
+      "reference": 0.27591699197032055,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_min_retention",
+      "independent": 0.45567980817174125,
+      "reference": 0.45567980817174125,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_max_retention",
+      "independent": 0.6571117573676778,
+      "reference": 0.6571117573676778,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "uniform_expected_retention",
+      "independent": 0.34843143196256066,
+      "reference": 0.3484314319625606,
+      "difference": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "minimum_four_fraction",
+      "field": "magnetic_retention",
+      "independent": 0.1339301409225315,
+      "reference": 0.13393014092253147,
+      "difference": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "minimum_four_fraction",
+      "field": "nearest_min_retention",
+      "independent": 0.3994041941605103,
+      "reference": 0.3994041941605103,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "minimum_four_fraction",
+      "field": "nearest_max_retention",
+      "independent": 0.5489143760253847,
+      "reference": 0.5489143760253847,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Fe",
+      "target": "minimum_four_fraction",
+      "field": "uniform_expected_retention",
+      "independent": null,
+      "reference": null,
+      "difference": null,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "total",
+      "field": "magnetic_retention",
+      "independent": 0.7652845051509203,
+      "reference": 0.7652845051509201,
+      "difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "total",
+      "field": "nearest_min_retention",
+      "independent": 0.5698507696627672,
+      "reference": 0.569850769662767,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "total",
+      "field": "nearest_max_retention",
+      "independent": 0.6274489662366656,
+      "reference": 0.6274489662366655,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "total",
+      "field": "uniform_expected_retention",
+      "independent": 0.7022319238157552,
+      "reference": 0.702231923815755,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "F1",
+      "field": "magnetic_retention",
+      "independent": 0.7203312701651942,
+      "reference": 0.7203312701651942,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "F1",
+      "field": "nearest_min_retention",
+      "independent": 0.5055264302085385,
+      "reference": 0.5055264302085386,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "F1",
+      "field": "nearest_max_retention",
+      "independent": 0.545323012176668,
+      "reference": 0.545323012176668,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "F1",
+      "field": "uniform_expected_retention",
+      "independent": 0.6503886357542383,
+      "reference": 0.6503886357542383,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "magnetic_retention",
+      "independent": 0.7307605395252654,
+      "reference": 0.7307605395252654,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_min_retention",
+      "independent": 0.5281585613306272,
+      "reference": 0.5281585613306273,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_max_retention",
+      "independent": 0.5909585273610406,
+      "reference": 0.5909585273610406,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "uniform_expected_retention",
+      "independent": 0.6799424170075569,
+      "reference": 0.6799424170075569,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "minimum_four_fraction",
+      "field": "magnetic_retention",
+      "independent": 0.7019320424142698,
+      "reference": 0.7019320424142698,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "minimum_four_fraction",
+      "field": "nearest_min_retention",
+      "independent": 0.4987241098118254,
+      "reference": 0.4987241098118254,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "minimum_four_fraction",
+      "field": "nearest_max_retention",
+      "independent": 0.545323012176668,
+      "reference": 0.545323012176668,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Mn",
+      "target": "minimum_four_fraction",
+      "field": "uniform_expected_retention",
+      "independent": null,
+      "reference": null,
+      "difference": null,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "total",
+      "field": "magnetic_retention",
+      "independent": 0.7122005730807166,
+      "reference": 0.7122005730807167,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "total",
+      "field": "nearest_min_retention",
+      "independent": 0.7696074427483529,
+      "reference": 0.769607442748353,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "total",
+      "field": "nearest_max_retention",
+      "independent": 0.7986451610064005,
+      "reference": 0.7986451610064005,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "total",
+      "field": "uniform_expected_retention",
+      "independent": 0.7292769164324747,
+      "reference": 0.7292769164324747,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "F1",
+      "field": "magnetic_retention",
+      "independent": 0.6339515329409315,
+      "reference": 0.6339515329409317,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "F1",
+      "field": "nearest_min_retention",
+      "independent": 0.6312610038685594,
+      "reference": 0.6312610038685595,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "F1",
+      "field": "nearest_max_retention",
+      "independent": 0.7253849541195893,
+      "reference": 0.7253849541195896,
+      "difference": -3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "F1",
+      "field": "uniform_expected_retention",
+      "independent": 0.6606674866992093,
+      "reference": 0.6606674866992094,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "magnetic_retention",
+      "independent": 0.6305507552815707,
+      "reference": 0.6305507552815706,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_min_retention",
+      "independent": 0.7343969406861413,
+      "reference": 0.7343969406861413,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_max_retention",
+      "independent": 0.7963167436208889,
+      "reference": 0.7963167436208887,
+      "difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "uniform_expected_retention",
+      "independent": 0.683028546024246,
+      "reference": 0.683028546024246,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "minimum_four_fraction",
+      "field": "magnetic_retention",
+      "independent": 0.5349066329520055,
+      "reference": 0.5349066329520056,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "minimum_four_fraction",
+      "field": "nearest_min_retention",
+      "independent": 0.6312610038685594,
+      "reference": 0.6312610038685594,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "minimum_four_fraction",
+      "field": "nearest_max_retention",
+      "independent": 0.6807272063268452,
+      "reference": 0.6807272063268452,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Ni",
+      "target": "minimum_four_fraction",
+      "field": "uniform_expected_retention",
+      "independent": null,
+      "reference": null,
+      "difference": null,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "total",
+      "field": "magnetic_retention",
+      "independent": 0.14415106755773627,
+      "reference": 0.14415106755773627,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "total",
+      "field": "nearest_min_retention",
+      "independent": 0.25731125005180816,
+      "reference": 0.25731125005180816,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "total",
+      "field": "nearest_max_retention",
+      "independent": 0.2733129514801275,
+      "reference": 0.2733129514801275,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "total",
+      "field": "uniform_expected_retention",
+      "independent": 0.34538298176184634,
+      "reference": 0.3453829817618464,
+      "difference": -5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "F1",
+      "field": "magnetic_retention",
+      "independent": 0.292134671692225,
+      "reference": 0.292134671692225,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "F1",
+      "field": "nearest_min_retention",
+      "independent": 0.4691189313722105,
+      "reference": 0.46911893137221045,
+      "difference": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "F1",
+      "field": "nearest_max_retention",
+      "independent": 0.5236006672695602,
+      "reference": 0.5236006672695601,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "F1",
+      "field": "uniform_expected_retention",
+      "independent": 0.4403811814778619,
+      "reference": 0.44038118147786187,
+      "difference": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "magnetic_retention",
+      "independent": 0.1229711937641392,
+      "reference": 0.12297119376413918,
+      "difference": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_min_retention",
+      "independent": 0.21623660208220688,
+      "reference": 0.21623660208220688,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_max_retention",
+      "independent": 0.23033037931539854,
+      "reference": 0.23033037931539854,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "uniform_expected_retention",
+      "independent": 0.3263859097818427,
+      "reference": 0.32638590978184273,
+      "difference": -5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "minimum_four_fraction",
+      "field": "magnetic_retention",
+      "independent": 0.04033337761582306,
+      "reference": 0.04033337761582306,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "minimum_four_fraction",
+      "field": "nearest_min_retention",
+      "independent": 0.06140410872144435,
+      "reference": 0.06140410872144435,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "minimum_four_fraction",
+      "field": "nearest_max_retention",
+      "independent": 0.08931559314679195,
+      "reference": 0.08931559314679197,
+      "difference": -1.3877787807814457e-17,
+      "passed": true
+    },
+    {
+      "element": "Pb",
+      "target": "minimum_four_fraction",
+      "field": "uniform_expected_retention",
+      "independent": null,
+      "reference": null,
+      "difference": null,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "total",
+      "field": "magnetic_retention",
+      "independent": 0.6039068277550929,
+      "reference": 0.6039068277550929,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "total",
+      "field": "nearest_min_retention",
+      "independent": 0.6434130653159016,
+      "reference": 0.6434130653159015,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "total",
+      "field": "nearest_max_retention",
+      "independent": 0.9472159493340173,
+      "reference": 0.9472159493340172,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "total",
+      "field": "uniform_expected_retention",
+      "independent": 0.4438358164162407,
+      "reference": 0.44383581641624076,
+      "difference": -5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "F1",
+      "field": "magnetic_retention",
+      "independent": 0.775569697478803,
+      "reference": 0.775569697478803,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "F1",
+      "field": "nearest_min_retention",
+      "independent": 0.7611981223887538,
+      "reference": 0.7611981223887538,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "F1",
+      "field": "nearest_max_retention",
+      "independent": 0.8653344257101202,
+      "reference": 0.8653344257101202,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "F1",
+      "field": "uniform_expected_retention",
+      "independent": 0.30892196154513274,
+      "reference": 0.30892196154513274,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "magnetic_retention",
+      "independent": 0.6899700025350186,
+      "reference": 0.6899700025350186,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_min_retention",
+      "independent": 0.7284295726955683,
+      "reference": 0.7284295726955683,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "nearest_max_retention",
+      "independent": 0.9562354480916412,
+      "reference": 0.9562354480916412,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "F1_plus_F2_plus_F3",
+      "field": "uniform_expected_retention",
+      "independent": 0.3940716731453155,
+      "reference": 0.3940716731453155,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "minimum_four_fraction",
+      "field": "magnetic_retention",
+      "independent": 0.4717649848826631,
+      "reference": 0.4717649848826632,
+      "difference": -1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "minimum_four_fraction",
+      "field": "nearest_min_retention",
+      "independent": 0.5094036419141675,
+      "reference": 0.5094036419141675,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "minimum_four_fraction",
+      "field": "nearest_max_retention",
+      "independent": 0.8653344257101202,
+      "reference": 0.8653344257101201,
+      "difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "element": "Zn",
+      "target": "minimum_four_fraction",
+      "field": "uniform_expected_retention",
+      "independent": null,
+      "reference": null,
+      "difference": null,
+      "passed": true
+    }
+  ]
+}

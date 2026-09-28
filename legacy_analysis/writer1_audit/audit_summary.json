@@ -1,0 +1,473 @@
+{
+  "source": "source/Iron Factory.xlsx",
+  "source_sha256": "1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b",
+  "sheet": "All rsults",
+  "sample_range": "A4:A35",
+  "n_samples": 32,
+  "fraction_units_from_workbook": "micrograms per gram",
+  "magnetic_score": "stored XLF, cells BG4:BG35",
+  "software": {
+    "python": "3.12.14",
+    "openpyxl": "3.1.5",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1"
+  },
+  "definitions": {
+    "dominance": "i >= j in all four fraction concentrations, and i > j in at least one",
+    "reversal": "XLF_i < XLF_j for a dominating i and dominated j",
+    "magnetic_tie": "XLF_i == XLF_j; recorded separately, not a reversal",
+    "componentwise_strict": "i > j in all four fraction concentrations",
+    "numerical_comparison": "Direct comparisons of the stored floating-point values; no tolerance or rounding",
+    "MDR_denominator": "All dominance pairs, including magnetic ties"
+  },
+  "dominance_results": [
+    {
+      "element": "Pb",
+      "dominance_pairs": 168,
+      "xlf_strict_reversals": 67,
+      "xlf_ties": 3,
+      "xlf_strict_concordances": 98,
+      "reversal_fraction": 0.39880952380952384,
+      "componentwise_strict_pairs": 168,
+      "weak_only_pairs_with_equal_coordinates": 0,
+      "componentwise_strict_reversals": 67,
+      "componentwise_strict_reversal_fraction": 0.39880952380952384,
+      "weak_only_reversals": 0,
+      "weak_only_reversal_fraction": null,
+      "expected_reversals": 67,
+      "expected_denominator": 168,
+      "matches_expected": true
+    },
+    {
+      "element": "Cr",
+      "dominance_pairs": 251,
+      "xlf_strict_reversals": 89,
+      "xlf_ties": 3,
+      "xlf_strict_concordances": 159,
+      "reversal_fraction": 0.3545816733067729,
+      "componentwise_strict_pairs": 251,
+      "weak_only_pairs_with_equal_coordinates": 0,
+      "componentwise_strict_reversals": 89,
+      "componentwise_strict_reversal_fraction": 0.3545816733067729,
+      "weak_only_reversals": 0,
+      "weak_only_reversal_fraction": null,
+      "expected_reversals": 89,
+      "expected_denominator": 251,
+      "matches_expected": true
+    },
+    {
+      "element": "Co",
+      "dominance_pairs": 266,
+      "xlf_strict_reversals": 93,
+      "xlf_ties": 3,
+      "xlf_strict_concordances": 170,
+      "reversal_fraction": 0.34962406015037595,
+      "componentwise_strict_pairs": 266,
+      "weak_only_pairs_with_equal_coordinates": 0,
+      "componentwise_strict_reversals": 93,
+      "componentwise_strict_reversal_fraction": 0.34962406015037595,
+      "weak_only_reversals": 0,
+      "weak_only_reversal_fraction": null,
+      "expected_reversals": 93,
+      "expected_denominator": 266,
+      "matches_expected": true
+    },
+    {
+      "element": "Fe",
+      "dominance_pairs": 218,
+      "xlf_strict_reversals": 71,
+      "xlf_ties": 3,
+      "xlf_strict_concordances": 144,
+      "reversal_fraction": 0.3256880733944954,
+      "componentwise_strict_pairs": 218,
+      "weak_only_pairs_with_equal_coordinates": 0,
+      "componentwise_strict_reversals": 71,
+      "componentwise_strict_reversal_fraction": 0.3256880733944954,
+      "weak_only_reversals": 0,
+      "weak_only_reversal_fraction": null,
+      "expected_reversals": 71,
+      "expected_denominator": 218,
+      "matches_expected": true
+    },
+    {
+      "element": "Cd",
+      "dominance_pairs": 298,
+      "xlf_strict_reversals": 93,
+      "xlf_ties": 4,
+      "xlf_strict_concordances": 201,
+      "reversal_fraction": 0.31208053691275167,
+      "componentwise_strict_pairs": 298,
+      "weak_only_pairs_with_equal_coordinates": 0,
+      "componentwise_strict_reversals": 93,
+      "componentwise_strict_reversal_fraction": 0.31208053691275167,
+      "weak_only_reversals": 0,
+      "weak_only_reversal_fraction": null,
+      "expected_reversals": 93,
+      "expected_denominator": 298,
+      "matches_expected": true
+    },
+    {
+      "element": "Ni",
+      "dominance_pairs": 232,
+      "xlf_strict_reversals": 70,
+      "xlf_ties": 3,
+      "xlf_strict_concordances": 159,
+      "reversal_fraction": 0.3017241379310345,
+      "componentwise_strict_pairs": 232,
+      "weak_only_pairs_with_equal_coordinates": 0,
+      "componentwise_strict_reversals": 70,
+      "componentwise_strict_reversal_fraction": 0.3017241379310345,
+      "weak_only_reversals": 0,
+      "weak_only_reversal_fraction": null,
+      "expected_reversals": 70,
+      "expected_denominator": 232,
+      "matches_expected": true
+    },
+    {
+      "element": "Mn",
+      "dominance_pairs": 252,
+      "xlf_strict_reversals": 75,
+      "xlf_ties": 0,
+      "xlf_strict_concordances": 177,
+      "reversal_fraction": 0.2976190476190476,
+      "componentwise_strict_pairs": 252,
+      "weak_only_pairs_with_equal_coordinates": 0,
+      "componentwise_strict_reversals": 75,
+      "componentwise_strict_reversal_fraction": 0.2976190476190476,
+      "weak_only_reversals": 0,
+      "weak_only_reversal_fraction": null,
+      "expected_reversals": 75,
+      "expected_denominator": 252,
+      "matches_expected": true
+    },
+    {
+      "element": "Cu",
+      "dominance_pairs": 60,
+      "xlf_strict_reversals": 12,
+      "xlf_ties": 0,
+      "xlf_strict_concordances": 48,
+      "reversal_fraction": 0.2,
+      "componentwise_strict_pairs": 60,
+      "weak_only_pairs_with_equal_coordinates": 0,
+      "componentwise_strict_reversals": 12,
+      "componentwise_strict_reversal_fraction": 0.2,
+      "weak_only_reversals": 0,
+      "weak_only_reversal_fraction": null,
+      "expected_reversals": 12,
+      "expected_denominator": 60,
+      "matches_expected": true
+    },
+    {
+      "element": "Zn",
+      "dominance_pairs": 244,
+      "xlf_strict_reversals": 43,
+      "xlf_ties": 2,
+      "xlf_strict_concordances": 199,
+      "reversal_fraction": 0.1762295081967213,
+      "componentwise_strict_pairs": 244,
+      "weak_only_pairs_with_equal_coordinates": 0,
+      "componentwise_strict_reversals": 43,
+      "componentwise_strict_reversal_fraction": 0.1762295081967213,
+      "weak_only_reversals": 0,
+      "weak_only_reversal_fraction": null,
+      "expected_reversals": 43,
+      "expected_denominator": 244,
+      "matches_expected": true
+    }
+  ],
+  "floating_point_tolerance_sensitivity": [
+    {
+      "absolute_tolerance": 0,
+      "element": "Pb",
+      "dominance_pairs": 168,
+      "xlf_strict_reversals": 67,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 0,
+      "element": "Cr",
+      "dominance_pairs": 251,
+      "xlf_strict_reversals": 89,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 0,
+      "element": "Co",
+      "dominance_pairs": 266,
+      "xlf_strict_reversals": 93,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 0,
+      "element": "Fe",
+      "dominance_pairs": 218,
+      "xlf_strict_reversals": 71,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 0,
+      "element": "Cd",
+      "dominance_pairs": 298,
+      "xlf_strict_reversals": 93,
+      "xlf_ties": 4
+    },
+    {
+      "absolute_tolerance": 0,
+      "element": "Ni",
+      "dominance_pairs": 232,
+      "xlf_strict_reversals": 70,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 0,
+      "element": "Mn",
+      "dominance_pairs": 252,
+      "xlf_strict_reversals": 75,
+      "xlf_ties": 0
+    },
+    {
+      "absolute_tolerance": 0,
+      "element": "Cu",
+      "dominance_pairs": 60,
+      "xlf_strict_reversals": 12,
+      "xlf_ties": 0
+    },
+    {
+      "absolute_tolerance": 0,
+      "element": "Zn",
+      "dominance_pairs": 244,
+      "xlf_strict_reversals": 43,
+      "xlf_ties": 2
+    },
+    {
+      "absolute_tolerance": 1e-12,
+      "element": "Pb",
+      "dominance_pairs": 168,
+      "xlf_strict_reversals": 67,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 1e-12,
+      "element": "Cr",
+      "dominance_pairs": 251,
+      "xlf_strict_reversals": 89,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 1e-12,
+      "element": "Co",
+      "dominance_pairs": 266,
+      "xlf_strict_reversals": 93,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 1e-12,
+      "element": "Fe",
+      "dominance_pairs": 218,
+      "xlf_strict_reversals": 71,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 1e-12,
+      "element": "Cd",
+      "dominance_pairs": 298,
+      "xlf_strict_reversals": 93,
+      "xlf_ties": 4
+    },
+    {
+      "absolute_tolerance": 1e-12,
+      "element": "Ni",
+      "dominance_pairs": 232,
+      "xlf_strict_reversals": 70,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 1e-12,
+      "element": "Mn",
+      "dominance_pairs": 252,
+      "xlf_strict_reversals": 75,
+      "xlf_ties": 0
+    },
+    {
+      "absolute_tolerance": 1e-12,
+      "element": "Cu",
+      "dominance_pairs": 60,
+      "xlf_strict_reversals": 12,
+      "xlf_ties": 0
+    },
+    {
+      "absolute_tolerance": 1e-12,
+      "element": "Zn",
+      "dominance_pairs": 244,
+      "xlf_strict_reversals": 43,
+      "xlf_ties": 2
+    },
+    {
+      "absolute_tolerance": 1e-09,
+      "element": "Pb",
+      "dominance_pairs": 168,
+      "xlf_strict_reversals": 67,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 1e-09,
+      "element": "Cr",
+      "dominance_pairs": 251,
+      "xlf_strict_reversals": 89,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 1e-09,
+      "element": "Co",
+      "dominance_pairs": 266,
+      "xlf_strict_reversals": 93,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 1e-09,
+      "element": "Fe",
+      "dominance_pairs": 218,
+      "xlf_strict_reversals": 71,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 1e-09,
+      "element": "Cd",
+      "dominance_pairs": 298,
+      "xlf_strict_reversals": 93,
+      "xlf_ties": 4
+    },
+    {
+      "absolute_tolerance": 1e-09,
+      "element": "Ni",
+      "dominance_pairs": 232,
+      "xlf_strict_reversals": 70,
+      "xlf_ties": 3
+    },
+    {
+      "absolute_tolerance": 1e-09,
+      "element": "Mn",
+      "dominance_pairs": 252,
+      "xlf_strict_reversals": 75,
+      "xlf_ties": 0
+    },
+    {
+      "absolute_tolerance": 1e-09,
+      "element": "Cu",
+      "dominance_pairs": 60,
+      "xlf_strict_reversals": 12,
+      "xlf_ties": 0
+    },
+    {
+      "absolute_tolerance": 1e-09,
+      "element": "Zn",
+      "dominance_pairs": 244,
+      "xlf_strict_reversals": 43,
+      "xlf_ties": 2
+    }
+  ],
+  "inferential_limitation": "Dominance pairs share sites and are statistically dependent; the pair-level reversal fractions are descriptive, not independent Bernoulli trials. No binomial confidence interval is justified.",
+  "all_nine_reported_counts_match": true,
+  "sample1": {
+    "sample": 1,
+    "excel_row": 4,
+    "Pb_F1_I4": 806.0582265529264,
+    "Pb_total_AW4": 10639.968590498627,
+    "XLF_BG4": 9.5,
+    "XLF_descending_competition_rank": 16,
+    "XLF_other_equal_sites": [],
+    "Pb_fraction_values": [
+      806.0582265529264,
+      3197.3642986599402,
+      4809.480751765793,
+      1827.0653135199661
+    ],
+    "Pb_fraction_maxima": [
+      806.0582265529264,
+      3197.3642986599402,
+      4809.480751765793,
+      1827.0653135199661
+    ],
+    "Pb_strictly_exceeds_all_other_samples_in_all_four": true
+  },
+  "XLF_median": 9.469999999999999,
+  "top_eight": {
+    "XLF_ids_descending": [
+      12,
+      8,
+      31,
+      19,
+      24,
+      26,
+      29,
+      16
+    ],
+    "Pb_F1_ids_descending": [
+      1,
+      14,
+      6,
+      9,
+      8,
+      7,
+      11,
+      16
+    ],
+    "intersection_ids": [
+      8,
+      16
+    ],
+    "overlap_count": 2,
+    "Pb_F1_top_eight_missed_by_XLF": [
+      1,
+      6,
+      7,
+      9,
+      11,
+      14
+    ],
+    "XLF_eighth": 10.8,
+    "XLF_ninth": 10.6,
+    "Pb_F1_eighth": 134.84932501710958,
+    "Pb_F1_ninth": 132.45742936789742,
+    "interpretation": "Illustrative ranking budget of 8/32; not a health, regulatory, or risk threshold"
+  },
+  "spearman_XLF_vs_total_Pb_all": {
+    "n": 32,
+    "rho": 0.22882289767328987,
+    "p_two_sided_scipy_asymptotic": 0.20777343424340092
+  },
+  "spearman_XLF_vs_total_Pb_omit_sample1": {
+    "n": 31,
+    "rho": 0.23678904709922824,
+    "p_two_sided_scipy_asymptotic": 0.19965366050604738
+  },
+  "Zn_comparison": {
+    "sample11_total_AX14": 1746.4642262895175,
+    "sample11_F1_J14": 98.38488269293879,
+    "sample12_total_AX15": 1257.7900439211364,
+    "sample12_F1_J15": 487.7924286714603,
+    "sample12_to11_F1_ratio": 4.958001832394011
+  },
+  "theorem_audit": {
+    "weak_dominance_simplex": "If delta >= 0 componentwise with some delta > 0, then w.dot(delta) >= 0 for every w >= 0 with sum(w)=1. Equality occurs iff the support of w is entirely among zero-delta coordinates.",
+    "strict_all_simplex": "w.dot(delta) > 0 for every closed-simplex weight vector iff every delta coordinate > 0.",
+    "strict_interior_weights": "Weak dominance with at least one strict coordinate gives w.dot(delta) > 0 for every strictly positive weight vector summing to one.",
+    "counterexample": {
+      "delta": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "w": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "weighted_difference": 0
+    },
+    "MDR_effect": "A strictly reversed magnetic score remains a violation of weak Pareto order. Under weak-only dominance it need not reverse a strictly ordered weighted score for every closed-simplex weight vector, since some weights produce a true weighted tie. Ties in magnetic score must be separated from strict reversals.",
+    "provenance": "The workbook does not establish physical perturbation weights, measured release responses, provenance of transformations, or external validation."
+  }
+}

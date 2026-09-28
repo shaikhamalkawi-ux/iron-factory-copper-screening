@@ -1,0 +1,182 @@
+[
+  {
+    "workflow": "primary",
+    "step": 1,
+    "command": [
+      "python",
+      "verification/verify_new_cu.py",
+      "--source",
+      "source/Iron Factory.xlsx",
+      "--baseline",
+      "baseline/table2.tex",
+      "--output",
+      "recomputed/verification"
+    ],
+    "working_directory": "repository root",
+    "exit_code": 0,
+    "elapsed_seconds": 2.523137092590332,
+    "stderr_empty": true
+  },
+  {
+    "workflow": "primary",
+    "step": 2,
+    "command": [
+      "python",
+      "verification/coordinate_checks.py",
+      "--source",
+      "source/Iron Factory.xlsx",
+      "--output",
+      "recomputed/verification"
+    ],
+    "working_directory": "repository root",
+    "exit_code": 0,
+    "elapsed_seconds": 4.571437358856201,
+    "stderr_empty": true
+  },
+  {
+    "workflow": "primary",
+    "step": 3,
+    "command": [
+      "python",
+      "figure_code/build_current_figures.py",
+      "--grid",
+      "verification/ordinary_target_grid.csv",
+      "--target-profiles",
+      "fresh_read_20260927/target_budget_profiles.csv",
+      "--output",
+      "recomputed/figures"
+    ],
+    "working_directory": "repository root",
+    "exit_code": 0,
+    "elapsed_seconds": 4.051406383514404,
+    "stderr_empty": true
+  },
+  {
+    "workflow": "fresh",
+    "step": 1,
+    "command": [
+      "python",
+      "fresh_read_20260927/fresh_inventory.py",
+      "--source",
+      "source/Iron Factory.xlsx",
+      "--output-dir",
+      "fresh_read_20260927"
+    ],
+    "working_directory": "repository root",
+    "exit_code": 0,
+    "elapsed_seconds": 1.2767436504364014,
+    "stderr_empty": true
+  },
+  {
+    "workflow": "fresh",
+    "step": 2,
+    "command": [
+      "python",
+      "fresh_read_20260927/fresh_diagnostics.py",
+      "--source",
+      "source/Iron Factory.xlsx"
+    ],
+    "working_directory": "repository root",
+    "exit_code": 0,
+    "elapsed_seconds": 12.13739562034607,
+    "stderr_empty": true
+  },
+  {
+    "workflow": "fresh",
+    "step": 3,
+    "command": [
+      "python",
+      "fresh_read_20260927/proximity_budget_sensitivity.py",
+      "--source",
+      "source/Iron Factory.xlsx"
+    ],
+    "working_directory": "repository root",
+    "exit_code": 0,
+    "elapsed_seconds": 6.1484010219573975,
+    "stderr_empty": true
+  },
+  {
+    "workflow": "fresh",
+    "step": 4,
+    "command": [
+      "python",
+      "fresh_read_20260927/verify_nearest_comparison.py",
+      "--source",
+      "source/Iron Factory.xlsx",
+      "--comparison-csv",
+      "fresh_read_20260927/magnetic_vs_nearest_k8.csv"
+    ],
+    "working_directory": "repository root",
+    "exit_code": 0,
+    "elapsed_seconds": 1.3913578987121582,
+    "stderr_empty": true
+  },
+  {
+    "workflow": "fresh",
+    "step": 5,
+    "command": [
+      "python",
+      "fresh_read_20260927/target_budget_extension.py",
+      "--source",
+      "source/Iron Factory.xlsx",
+      "--output-dir",
+      "fresh_read_20260927"
+    ],
+    "working_directory": "repository root",
+    "exit_code": 0,
+    "elapsed_seconds": 4.401846647262573,
+    "stderr_empty": true
+  },
+  {
+    "workflow": "fresh",
+    "step": 6,
+    "command": [
+      "python",
+      "fresh_read_20260927/fresh_figures.py",
+      "--directory",
+      "fresh_read_20260927"
+    ],
+    "working_directory": "repository root",
+    "exit_code": 0,
+    "elapsed_seconds": 4.463924169540405,
+    "stderr_empty": true
+  },
+  {
+    "workflow": "legacy",
+    "step": 1,
+    "command": [
+      "python",
+      "legacy_analysis/run_reproduce_R7.py",
+      "--source",
+      "source/Iron Factory.xlsx"
+    ],
+    "working_directory": "repository root",
+    "exit_code": 0,
+    "elapsed_seconds": 64.16842341423035,
+    "stderr_empty": true
+  },
+  {
+    "workflow": "legacy",
+    "step": 2,
+    "command": [
+      "python",
+      "legacy_analysis/shortlist_audit/build_r3_figures.py"
+    ],
+    "working_directory": "repository root",
+    "exit_code": 0,
+    "elapsed_seconds": 3.1629037857055664,
+    "stderr_empty": true
+  },
+  {
+    "workflow": "legacy",
+    "step": 3,
+    "command": [
+      "python",
+      "legacy_analysis/influence_audit/build_influence_figure.py"
+    ],
+    "working_directory": "repository root",
+    "exit_code": 0,
+    "elapsed_seconds": 2.0409839153289795,
+    "stderr_empty": true
+  }
+]

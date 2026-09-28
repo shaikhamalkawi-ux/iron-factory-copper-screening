@@ -1,0 +1,122 @@
+{
+  "script": "fresh_figures.py",
+  "matplotlib_version": "3.11.2",
+  "analysis_recomputed": false,
+  "input_CSV_hashes_before": {
+    "metadata_diagnostics.csv": "29afbc9293b3f908d80a053af8bb62d4d9d5f5690e8cd0867d6d6736141cac8f",
+    "magnetic_vs_nearest_k8.csv": "30e5bd33dd8dceaf7f04ff2dd47271ed5d9a5eb9e434938ad70c8272f39b5b99"
+  },
+  "input_CSV_hashes_after": {
+    "metadata_diagnostics.csv": "29afbc9293b3f908d80a053af8bb62d4d9d5f5690e8cd0867d6d6736141cac8f",
+    "magnetic_vs_nearest_k8.csv": "30e5bd33dd8dceaf7f04ff2dd47271ed5d9a5eb9e434938ad70c8272f39b5b99"
+  },
+  "input_CSVs_unchanged": true,
+  "source_workbook_accessed": false,
+  "figures": {
+    "recorded_locations.png": {
+      "record_count": 32,
+      "orange_ring_count": 5,
+      "all_32_record_ID_labels_present": true,
+      "overlapping_label_bounding_boxes": [],
+      "manual_annotation_offsets_points": {
+        "2": [
+          -11,
+          -1,
+          "right",
+          "center"
+        ],
+        "4": [
+          8,
+          7,
+          "left",
+          "bottom"
+        ],
+        "7": [
+          5,
+          12,
+          "left",
+          "bottom"
+        ],
+        "8": [
+          10,
+          4,
+          "left",
+          "bottom"
+        ],
+        "12": [
+          -7,
+          12,
+          "right",
+          "bottom"
+        ],
+        "14": [
+          -8,
+          12,
+          "right",
+          "bottom"
+        ],
+        "15": [
+          11,
+          -4,
+          "left",
+          "center"
+        ],
+        "26": [
+          5,
+          8,
+          "left",
+          "bottom"
+        ],
+        "30": [
+          -10,
+          7,
+          "right",
+          "bottom"
+        ],
+        "31": [
+          -9,
+          -5,
+          "right",
+          "top"
+        ],
+        "3": [
+          -5,
+          -7,
+          "right",
+          "top"
+        ],
+        "23": [
+          7,
+          -1,
+          "left",
+          "center"
+        ]
+      },
+      "pixel_dimensions": [
+        2820,
+        2160
+      ]
+    },
+    "magnetic_vs_nearest_min_retention_k8.png": {
+      "target": "minimum_four_fraction",
+      "element_order": [
+        "Cd",
+        "Co",
+        "Cr",
+        "Cu",
+        "Fe",
+        "Mn",
+        "Ni",
+        "Pb",
+        "Zn"
+      ],
+      "k": 8,
+      "n": 32,
+      "nearest_interval_meaning": "minimum and maximum across six distance-cutoff tie choices; not a confidence interval",
+      "pixel_dimensions": [
+        2880,
+        1980
+      ]
+    }
+  }
+}

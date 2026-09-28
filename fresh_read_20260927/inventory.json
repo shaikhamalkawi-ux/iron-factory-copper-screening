@@ -1,0 +1,1783 @@
+{
+  "source": "source/Iron Factory.xlsx",
+  "source_size_bytes": 32194,
+  "sha256_before": "1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b",
+  "sha256_after": "1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b",
+  "source_unchanged": true,
+  "runtime": {
+    "python": "3.12.14",
+    "openpyxl": "3.1.5"
+  },
+  "sheet_inventory": [
+    {
+      "name": "All rsults",
+      "state": "visible",
+      "max_row_including_formatting": 62,
+      "max_column_including_formatting": 72,
+      "nonempty_cell_count": 1872,
+      "formulas": [],
+      "cell_errors": [],
+      "comments": [],
+      "hyperlinks": [],
+      "hidden_rows": [],
+      "hidden_columns": [],
+      "merged_ranges": [],
+      "autofilter_ref": null,
+      "table_names": [],
+      "conditional_formatting_range_count": 0,
+      "data_validation_count": 0,
+      "freeze_panes": "L2"
+    }
+  ],
+  "package_parts": [
+    "[Content_Types].xml",
+    "_rels/.rels",
+    "xl/workbook.xml",
+    "xl/_rels/workbook.xml.rels",
+    "xl/worksheets/sheet1.xml",
+    "xl/theme/theme1.xml",
+    "xl/styles.xml",
+    "xl/sharedStrings.xml",
+    "xl/worksheets/_rels/sheet1.xml.rels",
+    "docProps/core.xml",
+    "docProps/app.xml"
+  ],
+  "defined_names_raw_XML": [
+    {
+      "name": "_xlnm._FilterDatabase",
+      "localSheetId": "0",
+      "hidden": "1",
+      "text": "'All rsults'!#REF!"
+    }
+  ],
+  "relationships": [
+    {
+      "Id": "rId3",
+      "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+      "Target": "docProps/app.xml",
+      "part": "_rels/.rels"
+    },
+    {
+      "Id": "rId2",
+      "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+      "Target": "docProps/core.xml",
+      "part": "_rels/.rels"
+    },
+    {
+      "Id": "rId1",
+      "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+      "Target": "xl/workbook.xml",
+      "part": "_rels/.rels"
+    },
+    {
+      "Id": "rId3",
+      "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
+      "Target": "styles.xml",
+      "part": "xl/_rels/workbook.xml.rels"
+    },
+    {
+      "Id": "rId2",
+      "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
+      "Target": "theme/theme1.xml",
+      "part": "xl/_rels/workbook.xml.rels"
+    },
+    {
+      "Id": "rId1",
+      "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet",
+      "Target": "worksheets/sheet1.xml",
+      "part": "xl/_rels/workbook.xml.rels"
+    },
+    {
+      "Id": "rId4",
+      "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings",
+      "Target": "sharedStrings.xml",
+      "part": "xl/_rels/workbook.xml.rels"
+    }
+  ],
+  "shared_strings_count": 106,
+  "used_shared_strings_count": 106,
+  "unused_shared_strings": [],
+  "document_properties_not_sampling_dates": {
+    "title": null,
+    "subject": null,
+    "description": null,
+    "keywords": null,
+    "category": null,
+    "created": "2026-09-28T15:20:09.558970",
+    "modified": "2026-09-28T15:20:09.558970",
+    "version": null,
+    "lastPrinted": null
+  },
+  "sample_count": 32,
+  "record_rows": "4:35",
+  "IDs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "data_field_count": 55,
+  "missing_sample_fields": [],
+  "literal_header_cells": [
+    {
+      "sheet": "All rsults",
+      "cell": "E1",
+      "value": "Fraction A= Exchangeable + carbonate",
+      "data_type": "s",
+      "style_id": 1,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "H1",
+      "value": "F1",
+      "data_type": "s",
+      "style_id": 1,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "O1",
+      "value": "Fraction B = Fe-Mn Oxides",
+      "data_type": "s",
+      "style_id": 1,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "R1",
+      "value": "F2",
+      "data_type": "s",
+      "style_id": 1,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "Y1",
+      "value": "Fraction C = Organic + Sulfides",
+      "data_type": "s",
+      "style_id": 1,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AB1",
+      "value": "F3",
+      "data_type": "s",
+      "style_id": 1,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AI1",
+      "value": "Fraction D = Residual",
+      "data_type": "s",
+      "style_id": 1,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AN1",
+      "value": "F4",
+      "data_type": "s",
+      "style_id": 1,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AQ1",
+      "value": "Total concentration (in all phases) ",
+      "data_type": "s",
+      "style_id": 2,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AV1",
+      "value": "(F1+F2+F3+F4)",
+      "data_type": "s",
+      "style_id": 1,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AZ1",
+      "value": "direction ",
+      "data_type": "s",
+      "style_id": 21,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "BA1",
+      "value": "distance(m)",
+      "data_type": "s",
+      "style_id": 21,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "BB1",
+      "value": "Lat",
+      "data_type": "s",
+      "style_id": 21,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "BC1",
+      "value": "long",
+      "data_type": "s",
+      "style_id": 21,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "BD1",
+      "value": "LF(Kvol *10^-5 sr)",
+      "data_type": "s",
+      "style_id": 21,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "BE1",
+      "value": "HF (Kvol *10^-5)",
+      "data_type": "s",
+      "style_id": 21,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "BF1",
+      "value": "Mass(g)",
+      "data_type": "s",
+      "style_id": 21,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "BG1",
+      "value": "XLF",
+      "data_type": "s",
+      "style_id": 22,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "BH1",
+      "value": "XHF",
+      "data_type": "s",
+      "style_id": 23,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "A2",
+      "value": "Sample",
+      "data_type": "s",
+      "style_id": 13,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "B2",
+      "value": "Cd",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "C2",
+      "value": "Co",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "D2",
+      "value": "Cr",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "E2",
+      "value": "Cu",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "F2",
+      "value": "Fe",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "G2",
+      "value": "Mn",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "H2",
+      "value": "Ni",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "I2",
+      "value": "Pb",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "J2",
+      "value": "Zn",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "L2",
+      "value": "Cd",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "M2",
+      "value": "Co",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "N2",
+      "value": "Cr",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "O2",
+      "value": "Cu",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "P2",
+      "value": "Fe",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "Q2",
+      "value": "Mn",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "R2",
+      "value": "Ni",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "S2",
+      "value": "Pb",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "T2",
+      "value": "Zn",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "V2",
+      "value": "Cd",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "W2",
+      "value": "Co",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "X2",
+      "value": "Cr",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "Y2",
+      "value": "Cu",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "Z2",
+      "value": "Fe",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AA2",
+      "value": "Mn",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AB2",
+      "value": "Ni",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AC2",
+      "value": "Pb",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AD2",
+      "value": "Zn",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AF2",
+      "value": "Cd",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AG2",
+      "value": "Co",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AH2",
+      "value": "Cr",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AI2",
+      "value": "Cu",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AJ2",
+      "value": "Fe",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AK2",
+      "value": "Mn",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AL2",
+      "value": "Ni",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AM2",
+      "value": "Pb",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AN2",
+      "value": "Zn",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AP2",
+      "value": "Cd",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AQ2",
+      "value": "Co",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AR2",
+      "value": "Cr",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AS2",
+      "value": "Cu",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AT2",
+      "value": "Fe",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AU2",
+      "value": "Mn",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AV2",
+      "value": "Ni",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AW2",
+      "value": "Pb",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AX2",
+      "value": "Zn",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "A3",
+      "value": "#",
+      "data_type": "s",
+      "style_id": 13,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "B3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "C3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "D3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "E3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "F3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "G3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "H3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "I3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "J3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "L3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "M3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "N3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "O3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "P3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "Q3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "R3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "S3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "T3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "V3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "W3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "X3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "Y3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "Z3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AA3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AB3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AC3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AD3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AF3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AG3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AH3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AI3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AJ3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AK3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AL3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AM3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AN3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AP3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AQ3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AR3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AS3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AT3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AU3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AV3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AW3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    },
+    {
+      "sheet": "All rsults",
+      "cell": "AX3",
+      "value": "µg/g",
+      "data_type": "s",
+      "style_id": 6,
+      "bold": true,
+      "number_format": "General"
+    }
+  ],
+  "nonempty_cells_after_sample_rows": [
+    {
+      "sheet": "All rsults",
+      "cell": "BA38",
+      "value": "داخل المصنع = distance =0",
+      "data_type": "s",
+      "style_id": 16,
+      "bold": false,
+      "number_format": "General"
+    }
+  ],
+  "all_chemical_values_finite_positive": true,
+  "minimum_chemical_value": 0.00047023201844089845,
+  "chemical_value_count_including_stored_totals": 1440,
+  "total_check_count": 288,
+  "maximum_absolute_total_difference": 3.637978807091713e-12,
+  "spatial_descriptors": {
+    "direction_counts_trimmed": {
+      "شمال": 7,
+      "جنوب": 4,
+      "غرب": 5,
+      "شرق": 9,
+      "جنوب شرق": 3,
+      "جنوب غرب": 3,
+      "شمال شرق": 1
+    },
+    "distance_min": 0,
+    "distance_max": 1200,
+    "distance_values": [
+      0,
+      150,
+      200,
+      250,
+      260,
+      310,
+      360,
+      400,
+      480,
+      500,
+      600,
+      700,
+      770,
+      800,
+      930,
+      1150,
+      1200
+    ],
+    "distance_zero_IDs": [
+      2,
+      8,
+      12,
+      14,
+      15
+    ],
+    "unique_trimmed_coordinate_pair_count": 32,
+    "coordinate_syntax_checks": [
+      {
+        "ID": 1,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 2,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 3,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 4,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 5,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 6,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 7,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 8,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 9,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 10,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 11,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 12,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 13,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 14,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 15,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 16,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 17,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 18,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 19,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 20,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 21,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 22,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 23,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 24,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 25,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 26,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 27,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 28,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 29,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 30,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 31,
+        "DMS_numeric_syntax_valid": true
+      },
+      {
+        "ID": 32,
+        "DMS_numeric_syntax_valid": true
+      }
+    ]
+  },
+  "Cd_total_exact_0_135_IDs": [
+    1,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    27,
+    32
+  ],
+  "style_patterns": {
+    "all_fraction_style_counts": {
+      "15": 1152
+    },
+    "all_fraction_bold_cells": [],
+    "Cr_fraction_style_counts": {
+      "15": 128
+    },
+    "Cd_total_exact_0_135": [
+      {
+        "ID": 1,
+        "cell": "AP4",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 11,
+        "cell": "AP14",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 13,
+        "cell": "AP16",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 14,
+        "cell": "AP17",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 15,
+        "cell": "AP18",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 16,
+        "cell": "AP19",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 17,
+        "cell": "AP20",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 18,
+        "cell": "AP21",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 19,
+        "cell": "AP22",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 20,
+        "cell": "AP23",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 21,
+        "cell": "AP24",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 22,
+        "cell": "AP25",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 23,
+        "cell": "AP26",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 27,
+        "cell": "AP30",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 32,
+        "cell": "AP35",
+        "style_id": 17,
+        "bold": true,
+        "number_format": "0.000"
+      }
+    ],
+    "other_Cd_totals": [
+      {
+        "ID": 2,
+        "cell": "AP5",
+        "value": 1.5027622648881476,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 3,
+        "cell": "AP6",
+        "value": 4.731108478146393,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 4,
+        "cell": "AP7",
+        "value": 8.922568703779021,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 5,
+        "cell": "AP8",
+        "value": 8.607946127500236,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 6,
+        "cell": "AP9",
+        "value": 16.895649049566277,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 7,
+        "cell": "AP10",
+        "value": 6.644842917867788,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 8,
+        "cell": "AP11",
+        "value": 9.1877282576239,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 9,
+        "cell": "AP12",
+        "value": 0.9450322019722822,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 10,
+        "cell": "AP13",
+        "value": 5.35734444089414,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 12,
+        "cell": "AP15",
+        "value": 5.158180771540048,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 24,
+        "cell": "AP27",
+        "value": 1.6431069097780266,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 25,
+        "cell": "AP28",
+        "value": 2.0533539581330906,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 26,
+        "cell": "AP29",
+        "value": 0.29534710175889045,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 28,
+        "cell": "AP31",
+        "value": 0.2707676533740808,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 29,
+        "cell": "AP32",
+        "value": 3.1464474641599973,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 30,
+        "cell": "AP33",
+        "value": 3.866822661563783,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      },
+      {
+        "ID": 31,
+        "cell": "AP34",
+        "value": 3.316872170589579,
+        "style_id": 15,
+        "bold": false,
+        "number_format": "0.000"
+      }
+    ]
+  },
+  "repeated_fraction_ratios_grouped_by_rounding_to_8dp": [
+    {
+      "element": "Cr",
+      "numerator_fraction": 2,
+      "denominator_fraction": 1,
+      "ratio_rounded_8dp": 0.97841727,
+      "count": 14,
+      "IDs": [
+        9,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19,
+        20,
+        25,
+        26,
+        27,
+        29,
+        30,
+        32
+      ],
+      "minimum_unrounded": 0.9784172661870502,
+      "maximum_unrounded": 0.9784172661870505,
+      "unrounded_spread": 3.3306690738754696e-16
+    },
+    {
+      "element": "Cr",
+      "numerator_fraction": 3,
+      "denominator_fraction": 2,
+      "ratio_rounded_8dp": 7.97794118,
+      "count": 12,
+      "IDs": [
+        1,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        27,
+        29,
+        30,
+        31
+      ],
+      "minimum_unrounded": 7.977941176470587,
+      "maximum_unrounded": 7.97794117647059,
+      "unrounded_spread": 2.6645352591003757e-15
+    },
+    {
+      "element": "Cr",
+      "numerator_fraction": 3,
+      "denominator_fraction": 1,
+      "ratio_rounded_8dp": 7.8057554,
+      "count": 11,
+      "IDs": [
+        2,
+        3,
+        14,
+        17,
+        18,
+        19,
+        20,
+        21,
+        27,
+        29,
+        30
+      ],
+      "minimum_unrounded": 7.805755395683451,
+      "maximum_unrounded": 7.8057553956834544,
+      "unrounded_spread": 3.552713678800501e-15
+    }
+  ],
+  "unlabelled_record_half_total_ranges": [
+    {
+      "element": "Cd",
+      "ID1_16_min": 0.135,
+      "ID1_16_max": 16.895649049566277,
+      "ID17_32_min": 0.135,
+      "ID17_32_max": 3.866822661563783,
+      "nonoverlapping_ranges": false
+    },
+    {
+      "element": "Co",
+      "ID1_16_min": 89.85589861049587,
+      "ID1_16_max": 126.73241390685108,
+      "ID17_32_min": 29.680104127698648,
+      "ID17_32_max": 64.06903033699689,
+      "nonoverlapping_ranges": true
+    },
+    {
+      "element": "Cr",
+      "ID1_16_min": 1.0521885521885521,
+      "ID1_16_max": 142.8715670436187,
+      "ID17_32_min": 0.5260942760942761,
+      "ID17_32_max": 88.07846124547704,
+      "nonoverlapping_ranges": false
+    },
+    {
+      "element": "Cu",
+      "ID1_16_min": 21.527213647441105,
+      "ID1_16_max": 50.08077544426494,
+      "ID17_32_min": 21.633085896076356,
+      "ID17_32_max": 37.80639800581637,
+      "nonoverlapping_ranges": false
+    },
+    {
+      "element": "Fe",
+      "ID1_16_min": 17498.730360146114,
+      "ID1_16_max": 23375.84196789973,
+      "ID17_32_min": 6327.783210073773,
+      "ID17_32_max": 11032.63424577698,
+      "nonoverlapping_ranges": true
+    },
+    {
+      "element": "Mn",
+      "ID1_16_min": 534.9047456827651,
+      "ID1_16_max": 2231.823095055153,
+      "ID17_32_min": 216.1940272979168,
+      "ID17_32_max": 1539.9524514531795,
+      "nonoverlapping_ranges": false
+    },
+    {
+      "element": "Ni",
+      "ID1_16_min": 56.86433793663687,
+      "ID1_16_max": 132.37847222222223,
+      "ID17_32_min": 20.14846235418876,
+      "ID17_32_max": 108.09075342465754,
+      "nonoverlapping_ranges": false
+    },
+    {
+      "element": "Pb",
+      "ID1_16_min": 365.25974025974017,
+      "ID1_16_max": 10639.968590498627,
+      "ID17_32_min": 82.61105092091007,
+      "ID17_32_max": 222.2803347280335,
+      "nonoverlapping_ranges": true
+    },
+    {
+      "element": "Zn",
+      "ID1_16_min": 159.30800869562566,
+      "ID1_16_max": 1746.4642262895175,
+      "ID17_32_min": 104.8284316110014,
+      "ID17_32_max": 353.4743106576827,
+      "nonoverlapping_ranges": false
+    }
+  ],
+  "magnetic_arithmetic": {
+    "LF_div_mass_comparison_not_validated_unit_conversion": true,
+    "XLF_maximum_absolute_difference": 0.046310832025117765,
+    "XHF_maximum_absolute_difference": 5.014765100671141,
+    "XHF_maximum_absolute_difference_excluding_ID8": 0.04943052391799618,
+    "XLF_difference_exceeding_0_06_IDs": [],
+    "XHF_difference_exceeding_0_06_IDs": [
+      8
+    ],
+    "raw_contrast_min_percent": 0.45351473922902497,
+    "raw_contrast_max_percent": 6.870229007633588,
+    "sample8": {
+      "ID": 8,
+      "Excel_row": 11,
+      "LF": 238,
+      "HF": 235,
+      "mass_g": 11.92,
+      "stored_XLF": 20,
+      "stored_XHF": 14.7,
+      "LF_div_mass": 19.966442953020135,
+      "HF_div_mass": 19.71476510067114,
+      "stored_XLF_minus_LF_div_mass": 0.03355704697986539,
+      "stored_XHF_minus_HF_div_mass": -5.014765100671141,
+      "raw_LF_HF_contrast_percent": 1.2605042016806722,
+      "stored_XLF_XHF_contrast_percent": 26.500000000000007
+    }
+  }
+}

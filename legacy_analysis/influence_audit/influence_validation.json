@@ -1,0 +1,658 @@
+{
+  "source_path": "source/Iron Factory.xlsx",
+  "source_sha256": "1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b",
+  "source_unchanged_at_finish": true,
+  "sheet": "All rsults",
+  "sample_range": "A4:A35",
+  "XLF_range": "BG4:BG35",
+  "fraction_mapping": {
+    "F1": "B:J",
+    "F2": "L:T",
+    "F3": "V:AD",
+    "F4": "AF:AN"
+  },
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "openpyxl": "3.1.5"
+  },
+  "all_concentrations_finite_nonnegative": true,
+  "positive_denominators_checked": true,
+  "number_of_records": 32,
+  "number_of_metals": 9,
+  "number_of_omission_cases": 288,
+  "fixed_budget": 8,
+  "baseline_selected_fraction": 0.25,
+  "omission_selected_fraction": 0.25806451612903225,
+  "selection_rule": "Descending stored XLF; exact ties resolved by ascending sample ID",
+  "baseline_selected_ids": [
+    12,
+    8,
+    31,
+    19,
+    24,
+    26,
+    29,
+    16
+  ],
+  "original_XLF_rank9_id": 3,
+  "baseline_results": {
+    "Cd": {
+      "selected_ids": [
+        12,
+        8,
+        31,
+        19,
+        24,
+        26,
+        29,
+        16
+      ],
+      "selected_sums": [
+        7.202575812377532,
+        9.852549643361973,
+        1.4318883993105789,
+        4.530668820400357
+      ],
+      "oracle_sums": [
+        20.473262432170024,
+        24.5641071053348,
+        7.113381396787547,
+        15.431626936185294
+      ],
+      "fraction_ratios": [
+        0.3518040095583393,
+        0.4010953706199323,
+        0.20129504091503228,
+        0.29359631613284326
+      ],
+      "retention": 0.20129504091503228,
+      "active_fractions": [
+        "F3"
+      ]
+    },
+    "Co": {
+      "selected_ids": [
+        12,
+        8,
+        31,
+        19,
+        24,
+        26,
+        29,
+        16
+      ],
+      "selected_sums": [
+        92.44210579937327,
+        206.77899581166963,
+        78.39153537660357,
+        261.03796891799493
+      ],
+      "oracle_sums": [
+        180.36458505108746,
+        331.93145850265466,
+        158.3106899713896,
+        351.47759328322877
+      ],
+      "fraction_ratios": [
+        0.5125291407578126,
+        0.6229569102743417,
+        0.4951752493199969,
+        0.7426873687155485
+      ],
+      "retention": 0.4951752493199969,
+      "active_fractions": [
+        "F3"
+      ]
+    },
+    "Cr": {
+      "selected_ids": [
+        12,
+        8,
+        31,
+        19,
+        24,
+        26,
+        29,
+        16
+      ],
+      "selected_sums": [
+        3.318875119887992,
+        4.796623561764472,
+        61.5272685889447,
+        328.3372536225773
+      ],
+      "oracle_sums": [
+        45.3956528177103,
+        85.70501803523763,
+        162.40927274260366,
+        597.9038578482523
+      ],
+      "fraction_ratios": [
+        0.07310997670228883,
+        0.0559666594993579,
+        0.37884086019187435,
+        0.5491472405015141
+      ],
+      "retention": 0.0559666594993579,
+      "active_fractions": [
+        "F2"
+      ]
+    },
+    "Cu": {
+      "selected_ids": [
+        12,
+        8,
+        31,
+        19,
+        24,
+        26,
+        29,
+        16
+      ],
+      "selected_sums": [
+        23.160890040648006,
+        45.31584092649404,
+        19.34295855357846,
+        203.85010059851
+      ],
+      "oracle_sums": [
+        27.466429303797547,
+        100.8464649022515,
+        33.2324416649246,
+        230.59037543015938
+      ],
+      "fraction_ratios": [
+        0.843243575073872,
+        0.4493547787760116,
+        0.5820504779218227,
+        0.8840355987028244
+      ],
+      "retention": 0.4493547787760116,
+      "active_fractions": [
+        "F2"
+      ]
+    },
+    "Fe": {
+      "selected_ids": [
+        12,
+        8,
+        31,
+        19,
+        24,
+        26,
+        29,
+        16
+      ],
+      "selected_sums": [
+        250.2028491118371,
+        17358.764800258476,
+        2595.639237221909,
+        95463.56236000982
+      ],
+      "oracle_sums": [
+        436.70525027566106,
+        55483.11681593719,
+        19380.545852806135,
+        151810.1736936685
+      ],
+      "fraction_ratios": [
+        0.5729329998984481,
+        0.31286571116481104,
+        0.13393014092253147,
+        0.6288350776321606
+      ],
+      "retention": 0.13393014092253147,
+      "active_fractions": [
+        "F3"
+      ]
+    },
+    "Mn": {
+      "selected_ids": [
+        12,
+        8,
+        31,
+        19,
+        24,
+        26,
+        29,
+        16
+      ],
+      "selected_sums": [
+        619.1844599754905,
+        5956.788707797752,
+        1032.3593478052567,
+        1898.6683636410896
+      ],
+      "oracle_sums": [
+        859.5829247194732,
+        8486.275519364515,
+        1390.6815398620504,
+        2110.3222545566896
+      ],
+      "fraction_ratios": [
+        0.720331270165194,
+        0.7019320424142698,
+        0.7423405849679017,
+        0.8997054168108266
+      ],
+      "retention": 0.7019320424142698,
+      "active_fractions": [
+        "F2"
+      ]
+    },
+    "Ni": {
+      "selected_ids": [
+        12,
+        8,
+        31,
+        19,
+        24,
+        26,
+        29,
+        16
+      ],
+      "selected_sums": [
+        81.37537981973564,
+        174.2314953482229,
+        116.76318034582613,
+        318.68166039379287
+      ],
+      "oracle_sums": [
+        128.36214693295457,
+        297.59293663282324,
+        218.2870302083218,
+        401.3542782156948
+      ],
+      "fraction_ratios": [
+        0.6339515329409315,
+        0.5854691892878948,
+        0.5349066329520056,
+        0.7940158550459695
+      ],
+      "retention": 0.5349066329520056,
+      "active_fractions": [
+        "F3"
+      ]
+    },
+    "Pb": {
+      "selected_ids": [
+        12,
+        8,
+        31,
+        19,
+        24,
+        26,
+        29,
+        16
+      ],
+      "selected_sums": [
+        618.9125842494283,
+        571.8321834060428,
+        220.23880670367421,
+        720.4258663316209
+      ],
+      "oracle_sums": [
+        2118.586543200446,
+        4438.928642366327,
+        5460.460286799115,
+        3446.8285537948495
+      ],
+      "fraction_ratios": [
+        0.292134671692225,
+        0.12882211665858354,
+        0.04033337761582306,
+        0.2090112273029811
+      ],
+      "retention": 0.04033337761582306,
+      "active_fractions": [
+        "F3"
+      ]
+    },
+    "Zn": {
+      "selected_ids": [
+        12,
+        8,
+        31,
+        19,
+        24,
+        26,
+        29,
+        16
+      ],
+      "selected_sums": [
+        736.8060998685844,
+        1054.0057670921854,
+        325.502791135576,
+        1174.8130312559047
+      ],
+      "oracle_sums": [
+        950.019195262231,
+        1629.5811629831219,
+        589.0381165848976,
+        2490.2505885384917
+      ],
+      "fraction_ratios": [
+        0.775569697478803,
+        0.6467955024484423,
+        0.5526005566885273,
+        0.4717649848826632
+      ],
+      "retention": 0.4717649848826632,
+      "active_fractions": [
+        "F4"
+      ]
+    }
+  },
+  "per_metal_summaries": [
+    {
+      "element": "Cd",
+      "baseline_retention": 0.20129504091503228,
+      "n_omissions": 32,
+      "min_loo_retention": 0.12857369842301788,
+      "min_omitted_ids": "8",
+      "max_loo_retention": 0.2585879682779876,
+      "max_omitted_ids": "10",
+      "median_loo_retention": 0.20129504091503228,
+      "max_absolute_delta_pp": 7.272134249201439,
+      "max_absolute_delta_omitted_ids": "8",
+      "largest_positive_delta_pp": 5.7292927362955295,
+      "largest_positive_omitted_ids": "10",
+      "largest_negative_delta_pp": -7.272134249201439,
+      "largest_negative_omitted_ids": "8",
+      "positive_delta_cases": 13,
+      "negative_delta_cases": 1,
+      "zero_within_tolerance_delta_cases": 18
+    },
+    {
+      "element": "Co",
+      "baseline_retention": 0.4951752493199969,
+      "n_omissions": 32,
+      "min_loo_retention": 0.44328251717818723,
+      "min_omitted_ids": "16",
+      "max_loo_retention": 0.529327536103145,
+      "max_omitted_ids": "26",
+      "median_loo_retention": 0.4951752493199969,
+      "max_absolute_delta_pp": 5.189273214180967,
+      "max_absolute_delta_omitted_ids": "16",
+      "largest_positive_delta_pp": 3.415228678314808,
+      "largest_positive_omitted_ids": "26",
+      "largest_negative_delta_pp": -5.189273214180967,
+      "largest_negative_omitted_ids": "16",
+      "positive_delta_cases": 11,
+      "negative_delta_cases": 3,
+      "zero_within_tolerance_delta_cases": 18
+    },
+    {
+      "element": "Cr",
+      "baseline_retention": 0.0559666594993579,
+      "n_omissions": 32,
+      "min_loo_retention": 0.035960443198038324,
+      "min_omitted_ids": "16",
+      "max_loo_retention": 0.0802193899473953,
+      "max_omitted_ids": "24",
+      "median_loo_retention": 0.0559666594993579,
+      "max_absolute_delta_pp": 2.4252730448037405,
+      "max_absolute_delta_omitted_ids": "24",
+      "largest_positive_delta_pp": 2.4252730448037405,
+      "largest_positive_omitted_ids": "24",
+      "largest_negative_delta_pp": -2.0006216301319575,
+      "largest_negative_omitted_ids": "16",
+      "positive_delta_cases": 14,
+      "negative_delta_cases": 1,
+      "zero_within_tolerance_delta_cases": 17
+    },
+    {
+      "element": "Cu",
+      "baseline_retention": 0.4493547787760116,
+      "n_omissions": 32,
+      "min_loo_retention": 0.42650631100215475,
+      "min_omitted_ids": "12",
+      "max_loo_retention": 0.5457966922132563,
+      "max_omitted_ids": "31",
+      "median_loo_retention": 0.4493547787760116,
+      "max_absolute_delta_pp": 9.644191343724472,
+      "max_absolute_delta_omitted_ids": "31",
+      "largest_positive_delta_pp": 9.644191343724472,
+      "largest_positive_omitted_ids": "31",
+      "largest_negative_delta_pp": -2.284846777385685,
+      "largest_negative_omitted_ids": "12",
+      "positive_delta_cases": 13,
+      "negative_delta_cases": 1,
+      "zero_within_tolerance_delta_cases": 18
+    },
+    {
+      "element": "Fe",
+      "baseline_retention": 0.13393014092253147,
+      "n_omissions": 32,
+      "min_loo_retention": 0.13393014092253147,
+      "min_omitted_ids": "1;9;10;11;13;15;17;18;20;21;22;23;25;27;28;30;32",
+      "max_loo_retention": 0.34090631306043384,
+      "max_omitted_ids": "8",
+      "median_loo_retention": 0.13393014092253147,
+      "max_absolute_delta_pp": 20.697617213790238,
+      "max_absolute_delta_omitted_ids": "8",
+      "largest_positive_delta_pp": 20.697617213790238,
+      "largest_positive_omitted_ids": "8",
+      "largest_negative_delta_pp": null,
+      "largest_negative_omitted_ids": "",
+      "positive_delta_cases": 15,
+      "negative_delta_cases": 0,
+      "zero_within_tolerance_delta_cases": 17
+    },
+    {
+      "element": "Mn",
+      "baseline_retention": 0.7019320424142698,
+      "n_omissions": 32,
+      "min_loo_retention": 0.6492762899612918,
+      "min_omitted_ids": "29",
+      "max_loo_retention": 0.7272222117914934,
+      "max_omitted_ids": "10",
+      "median_loo_retention": 0.7019320424142698,
+      "max_absolute_delta_pp": 5.265575245297793,
+      "max_absolute_delta_omitted_ids": "29",
+      "largest_positive_delta_pp": 2.5290169377223615,
+      "largest_positive_omitted_ids": "10",
+      "largest_negative_delta_pp": -5.265575245297793,
+      "largest_negative_omitted_ids": "29",
+      "positive_delta_cases": 7,
+      "negative_delta_cases": 6,
+      "zero_within_tolerance_delta_cases": 19
+    },
+    {
+      "element": "Ni",
+      "baseline_retention": 0.5349066329520056,
+      "n_omissions": 32,
+      "min_loo_retention": 0.5349066329520056,
+      "min_omitted_ids": "1;10;13;14;15;17;18;20;21;22;23;25;27;28;30;32",
+      "max_loo_retention": 0.6249991022460052,
+      "max_omitted_ids": "31",
+      "median_loo_retention": 0.5350572972803386,
+      "max_absolute_delta_pp": 9.00924692939996,
+      "max_absolute_delta_omitted_ids": "31",
+      "largest_positive_delta_pp": 9.00924692939996,
+      "largest_positive_omitted_ids": "31",
+      "largest_negative_delta_pp": null,
+      "largest_negative_omitted_ids": "",
+      "positive_delta_cases": 16,
+      "negative_delta_cases": 0,
+      "zero_within_tolerance_delta_cases": 16
+    },
+    {
+      "element": "Pb",
+      "baseline_retention": 0.04033337761582306,
+      "n_omissions": 32,
+      "min_loo_retention": 0.04033337761582306,
+      "min_omitted_ids": "7;9;10;11;13;14;15;17;18;20;21;22;23;25;27;28;30;32",
+      "max_loo_retention": 0.32010826581445506,
+      "max_omitted_ids": "1",
+      "median_loo_retention": 0.04033337761582306,
+      "max_absolute_delta_pp": 27.9774888198632,
+      "max_absolute_delta_omitted_ids": "1",
+      "largest_positive_delta_pp": 27.9774888198632,
+      "largest_positive_omitted_ids": "1",
+      "largest_negative_delta_pp": null,
+      "largest_negative_omitted_ids": "",
+      "positive_delta_cases": 14,
+      "negative_delta_cases": 0,
+      "zero_within_tolerance_delta_cases": 18
+    },
+    {
+      "element": "Zn",
+      "baseline_retention": 0.4717649848826632,
+      "n_omissions": 32,
+      "min_loo_retention": 0.42998486501622196,
+      "min_omitted_ids": "8",
+      "max_loo_retention": 0.7465125327779016,
+      "max_omitted_ids": "11",
+      "median_loo_retention": 0.4717649848826632,
+      "max_absolute_delta_pp": 27.474754789523843,
+      "max_absolute_delta_omitted_ids": "11",
+      "largest_positive_delta_pp": 27.474754789523843,
+      "largest_positive_omitted_ids": "11",
+      "largest_negative_delta_pp": -4.178011986644126,
+      "largest_negative_omitted_ids": "8",
+      "positive_delta_cases": 7,
+      "negative_delta_cases": 5,
+      "zero_within_tolerance_delta_cases": 20
+    }
+  ],
+  "invariant_counts": {
+    "all_cases_checked": 288,
+    "originally_unselected_cases": 216,
+    "unselected_selection_and_numerator_unchanged": 216,
+    "unselected_oracles_nonincreasing": 216,
+    "unselected_each_fraction_retention_nondecreasing": 216,
+    "unselected_minimum_retention_nondecreasing": 216,
+    "originally_selected_cases": 72,
+    "selected_exact_rank9_replacement": 72,
+    "exactly_8_of_31_unique_eligible_selected": 288,
+    "positive_oracles_and_ratios_in_unit_interval": 288,
+    "oracle_analytical_deletion_identity": 288,
+    "selected_sum_analytical_deletion_identity": 288
+  },
+  "independent_Pb_cases": [
+    {
+      "element": "Pb",
+      "omitted_id": 1,
+      "selected_ids": [
+        12,
+        8,
+        31,
+        19,
+        24,
+        26,
+        29,
+        16
+      ],
+      "selected_sums": [
+        618.9125842494283,
+        571.8321834060429,
+        220.23880670367421,
+        720.4258663316209
+      ],
+      "oracle_sums": [
+        1444.9857460154171,
+        1352.7128782659433,
+        688.0134948821709,
+        1811.4808451162908
+      ],
+      "fraction_ratios": [
+        0.42831743216574597,
+        0.42272990269677957,
+        0.3201082658144551,
+        0.39769996369206545
+      ],
+      "retention": 0.3201082658144551,
+      "checks": {
+        "selected_ids_match": true,
+        "selected_sums_match": true,
+        "oracle_sums_match": true,
+        "retention_matches": true
+      }
+    },
+    {
+      "element": "Pb",
+      "omitted_id": 12,
+      "selected_ids": [
+        8,
+        31,
+        19,
+        24,
+        26,
+        29,
+        16,
+        3
+      ],
+      "selected_sums": [
+        675.3694017738837,
+        444.0461939827544,
+        336.13713689049706,
+        736.7519200955828
+      ],
+      "oracle_sums": [
+        2118.586543200446,
+        4306.893280709546,
+        5460.460286799115,
+        3446.8285537948495
+      ],
+      "fraction_ratios": [
+        0.31878301310912505,
+        0.1031012762660326,
+        0.06155838871369915,
+        0.21374777091377004
+      ],
+      "retention": 0.06155838871369915,
+      "checks": {
+        "selected_ids_match": true,
+        "selected_sums_match": true,
+        "oracle_sums_match": true,
+        "retention_matches": true
+      }
+    }
+  ],
+  "R3_read_only_comparison": {
+    "reference_path": "legacy_analysis/shortlist_audit/shortlist_summary.json",
+    "available": true,
+    "source_sha_matches": true,
+    "Pb_omit1_R3_retention": 0.32010826581445506,
+    "Pb_omit1_current_retention": 0.32010826581445506,
+    "Pb_omit1_matches": true,
+    "all_baseline_retentions_match": true
+  },
+  "analytical_deletion_checks": {
+    "chemical_oracle_identity": "O'_f=O_f-max(c_removed,f-h_f,0), where h_f is the original ninth-largest chemical concentration in fraction f",
+    "selected_sum_identity": "If originally selected, A'_f=A_f-c_removed,f+c_original_XLF_rank9,f; otherwise A'_f=A_f",
+    "all_288_cases_passed": true,
+    "maximum_absolute_discrepancies": {
+      "oracle_absolute": 5.820766091346741e-11,
+      "selected_sum_absolute": 1.4551915228366852e-11
+    },
+    "comparison_relative_tolerance": 1e-12,
+    "comparison_absolute_tolerance": 1e-09
+  },
+  "cutoff_tie_case_count": 0,
+  "cutoff_tie_omitted_ids": [],
+  "tolerances": {
+    "ratio_absolute": 1e-12,
+    "sum_absolute": 1e-09,
+    "extreme_delta_pp_absolute": 1e-09
+  },
+  "definitions": {
+    "loo_retention": "Minimum over four fractions of selected concentration sum divided by same-population top-eight oracle sum",
+    "delta_percentage_points": "100*(LOO retention - full32 retention)",
+    "removed_fullfile_share": "Omitted record concentration divided by all32 records' sum for that metal/fraction",
+    "largest_negative_delta": "Most negative delta strictly below tolerance; null if there is no negative case",
+    "extreme_omitted_ids": "All omissions tied at an extreme within the documented numerical tolerance"
+  },
+  "interpretation": "Descriptive sensitivity of the observed fixed-budget concentration-sum decision score. Not jackknife inference, an independent validation cohort, a population confidence interval, or a reason to delete an influential record.",
+  "limitations": [
+    "Budget remains8 while eligible population changes from32 to31; sampling fraction increases from25% to25.80645%.",
+    "Each oracle is recomputed from the same31 eligible records as its magnetic selection.",
+    "Removing an originally unselected record leaves magnetic numerators unchanged and can only reduce the oracles, so fraction-wise and minimum retention cannot decrease.",
+    "Removing a selected record changes numerators through replacement by original XLF rank9, as well as potentially changing the oracles.",
+    "Concentration sums are decision scores, not represented mass, landscape inventory, exposure, or biological risk.",
+    "Original laboratory/provenance limitations remain unresolved; influence does not identify a data error.",
+    "No optimization, resampling confidence interval, or new-theory claim is performed."
+  ]
+}

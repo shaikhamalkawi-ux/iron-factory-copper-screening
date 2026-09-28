@@ -1,0 +1,56 @@
+﻿field,column,sample_range,source_label,unit_literal,role
+ID,A,A4:A35,Sample,,record identifier
+Cd_F1,B,B4:B35,Cd,µg/g,F1 fraction concentration
+Co_F1,C,C4:C35,Co,µg/g,F1 fraction concentration
+Cr_F1,D,D4:D35,Cr,µg/g,F1 fraction concentration
+Cu_F1,E,E4:E35,Cu,µg/g,F1 fraction concentration
+Fe_F1,F,F4:F35,Fe,µg/g,F1 fraction concentration
+Mn_F1,G,G4:G35,Mn,µg/g,F1 fraction concentration
+Ni_F1,H,H4:H35,Ni,µg/g,F1 fraction concentration
+Pb_F1,I,I4:I35,Pb,µg/g,F1 fraction concentration
+Zn_F1,J,J4:J35,Zn,µg/g,F1 fraction concentration
+Cd_F2,L,L4:L35,Cd,µg/g,F2 fraction concentration
+Co_F2,M,M4:M35,Co,µg/g,F2 fraction concentration
+Cr_F2,N,N4:N35,Cr,µg/g,F2 fraction concentration
+Cu_F2,O,O4:O35,Cu,µg/g,F2 fraction concentration
+Fe_F2,P,P4:P35,Fe,µg/g,F2 fraction concentration
+Mn_F2,Q,Q4:Q35,Mn,µg/g,F2 fraction concentration
+Ni_F2,R,R4:R35,Ni,µg/g,F2 fraction concentration
+Pb_F2,S,S4:S35,Pb,µg/g,F2 fraction concentration
+Zn_F2,T,T4:T35,Zn,µg/g,F2 fraction concentration
+Cd_F3,V,V4:V35,Cd,µg/g,F3 fraction concentration
+Co_F3,W,W4:W35,Co,µg/g,F3 fraction concentration
+Cr_F3,X,X4:X35,Cr,µg/g,F3 fraction concentration
+Cu_F3,Y,Y4:Y35,Cu,µg/g,F3 fraction concentration
+Fe_F3,Z,Z4:Z35,Fe,µg/g,F3 fraction concentration
+Mn_F3,AA,AA4:AA35,Mn,µg/g,F3 fraction concentration
+Ni_F3,AB,AB4:AB35,Ni,µg/g,F3 fraction concentration
+Pb_F3,AC,AC4:AC35,Pb,µg/g,F3 fraction concentration
+Zn_F3,AD,AD4:AD35,Zn,µg/g,F3 fraction concentration
+Cd_F4,AF,AF4:AF35,Cd,µg/g,F4 fraction concentration
+Co_F4,AG,AG4:AG35,Co,µg/g,F4 fraction concentration
+Cr_F4,AH,AH4:AH35,Cr,µg/g,F4 fraction concentration
+Cu_F4,AI,AI4:AI35,Cu,µg/g,F4 fraction concentration
+Fe_F4,AJ,AJ4:AJ35,Fe,µg/g,F4 fraction concentration
+Mn_F4,AK,AK4:AK35,Mn,µg/g,F4 fraction concentration
+Ni_F4,AL,AL4:AL35,Ni,µg/g,F4 fraction concentration
+Pb_F4,AM,AM4:AM35,Pb,µg/g,F4 fraction concentration
+Zn_F4,AN,AN4:AN35,Zn,µg/g,F4 fraction concentration
+Cd_total,AP,AP4:AP35,Cd,µg/g,stored sum of four phases
+Co_total,AQ,AQ4:AQ35,Co,µg/g,stored sum of four phases
+Cr_total,AR,AR4:AR35,Cr,µg/g,stored sum of four phases
+Cu_total,AS,AS4:AS35,Cu,µg/g,stored sum of four phases
+Fe_total,AT,AT4:AT35,Fe,µg/g,stored sum of four phases
+Mn_total,AU,AU4:AU35,Mn,µg/g,stored sum of four phases
+Ni_total,AV,AV4:AV35,Ni,µg/g,stored sum of four phases
+Pb_total,AW,AW4:AW35,Pb,µg/g,stored sum of four phases
+Zn_total,AX,AX4:AX35,Zn,µg/g,stored sum of four phases
+direction,AZ,AZ4:AZ35,direction ,,recorded direction
+distance_m,BA,BA4:BA35,distance(m),m,recorded distance
+latitude_text,BB,BB4:BB35,Lat,,recorded DMS coordinate string
+longitude_text,BC,BC4:BC35,long,,recorded DMS coordinate string
+LF,BD,BD4:BD35,LF(Kvol *10^-5 sr),Kvol *10^-5 sr,recorded LF measurement
+HF,BE,BE4:BE35,HF (Kvol *10^-5),Kvol *10^-5,recorded HF measurement
+mass_g,BF,BF4:BF35,Mass(g),g,recorded mass
+XLF,BG,BG4:BG35,XLF,,stored magnetic descriptor; normalization unspecified
+XHF,BH,BH4:BH35,XHF,,stored magnetic descriptor; normalization unspecified

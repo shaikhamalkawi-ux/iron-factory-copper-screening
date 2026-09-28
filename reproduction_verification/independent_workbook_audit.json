@@ -1,0 +1,175 @@
+{
+  "audit_utc": "2026-09-28T15:32:28.490265+00:00",
+  "scope": "Independent read-only comparison of public metadata-sanitized workbook against the original workbook embedded in the private analytical archive. No original personal metadata values or local paths are reproduced in this report.",
+  "status": "PASS",
+  "original_workbook_sha256": "aa6681c479d8855819fc68f2ebc63271668adff925eac8aeb49d2b5af55d43ef",
+  "public_workbook": {
+    "path": "source/Iron Factory.xlsx",
+    "sha256": "1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b",
+    "bytes": 32194
+  },
+  "metadata_removal_scope": [
+    "Core creator, last modifier, created and modified timestamps",
+    "Workbook absolute-path extension and its empty container",
+    "Printer settings binary, relationship and worksheet printer relationship ID",
+    "Unused printer-settings content type"
+  ],
+  "openpyxl_counts": {
+    "formulas_and_values": {
+      "stored_cells_compared": 2353,
+      "nonempty_cells": 1872,
+      "formula_cells": 0
+    },
+    "cached_values": {
+      "stored_cells_compared": 2353,
+      "nonempty_cells": 1872,
+      "formula_cells": 0
+    }
+  },
+  "checks": [
+    {
+      "check": "private_source_hash",
+      "passed": true
+    },
+    {
+      "check": "derivative_hash",
+      "passed": true
+    },
+    {
+      "check": "original_zip_crc",
+      "passed": true
+    },
+    {
+      "check": "derivative_zip_crc",
+      "passed": true
+    },
+    {
+      "check": "no_zip_comment",
+      "passed": true
+    },
+    {
+      "check": "only_allowed_package_parts_removed",
+      "passed": true,
+      "detail": [
+        "xl/printerSettings/printerSettings1.bin"
+      ]
+    },
+    {
+      "check": "no_added_package_parts",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "only_allowed_package_parts_modified",
+      "passed": true,
+      "detail": [
+        "[Content_Types].xml",
+        "docProps/core.xml",
+        "xl/workbook.xml",
+        "xl/worksheets/_rels/sheet1.xml.rels",
+        "xl/worksheets/sheet1.xml"
+      ]
+    },
+    {
+      "check": "styles_shared_strings_theme_byte_identical",
+      "passed": true
+    },
+    {
+      "check": "core_xml_only_four_approved_fields_removed",
+      "passed": true
+    },
+    {
+      "check": "workbook_xml_only_path_container_removed",
+      "passed": true
+    },
+    {
+      "check": "worksheet_xml_only_printer_relationship_id_removed",
+      "passed": true
+    },
+    {
+      "check": "content_types_only_unused_printer_type_removed",
+      "passed": true
+    },
+    {
+      "check": "remaining_sheet_relationship_part_empty",
+      "passed": true
+    },
+    {
+      "check": "all_relationship_ids_unique",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_relationship_targets_exist_and_internal",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_xml_relationship_references_resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "content_type_overrides_point_to_existing_parts",
+      "passed": true
+    },
+    {
+      "check": "all_parts_have_content_types",
+      "passed": true
+    },
+    {
+      "check": "known_original_personal_tokens_absent",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "no_absolute_local_paths_detected",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "no_credential_signatures_detected",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "no_printer_parts_or_author_properties_remain",
+      "passed": true
+    },
+    {
+      "check": "openpyxl_False_sheet_order",
+      "passed": true
+    },
+    {
+      "check": "openpyxl_False_workbook_styles_names_epoch",
+      "passed": true
+    },
+    {
+      "check": "openpyxl_True_sheet_order",
+      "passed": true
+    },
+    {
+      "check": "openpyxl_True_workbook_styles_names_epoch",
+      "passed": true
+    },
+    {
+      "check": "openpyxl_all_stored_cell_values_types_formulas_styles_equal",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "openpyxl_sheet_structure_and_formatting_equal",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "derivative_unchanged_during_read_only_audit",
+      "passed": true
+    }
+  ],
+  "all_checks_passed": true,
+  "limitations": "Credential and path scans are bounded pattern checks, not a claim about every possible secret encoding. Original sampling and laboratory provenance are not assessed.",
+  "scientific_cells_changed": false,
+  "workbook_edited_by_this_audit": false,
+  "scan_notes": "Drive-path detection requires a token boundary, excluding standard http/https XML namespace URLs."
+}

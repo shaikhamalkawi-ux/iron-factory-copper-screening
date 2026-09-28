@@ -1,0 +1,15 @@
+{
+  "verdict": "pass",
+  "date": "2026-09-28",
+  "public_text_files_scanned": 86,
+  "Python_files_syntax_checked": 16,
+  "credential_path_and_private_metadata_hits": 0,
+  "workbook_package_payloads_scanned": true,
+  "excluded_from_public_file_selection": [
+    ".git/",
+    ".reproduction_work/",
+    "recomputed/",
+    "__pycache__/"
+  ],
+  "scope": "Pattern-based inspection plus separate workbook and numerical reproduction checks; not a guarantee against all possible undisclosed metadata."
+}

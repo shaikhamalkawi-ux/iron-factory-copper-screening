@@ -1,0 +1,54 @@
+{
+  "source_unchanged": true,
+  "rows": 279,
+  "all_nontrivial_budgets": 31,
+  "all_boundary_ties_enumerated_for_both_rules": true,
+  "k8_agrees_with_first_script": true,
+  "counts": {
+    "Cd": {
+      "magnetic_all_ties_better": 25,
+      "nearest_all_ties_better": 4,
+      "overlap_or_equal": 2
+    },
+    "Co": {
+      "magnetic_all_ties_better": 12,
+      "nearest_all_ties_better": 13,
+      "overlap_or_equal": 6
+    },
+    "Cr": {
+      "magnetic_all_ties_better": 17,
+      "nearest_all_ties_better": 7,
+      "overlap_or_equal": 7
+    },
+    "Cu": {
+      "magnetic_all_ties_better": 0,
+      "nearest_all_ties_better": 27,
+      "overlap_or_equal": 4
+    },
+    "Fe": {
+      "magnetic_all_ties_better": 18,
+      "nearest_all_ties_better": 9,
+      "overlap_or_equal": 4
+    },
+    "Mn": {
+      "magnetic_all_ties_better": 24,
+      "nearest_all_ties_better": 2,
+      "overlap_or_equal": 5
+    },
+    "Ni": {
+      "magnetic_all_ties_better": 17,
+      "nearest_all_ties_better": 7,
+      "overlap_or_equal": 7
+    },
+    "Pb": {
+      "magnetic_all_ties_better": 18,
+      "nearest_all_ties_better": 8,
+      "overlap_or_equal": 5
+    },
+    "Zn": {
+      "magnetic_all_ties_better": 13,
+      "nearest_all_ties_better": 13,
+      "overlap_or_equal": 5
+    }
+  }
+}

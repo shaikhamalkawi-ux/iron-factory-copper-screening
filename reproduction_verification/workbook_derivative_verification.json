@@ -1,0 +1,31 @@
+{
+  "original_sha256": "aa6681c479d8855819fc68f2ebc63271668adff925eac8aeb49d2b5af55d43ef",
+  "public_derivative_sha256": "1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b",
+  "original_bytes": 38051,
+  "public_derivative_bytes": 32194,
+  "transformations": [
+    "Removed document creator, last-modified-by and document creation/modification timestamps.",
+    "Removed stored absolute-path extension and its now-empty compatibility container.",
+    "Removed printer-settings binary, its relationship and worksheet reference, and unused binary content type.",
+    "Normalized ZIP container timestamps; no worksheet data, formulas, styles or chemical results changed."
+  ],
+  "modified_package_parts": [
+    "docProps/core.xml",
+    "xl/workbook.xml",
+    "xl/worksheets/_rels/sheet1.xml.rels",
+    "xl/worksheets/sheet1.xml",
+    "[Content_Types].xml"
+  ],
+  "removed_package_parts": [
+    "xl/printerSettings/printerSettings1.bin"
+  ],
+  "worksheet_names": [
+    "All rsults"
+  ],
+  "cell_value_type_formula_style_comparisons": 4464,
+  "all_cell_comparisons_equal": true,
+  "cached_values_equal": true,
+  "row_and_column_dimensions_equal": true,
+  "merged_ranges_equal": true,
+  "not_public": "The original workbook binary remains outside this repository; only its SHA-256 fingerprint is recorded."
+}

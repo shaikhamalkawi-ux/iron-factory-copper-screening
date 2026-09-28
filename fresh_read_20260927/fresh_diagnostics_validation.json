@@ -1,0 +1,47 @@
+{
+  "source_sha256": "1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b",
+  "all_values_positive": true,
+  "n_records": 32,
+  "n_elements": 9,
+  "n_fractions": 4,
+  "n_slope_rows": 108,
+  "maximum_decomposition_error": 2.6645352591003757e-15,
+  "magnetic_IDs": [
+    12,
+    8,
+    31,
+    19,
+    24,
+    26,
+    29,
+    16
+  ],
+  "nearest_tie_cutoff_m": 200.0,
+  "nearest_fixed_IDs": [
+    2,
+    8,
+    12,
+    14,
+    15,
+    31
+  ],
+  "nearest_cutoff_tied_IDs": [
+    3,
+    5,
+    9,
+    11
+  ],
+  "nearest_possible_sets": 6,
+  "rho_XLF_recorded_distance": -0.5501136155882712,
+  "rho_XLF_recorded_distance_outside": -0.5371225607415806,
+  "rho_recorded_vs_centroid_distance": 0.9846252717770062,
+  "rho_XLF_LF_div_mass": 0.9996333638740195,
+  "same_top8_XLF_and_LF_div_mass": true,
+  "raw_LFHF_contrast_min_max_percent": [
+    0.45351473922902497,
+    6.870229007633588
+  ],
+  "source_unchanged": true,
+  "no_pvalues_or_CIs_reported": true,
+  "distances_are_recorded_covariates_not_validated_source_distances": true
+}
