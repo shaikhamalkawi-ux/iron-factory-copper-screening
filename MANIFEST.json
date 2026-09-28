@@ -1,7 +1,28 @@
 {
   "title": "Iron Factory copper screening: data and reproducibility code",
   "version": "11.0.0",
-  "creator": "Ghassan Malkawi",
+  "creators": [
+    {
+      "name": "Idrees F. Al-Momani",
+      "affiliation": "Department of Chemistry, Faculty of Science, Yarmouk University, Irbid 21163, Jordan"
+    },
+    {
+      "name": "Mahdi S. Lataifeh",
+      "affiliation": "Department of Physics, Yarmouk University, Irbid 21163, Jordan"
+    },
+    {
+      "name": "Ghassan Malkawi",
+      "affiliation": "Faculty of Computer Information Science, Higher Colleges of Technology, Al Ain, United Arab Emirates"
+    },
+    {
+      "name": "Ahmed Abdelaziz Elsayed",
+      "affiliation": "Department of Computer Engineering and Computational Sciences, Canadian University Dubai, Dubai, United Arab Emirates"
+    },
+    {
+      "name": "Haroun Mohammad I. Al Barghouthy",
+      "affiliation": "Department of Mathematics and Natural Sciences, Faculty of Engineering Technology and Science, Higher Colleges of Technology, Al Ain, United Arab Emirates"
+    }
+  ],
   "doi": "10.5281/zenodo.23019081",
   "repository": "https://github.com/shaikhamalkawi-ux/iron-factory-copper-screening",
   "doi_status_note": "Identifier reserved during packaging; the linked Zenodo landing page is authoritative for publication status.",
@@ -25,6 +46,13 @@
     "__pycache__",
     "recomputed"
   ],
+  "authorship_metadata_correction": {
+    "date": "2026-09-28",
+    "scope": "Five ordered authors and verified affiliations; copyright-holder notices unchanged.",
+    "version_changed": false,
+    "DOI_changed": false,
+    "scientific_files_changed": false
+  },
   "members": {
     ".gitattributes": {
       "bytes": 72,
@@ -42,9 +70,9 @@
       "crc32": "c447818e"
     },
     "CITATION.cff": {
-      "bytes": 926,
-      "sha256": "99eae15025f213c55299dbcdbba4209d23d1b2fb3616a3c306e0b48fd3c87c7c",
-      "crc32": "affaab5b"
+      "bytes": 1778,
+      "sha256": "fdef7c1b738a77d7631ceb29369c0fc4ba63e9bc388a6cf2ab15f94570a22d7a",
+      "crc32": "1c33e976"
     },
     "figure_code/build_current_figures.py": {
       "bytes": 7412,
@@ -332,9 +360,9 @@
       "crc32": "b3c4ecfe"
     },
     "LICENSE-CC-BY-4.0.md": {
-      "bytes": 865,
-      "sha256": "53b9adaf96f3fcc545292cdceb854215d5654ba02b2ae9a8d2a257f6fae04eb0",
-      "crc32": "00a6d7d5"
+      "bytes": 990,
+      "sha256": "97708fd5390ff38aa13571860afcc938daf64b5c861c460c5faef671850bc96d",
+      "crc32": "aa9e6cc5"
     },
     "LICENSE-MIT": {
       "bytes": 1072,
@@ -342,9 +370,9 @@
       "crc32": "00ae9b0b"
     },
     "README.md": {
-      "bytes": 9488,
-      "sha256": "2a0f529c43cde9af4061b5b7781499cf44cb7004cd5cc9b162e2ecb20810e54b",
-      "crc32": "180a1cec"
+      "bytes": 10479,
+      "sha256": "db0a1d6dea89d69f27b7f7f8c1becda06f6feabb3dc76b198f155c0d231520f1",
+      "crc32": "d3753819"
     },
     "reproduction_verification/independent_workbook_audit.json": {
       "bytes": 4842,

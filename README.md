@@ -1,6 +1,14 @@
 # Iron Factory copper screening: data and reproducibility code
 
-**Ghassan Malkawi · Version 11.0.0**
+**Idrees F. Al-Momani; Mahdi S. Lataifeh; Ghassan Malkawi; Ahmed Abdelaziz Elsayed; Haroun Mohammad I. Al Barghouthy · Version 11.0.0**
+
+Authors and affiliations, in citation order:
+
+1. **Idrees F. Al-Momani** — Department of Chemistry, Faculty of Science, Yarmouk University, Irbid 21163, Jordan.
+2. **Mahdi S. Lataifeh** — Department of Physics, Yarmouk University, Irbid 21163, Jordan.
+3. **Ghassan Malkawi** — Faculty of Computer Information Science, Higher Colleges of Technology, Al Ain, United Arab Emirates.
+4. **Ahmed Abdelaziz Elsayed** — Department of Computer Engineering and Computational Sciences, Canadian University Dubai, Dubai, United Arab Emirates.
+5. **Haroun Mohammad I. Al Barghouthy** — Department of Mathematics and Natural Sciences, Faculty of Engineering Technology and Science, Higher Colleges of Technology, Al Ain, United Arab Emirates.
 
 Repository: [iron-factory-copper-screening](https://github.com/shaikhamalkawi-ux/iron-factory-copper-screening). Archive DOI: [10.5281/zenodo.23019081](https://doi.org/10.5281/zenodo.23019081). This identifier was reserved during packaging; the linked Zenodo landing page is authoritative for publication status.
 
@@ -85,6 +93,6 @@ print("All distributed file hashes match.")
 
 ## Citation and licenses
 
-Use `CITATION.cff` to cite Ghassan Malkawi and release 11.0.0.
+Use `CITATION.cff` to cite all five authors in the stated order and release 11.0.0. Authorship metadata was corrected on 28 September 2026; the DOI, version, scientific files and numerical results remain unchanged.
 
 Python source code is licensed under the [MIT License](LICENSE-MIT). The workbook, numerical results, figures, table baseline and narrative documentation are licensed under [CC BY 4.0](LICENSE-CC-BY-4.0.md). Dependency software retains its own licenses and is not bundled. Official license sources are the [Open Source Initiative](https://opensource.org/license/mit) and [Creative Commons](https://creativecommons.org/licenses/by/4.0/).
