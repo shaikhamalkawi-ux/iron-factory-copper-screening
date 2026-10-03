@@ -7,17 +7,17 @@ authors:
     given-names: Idrees F.
     affiliation: "Department of Chemistry, Faculty of Science, Yarmouk University, Irbid 21163, Jordan"
   - family-names: Lataifeh
-    given-names: Mahdi S.
+    given-names: Mahdi Salem Q.
     affiliation: "Department of Physics, Yarmouk University, Irbid 21163, Jordan"
-  - family-names: Malkawi
-    given-names: Ghassan
-    affiliation: "Faculty of Computer Information Science, Higher Colleges of Technology, Al Ain, United Arab Emirates"
   - family-names: Elsayed
-    given-names: Ahmed Abdelaziz
+    given-names: Ahmed
     affiliation: "Department of Computer Engineering and Computational Sciences, Canadian University Dubai, Dubai, United Arab Emirates"
-  - family-names: Al Barghouthy
-    given-names: Haroun Mohammad I.
+  - family-names: Albarghouthy
+    given-names: Haroun
     affiliation: "Department of Mathematics and Natural Sciences, Faculty of Engineering Technology and Science, Higher Colleges of Technology, Al Ain, United Arab Emirates"
+  - family-names: Alhagyan
+    given-names: Mohammed
+    affiliation: "Mathematical Science Department, College of Science, United Arab Emirates University, Al Ain, United Arab Emirates"
 version: 11.0.0
 doi: 10.5281/zenodo.23019081
 repository-code: "https://github.com/shaikhamalkawi-ux/iron-factory-copper-screening"
