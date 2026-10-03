@@ -1,14 +1,14 @@
 # Iron Factory copper screening: data and reproducibility code
 
-**Idrees F. Al-Momani; Mahdi Salem Q. Lataifeh; Ahmed Elsayed; Haroun Albarghouthy; Mohammed Alhagyan · Version 11.0.0**
+**Idrees F. Al-Momani; Mahdi Salem Q. Lataifeh; Ghassan Malkawi; Ahmed Elsayed; Haroun Albarghouthy · Version 11.0.0**
 
 Authors and affiliations, in citation order:
 
 1. **Idrees F. Al-Momani** — Department of Chemistry, Faculty of Science, Yarmouk University, Irbid 21163, Jordan.
 2. **Mahdi Salem Q. Lataifeh** — Department of Physics, Yarmouk University, Irbid 21163, Jordan.
-3. **Ahmed Elsayed** — Department of Computer Engineering and Computational Sciences, Canadian University Dubai, Dubai, United Arab Emirates.
-4. **Haroun Albarghouthy** — Department of Mathematics and Natural Sciences, Faculty of Engineering Technology and Science, Higher Colleges of Technology, Al Ain, United Arab Emirates. Corresponding author for the manuscript.
-5. **Mohammed Alhagyan** — Mathematical Science Department, College of Science, United Arab Emirates University, Al Ain, United Arab Emirates.
+3. **Ghassan Malkawi** — Faculty of Computer Information Science, Higher Colleges of Technology, Al Ain, United Arab Emirates.
+4. **Ahmed Elsayed** — Department of Computer Engineering and Computational Sciences, Canadian University Dubai, Dubai, United Arab Emirates.
+5. **Haroun Albarghouthy** — Department of Mathematics and Natural Sciences, Faculty of Engineering Technology and Science, Higher Colleges of Technology, Al Ain, United Arab Emirates. Corresponding author for the manuscript.
 
 Repository: [iron-factory-copper-screening](https://github.com/shaikhamalkawi-ux/iron-factory-copper-screening). Archive DOI: [10.5281/zenodo.23019081](https://doi.org/10.5281/zenodo.23019081). This identifier was reserved during packaging; the linked Zenodo landing page is authoritative for publication status.
 
