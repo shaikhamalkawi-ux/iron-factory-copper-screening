@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite this dataset and companion calculation code when using these materials."
 type: dataset
-title: "Target-Dependent Magnetic versus Proximity Screening: data and reproducibility code"
+title: "Chemical-Target Dependence in Magnetic versus Proximity Screening of Sequentially Extracted Soil Metals around an Iron Smelter: data and reproducibility code"
 authors:
   - family-names: Al-Momani
     given-names: Idrees F.
