@@ -1,4 +1,4 @@
-# Chemical-Target Dependence in Magnetic versus Proximity Screening of Sequentially Extracted Soil Metals around an Iron Smelter: data and reproducibility code
+# Chemical-Target Dependence in Magnetic versus Proximity Screening of Sequentially Extracted Soil Metals around an Iron Smelter
 
 **Idrees F. Al-Momani; Mahdi Salem Q. Lataifeh; Emad Khaled Al-Sharadqah; Ghassan Malkawi; Ahmed Elsayed; Haroun Albarghouthy · Version 12.0.0**
 
@@ -20,6 +20,7 @@ At eight selected records, the Cu comparison favors highest XLF for the four-fra
 ## Data and files
 
 - `source/Iron Factory.xlsx`: a metadata-sanitized public derivative, 32,194 bytes. SHA-256: `1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b`.
+- `v22/record17_zero_distance_k8.csv` and `v22/incremental_distance_xlf_loocv.csv`: V22 record-17 provenance sensitivity and incremental Distance+XLF LOOCV outputs.
 - `verification/`: direct-workbook Cu checks, coordinate checks, numerical case tables and result summaries.
 - `fresh_read_20260927/`: field dictionary, cell inventory, extracted records, complete target/budget comparisons and associated calculation scripts.
 - `legacy_analysis/`: supplementary ordering, optimization, influence and exhaustive subset calculations.
