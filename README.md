@@ -6,7 +6,7 @@ Authors and affiliations, in citation order:
 
 1. **Idrees F. Al-Momani** — Department of Chemistry, Faculty of Science, Yarmouk University, Irbid 21163, Jordan.
 2. **Mahdi Salem Q. Lataifeh** — Department of Physics, Yarmouk University, Irbid 21163, Jordan.
-3. **Emad Khaled Al-Sharadqah** — Department of Chemistry, Faculty of Science, Yarmouk University, Irbid 21163, Jordan. Original thesis investigator and sample/data collection contributor.
+3. **Emad Khaled Al-Sharadqah** — Department of Chemistry, Faculty of Science, Yarmouk University, Irbid 21163, Jordan. Email: `dr_love89@windowslive.com`. Original thesis investigator and sample/data collection contributor.
 4. **Ghassan Malkawi** — Faculty of Computer Information Science, Higher Colleges of Technology, Al Ain, United Arab Emirates. Corresponding author for the manuscript (`gmalkawi@hct.ac.ae`).
 5. **Ahmed Elsayed** — Department of Computer Engineering and Computational Sciences, Canadian University Dubai, Dubai, United Arab Emirates.
 6. **Haroun Albarghouthy** — Department of Mathematics and Natural Sciences, Faculty of Engineering Technology and Science, Higher Colleges of Technology, Al Ain, United Arab Emirates.
