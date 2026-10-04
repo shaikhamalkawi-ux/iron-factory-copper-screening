@@ -35,7 +35,7 @@ def make_classification_figure(index,destination,wide=False):
     else:
         fig,axes=plt.subplots(3,1,figsize=(7.4,8.8),sharex=True)
         fig.subplots_adjust(left=.087,right=.976,bottom=.139,top=.785,hspace=.35)
-    titles=["(a) Total concentration","(b) F1 concentration","(c) F1 + F2 + F3 concentration"]
+    titles=["(a) Four-fraction sum (F1 + F2 + F3 + F4)","(b) F1","(c) Non-residual sum (F1 + F2 + F3)"]
     for ax,target,title in zip(axes,ORDINARY_TARGETS,titles):
         matrix=[[class_code[index[(e,target,k)]["classification"]] for k in range(1,32)] for e in ELEMENTS]
         ax.imshow(matrix,cmap=cmap,norm=norm,interpolation="nearest",aspect="auto",origin="upper")
@@ -80,14 +80,14 @@ def make_classification_figure(index,destination,wide=False):
         fig.text(.087,.043,"Better means the rule's minimum exceeds the other rule's maximum by more than 10⁻¹².",fontsize=8,color="#48545F")
         fig.text(.087,.020,"Ranges are not confidence intervals. Budgets are dependent descriptive comparisons.",fontsize=8,color="#48545F")
     stem="ordinary_target_budget_classification"+("_wide" if wide else "")
-    fig.savefig(destination/(stem+".png"),dpi=300,facecolor="white")
+    fig.savefig(destination/(stem+".png"),dpi=600,facecolor="white")
     fig.savefig(destination/(stem+".svg"),facecolor="white")
     plt.close(fig)
 
 def make_cu_figure(grid, output):
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10})
     fig,axes=plt.subplots(1,3,figsize=(10.5,3.1),sharey=True)
-    for ax,target,label in zip(axes,['total','F1','F123'],['Four-fraction total','F1','F1 + F2 + F3']):
+    for ax,target,label in zip(axes,['total','F1','F123'],['Four-fraction sum','F1','Non-residual (F1 + F2 + F3)']):
         rr=[r for r in grid if r['element']=='Cu' and r['target']==target]
         k=np.array([int(r['k']) for r in rr])
         for prefix,color,name in [('m','#245b89','Highest XLF'),('p','#bc5b24','Recorded distance')]:
@@ -96,7 +96,7 @@ def make_cu_figure(grid, output):
         ax.axvline(8,color='#888888',ls=':',lw=1);ax.set(xlim=(1,31),ylim=(0,103),title=label,xlabel='Selected records k',xticks=[1,8,16,24,31]);ax.grid(axis='y',alpha=.18)
     axes[0].set_ylabel('Same-size oracle retention (%)')
     axes[-1].legend(loc='lower right',fontsize=8,frameon=False)
-    fig.tight_layout();fig.savefig(output/'Cu_ordinary_profiles.png',dpi=220);fig.savefig(output/'Cu_ordinary_profiles.svg');plt.close(fig)
+    fig.tight_layout();fig.savefig(output/'Cu_ordinary_profiles.png',dpi=600);fig.savefig(output/'Cu_ordinary_profiles.svg');plt.close(fig)
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
