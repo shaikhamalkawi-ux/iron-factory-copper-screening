@@ -1,20 +1,21 @@
-# Iron Factory copper screening: data and reproducibility code
+# Target-Dependent Magnetic versus Proximity Screening: data and reproducibility code
 
-**Idrees F. Al-Momani; Mahdi Salem Q. Lataifeh; Ghassan Malkawi; Ahmed Elsayed; Haroun Albarghouthy · Version 11.0.0**
+**Idrees F. Al-Momani; Mahdi Salem Q. Lataifeh; Emad Khaled Al-Sharadqah; Ghassan Malkawi; Ahmed Elsayed; Haroun Albarghouthy · Version 12.0.0**
 
 Authors and affiliations, in citation order:
 
 1. **Idrees F. Al-Momani** — Department of Chemistry, Faculty of Science, Yarmouk University, Irbid 21163, Jordan.
 2. **Mahdi Salem Q. Lataifeh** — Department of Physics, Yarmouk University, Irbid 21163, Jordan.
-3. **Ghassan Malkawi** — Faculty of Computer Information Science, Higher Colleges of Technology, Al Ain, United Arab Emirates.
-4. **Ahmed Elsayed** — Department of Computer Engineering and Computational Sciences, Canadian University Dubai, Dubai, United Arab Emirates.
-5. **Haroun Albarghouthy** — Department of Mathematics and Natural Sciences, Faculty of Engineering Technology and Science, Higher Colleges of Technology, Al Ain, United Arab Emirates. Corresponding author for the manuscript.
+3. **Emad Khaled Al-Sharadqah** — Department of Chemistry, Faculty of Science, Yarmouk University, Irbid 21163, Jordan. Original thesis investigator and sample/data collection contributor.
+4. **Ghassan Malkawi** — Faculty of Computer Information Science, Higher Colleges of Technology, Al Ain, United Arab Emirates.
+5. **Ahmed Elsayed** — Department of Computer Engineering and Computational Sciences, Canadian University Dubai, Dubai, United Arab Emirates.
+6. **Haroun Albarghouthy** — Department of Mathematics and Natural Sciences, Faculty of Engineering Technology and Science, Higher Colleges of Technology, Al Ain, United Arab Emirates. Corresponding author for the manuscript.
 
 Repository: [iron-factory-copper-screening](https://github.com/shaikhamalkawi-ux/iron-factory-copper-screening). Archive DOI: [10.5281/zenodo.23019081](https://doi.org/10.5281/zenodo.23019081). This identifier was reserved during packaging; the linked Zenodo landing page is authoritative for publication status.
 
-This companion data/code release contains a 32-record workbook and reproducible retrospective comparisons of two prioritization rules: highest stored XLF and nearest recorded distance. The chemical targets are four-fraction total concentration, F1 concentration, and combined F1+F2+F3 concentration. The full article manuscript is not included; `baseline/table2.tex` contains only the 81 printed numerical entries used by the computational check.
+This companion data/code release contains a 32-record workbook and reproducible retrospective comparisons of two prioritization rules: highest stored XLF and nearest recorded distance. The chemical targets are the four-fraction sum (F1+F2+F3+F4), F1, and the combined non-residual sum (F1+F2+F3). The full article manuscript is not included; `baseline/table2.tex` contains only the 81 printed numerical entries used by the computational check.
 
-At eight selected records, the Cu comparison favors highest XLF for total and F1 concentrations and nearest recorded distance for F1+F2+F3. All permitted choices at tied cutoffs are enumerated. These results describe this finite candidate table; they do not establish field performance, causal source attribution, bioavailability, or a confirmed mineral carrier. Extraction fractions are operational labels, and the workbook does not establish the underlying laboratory protocol.
+At eight selected records, the Cu comparison favors highest XLF for the four-fraction sum and F1, and nearest recorded distance for F1+F2+F3. All permitted choices at tied cutoffs are enumerated. These results describe this finite candidate table; they do not establish field performance, causal source attribution, bioavailability, or a confirmed mineral carrier. Extraction fractions are operational labels, and the workbook does not establish the underlying laboratory protocol.
 
 ## Data and files
 
@@ -30,7 +31,7 @@ Sheet `All rsults` contains records in rows 4–35, IDs 1–32. Fraction blocks 
 
 The original private workbook has SHA-256 `aa6681c479d8855819fc68f2ebc63271668adff925eac8aeb49d2b5af55d43ef`. The public derivative removes document-author/editor metadata, document creation/modification timestamps, a stored absolute path and printer metadata, with valid corresponding package relationships. It preserves every worksheet, cell value, formula, cached value and style; the verification record describes these checks. The original binary is not distributed here.
 
-The file lacks sufficient documentation of sampling design, material/depth/date, extraction reagents, laboratory quality controls and magnetic calibration. Reported coordinate checks are conditional internal comparisons and do not identify a factory boundary or emission origin. Concentration sums are record-prioritization scores, not landscape inventories or health-risk estimates. The source cell values, including documented internal inconsistencies, have not been corrected.
+A recovered Yarmouk University MSc thesis documents the 32 surface-soil samples, 0–15 cm depth, four-step BCR extraction, FAAS determination, blanks, detection limits, calibration, and reference-material quality control. Iron-specific magnetic instrument/frequency/calibration documentation and a formal field sampling/replicate ledger remain unresolved. Reported coordinate checks are conditional internal comparisons and do not identify a factory boundary or emission origin. Fraction sums are record-prioritization targets, not landscape inventories or health-risk estimates. The source cell values, including documented internal inconsistencies, have not been silently corrected.
 
 ## Reproduce the calculations
 
@@ -93,6 +94,6 @@ print("All distributed file hashes match.")
 
 ## Citation and licenses
 
-Use `CITATION.cff` to cite all five authors in the stated order and release 11.0.0. Authorship metadata was updated on 3 October 2026 to match the manuscript author list; the DOI, version, scientific files and numerical results remain unchanged.
+Use `CITATION.cff` to cite all six authors in the stated order and release 12.0.0. Authorship metadata was updated on 3 October 2026 to match the manuscript author list; the DOI, version, scientific files and numerical results remain unchanged.
 
 Python source code is licensed under the [MIT License](LICENSE-MIT). The workbook, numerical results, figures, table baseline and narrative documentation are licensed under [CC BY 4.0](LICENSE-CC-BY-4.0.md). Dependency software retains its own licenses and is not bundled. Official license sources are the [Open Source Initiative](https://opensource.org/license/mit) and [Creative Commons](https://creativecommons.org/licenses/by/4.0/).
