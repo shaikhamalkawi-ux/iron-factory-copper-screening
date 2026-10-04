@@ -1,0 +1,7 @@
+scenario,target,n,distance_only_rmse,distance_plus_xlf_rmse,improvement_percent
+current,four_fraction_sum,32,0.2098526582,0.1654732664,21.1479
+current,F1,32,0.3173979886,0.3127826315,1.4541
+current,non_residual,32,0.3492145156,0.3718401310,-6.4790
+record17_zero_distance,four_fraction_sum,32,0.2039672609,0.1706223090,16.3482
+record17_zero_distance,F1,32,0.3104617349,0.3054161033,1.6252
+record17_zero_distance,non_residual,32,0.3842346827,0.4107245725,-6.8942
