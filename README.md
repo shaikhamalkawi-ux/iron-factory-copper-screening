@@ -7,9 +7,9 @@ Authors and affiliations, in citation order:
 1. **Idrees F. Al-Momani** — Department of Chemistry, Faculty of Science, Yarmouk University, Irbid 21163, Jordan.
 2. **Mahdi Salem Q. Lataifeh** — Department of Physics, Yarmouk University, Irbid 21163, Jordan.
 3. **Emad Khaled Al-Sharadqah** — Department of Chemistry, Faculty of Science, Yarmouk University, Irbid 21163, Jordan. Original thesis investigator and sample/data collection contributor.
-4. **Ghassan Malkawi** — Faculty of Computer Information Science, Higher Colleges of Technology, Al Ain, United Arab Emirates.
+4. **Ghassan Malkawi** — Faculty of Computer Information Science, Higher Colleges of Technology, Al Ain, United Arab Emirates. Corresponding author for the manuscript (`gmalkawi@hct.ac.ae`).
 5. **Ahmed Elsayed** — Department of Computer Engineering and Computational Sciences, Canadian University Dubai, Dubai, United Arab Emirates.
-6. **Haroun Albarghouthy** — Department of Mathematics and Natural Sciences, Faculty of Engineering Technology and Science, Higher Colleges of Technology, Al Ain, United Arab Emirates. Corresponding author for the manuscript.
+6. **Haroun Albarghouthy** — Department of Mathematics and Natural Sciences, Faculty of Engineering Technology and Science, Higher Colleges of Technology, Al Ain, United Arab Emirates.
 
 Repository: [iron-factory-copper-screening](https://github.com/shaikhamalkawi-ux/iron-factory-copper-screening). Archive DOI: [10.5281/zenodo.23019081](https://doi.org/10.5281/zenodo.23019081). This identifier was reserved during packaging; the linked Zenodo landing page is authoritative for publication status.
 
@@ -94,6 +94,6 @@ print("All distributed file hashes match.")
 
 ## Citation and licenses
 
-Use `CITATION.cff` to cite all six authors in the stated order and release 12.0.0. Authorship metadata was updated on 3 October 2026 to match the manuscript author list; the DOI, version, scientific files and numerical results remain unchanged.
+Use `CITATION.cff` to cite all six authors in the stated order and release 12.0.0. Authorship metadata was updated on 3 October 2026 to match the manuscript author list. Manuscript correspondence was updated on 4 October 2026 to Ghassan Malkawi (`gmalkawi@hct.ac.ae`); the DOI, release version, scientific files and numerical results remain unchanged.
 
 Python source code is licensed under the [MIT License](LICENSE-MIT). The workbook, numerical results, figures, table baseline and narrative documentation are licensed under [CC BY 4.0](LICENSE-CC-BY-4.0.md). Dependency software retains its own licenses and is not bundled. Official license sources are the [Open Source Initiative](https://opensource.org/license/mit) and [Creative Commons](https://creativecommons.org/licenses/by/4.0/).
