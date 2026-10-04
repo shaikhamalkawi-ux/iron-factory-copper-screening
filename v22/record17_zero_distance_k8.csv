@@ -1,0 +1,7 @@
+scenario,target,k,magnetic_retention_percent,proximity_min_percent,proximity_max_percent
+current,four_fraction_sum,8,91.6778166756,84.6578714747,87.6014549995
+current,F1,8,84.3243575074,74.1426814807,77.3032362913
+current,non_residual,8,60.3460800396,80.7526695299,86.6489713979
+record17_zero_distance,four_fraction_sum,8,91.6778166756,86.45,88.63
+record17_zero_distance,F1,8,84.3243575074,73.73,76.83
+record17_zero_distance,non_residual,8,60.3460800396,79.55,85.03
