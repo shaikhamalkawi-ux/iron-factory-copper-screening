@@ -1,4 +1,4 @@
-# Target-Dependent Magnetic versus Proximity Screening: data and reproducibility code
+# Chemical-Target Dependence in Magnetic versus Proximity Screening of Sequentially Extracted Soil Metals around an Iron Smelter: data and reproducibility code
 
 **Idrees F. Al-Momani; Mahdi Salem Q. Lataifeh; Emad Khaled Al-Sharadqah; Ghassan Malkawi; Ahmed Elsayed; Haroun Albarghouthy · Version 12.0.0**
 
@@ -13,7 +13,7 @@ Authors and affiliations, in citation order:
 
 Repository: [iron-factory-copper-screening](https://github.com/shaikhamalkawi-ux/iron-factory-copper-screening). Archive DOI: [10.5281/zenodo.23019081](https://doi.org/10.5281/zenodo.23019081). This identifier was reserved during packaging; the linked Zenodo landing page is authoritative for publication status.
 
-This companion data/code release contains a 32-record workbook and reproducible retrospective comparisons of two prioritization rules: highest stored XLF and nearest recorded distance. The chemical targets are the four-fraction sum (F1+F2+F3+F4), F1, and the combined non-residual sum (F1+F2+F3). The full article manuscript is not included; `baseline/table2.tex` contains only the 81 printed numerical entries used by the computational check.
+This companion data/code release accompanies the manuscript “Chemical-Target Dependence in Magnetic versus Proximity Screening of Sequentially Extracted Soil Metals around an Iron Smelter”. It contains a 32-record workbook and reproducible retrospective comparisons of two prioritization rules: highest stored XLF and nearest recorded distance. The chemical targets are the four-fraction sum (F1+F2+F3+F4), F1, and the combined non-residual sum (F1+F2+F3). The full article manuscript is not included; `baseline/table2.tex` contains only the 81 printed numerical entries used by the computational check.
 
 At eight selected records, the Cu comparison favors highest XLF for the four-fraction sum and F1, and nearest recorded distance for F1+F2+F3. All permitted choices at tied cutoffs are enumerated. These results describe this finite candidate table; they do not establish field performance, causal source attribution, bioavailability, or a confirmed mineral carrier. Extraction fractions are operational labels, and the workbook does not establish the underlying laboratory protocol.
 
