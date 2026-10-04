@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite this dataset and companion calculation code when using these materials."
 type: dataset
-title: "Iron Factory copper screening: data and reproducibility code"
+title: "Target-Dependent Magnetic versus Proximity Screening: data and reproducibility code"
 authors:
   - family-names: Al-Momani
     given-names: Idrees F.
@@ -9,6 +9,9 @@ authors:
   - family-names: Lataifeh
     given-names: Mahdi Salem Q.
     affiliation: "Department of Physics, Yarmouk University, Irbid 21163, Jordan"
+  - family-names: Al-Sharadqah
+    given-names: Emad Khaled
+    affiliation: "Department of Chemistry, Faculty of Science, Yarmouk University, Irbid 21163, Jordan"
   - family-names: Malkawi
     given-names: Ghassan
     affiliation: "Faculty of Computer Information Science, Higher Colleges of Technology, Al Ain, United Arab Emirates"
@@ -18,13 +21,13 @@ authors:
   - family-names: Albarghouthy
     given-names: Haroun
     affiliation: "Department of Mathematics and Natural Sciences, Faculty of Engineering Technology and Science, Higher Colleges of Technology, Al Ain, United Arab Emirates"
-version: 11.0.0
+version: 12.0.0
 doi: 10.5281/zenodo.23019081
 repository-code: "https://github.com/shaikhamalkawi-ux/iron-factory-copper-screening"
 license:
   - CC-BY-4.0
   - MIT
-abstract: "A metadata-sanitized 32-record workbook with unchanged cell values and reproducible calculations comparing highest recorded magnetic values with nearest recorded distance for operational chemical targets. This companion data/code release includes cutoff-tie enumeration, candidate-omission checks, fraction attribution, and supplementary finite-table analyses."
+abstract: "A metadata-sanitized 32-record workbook with unchanged cell values and reproducible calculations comparing highest stored XLF with nearest recorded distance for three operational chemical targets: the four-fraction sum (F1+F2+F3+F4), F1, and the non-residual sum (F1+F2+F3). This companion data/code release includes cutoff-tie enumeration, candidate-omission checks, provenance sensitivities, and supplementary finite-table analyses."
 keywords:
   - environmental monitoring
   - sample prioritization
