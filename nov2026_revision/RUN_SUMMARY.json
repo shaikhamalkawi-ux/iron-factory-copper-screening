@@ -1,40 +1,26 @@
 {
   "project": "40 Iron",
-  "code_release": "12.1.0",
-  "manuscript_revision": "V62 source-to-output public replay; V63 Data Availability linkage pending",
+  "repository_release": "12.1.1",
   "date": "2026-11-08",
-  "source_workbook_sha256": "1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b",
-  "public_source_matches_repo_blob_sha1": "fbd85aa0a54b6dd63a70c979975ec0ab03d376bf",
-  "number_of_historical_soil_records": 32,
-  "num_element_target_budget_cases": 837,
+  "change_type": "public-code-portability-only; no scientific values changed",
+  "public_source_sha256": "1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b",
+  "data_records": 32,
+  "element_target_budget_checks": 837,
   "numeric_replay": "PASS",
-  "figures_rebuild_and_pixel_parity": "PASS 4/4 at 216 dpi in tested environment",
-  "scientific_result_changes": 0,
-  "source_changed": false,
-  "private_thesis_included": false,
-  "private_original_workbook_included": false,
-  "reviewer_reports_included": false,
-  "previous_zenodo_doi": "10.5281/zenodo.23019081",
-  "previous_doi_is_not_november_2026": true,
+  "four_figure_pixel_parity_216dpi": "PASS 4/4",
+  "original_artifact_tool_reader_equivalence": "39 numeric columns x 32 rows, 0 differences",
+  "cross_platform_orchestration": "Python-only; no Bash required",
+  "standard_library_worksheet_reader": true,
+  "numerical_max_abs_retention_percentage_point_difference": 9.947598300641403e-14,
   "new_zenodo_doi": null,
-  "qa_input_results": {
-    "numerical": {
-      "source_sha256": "1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b",
-      "source_unchanged": true,
-      "numeric_replay": "PASS",
-      "four_figures_pixel_parity": "NOT_RUN_OPTIONAL",
-      "output": "/mnt/data/Iron_40_V63_GitHub_Public_Replay_20261108/qa_run"
-    },
-    "with_figures": {
-      "source_sha256": "1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b",
-      "source_unchanged": true,
-      "numeric_replay": "PASS",
-      "four_figures_pixel_parity": "PASS",
-      "output": "/mnt/data/Iron_40_V63_GitHub_Public_Replay_20261108/qa_full_figures"
-    }
-  },
+  "prior_zenodo_doi": "10.5281/zenodo.23019081",
   "tested_environment": {
     "python": "3.13.5",
-    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
-  }
+    "system": "Linux",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "PyMuPDF": "1.26.7"
+  },
+  "public_release_boundaries": "no original thesis, no private workbook, no reviewer reports or credentials, no new scientific inference or calibration"
 }

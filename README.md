@@ -1,6 +1,6 @@
 # Chemical-Target Dependence in Magnetic versus Proximity Screening of Sequentially Extracted Soil Metals around an Iron Smelter
 
-**Idrees F. Al-Momani; Mahdi Salem Q. Lataifeh; Emad Khaled Al-Sharadqah; Ghassan Malkawi; Ahmed Elsayed; Haroun Albarghouthy · Version 12.1.0**
+**Idrees F. Al-Momani; Mahdi Salem Q. Lataifeh; Emad Khaled Al-Sharadqah; Ghassan Malkawi; Ahmed Elsayed; Haroun Albarghouthy · Version 12.1.1**
 
 Authors and affiliations, in citation order:
 
@@ -11,11 +11,14 @@ Authors and affiliations, in citation order:
 5. **Ahmed Elsayed** — Department of Computer Engineering and Computational Sciences, Canadian University Dubai, Dubai, United Arab Emirates.
 6. **Haroun Albarghouthy** — Department of Mathematics and Natural Sciences, Faculty of Engineering Technology and Science, Higher Colleges of Technology, Al Ain, United Arab Emirates.
 
-Repository: [iron-factory-copper-screening](https://github.com/shaikhamalkawi-ux/iron-factory-copper-screening). Archive DOI: [10.5281/zenodo.23019081](https://doi.org/10.5281/zenodo.23019081). The linked Zenodo record is a published **dataset/software** deposit (version 11.0.0), not a journal article or the 2015 master's thesis. This GitHub repository is a later version (12.1.0), with six contributors in `CITATION.cff`; the Zenodo record retains its own earlier five-creator metadata. The Zenodo landing page is authoritative for that deposited record.
+Repository: [iron-factory-copper-screening](https://github.com/shaikhamalkawi-ux/iron-factory-copper-screening). Archive DOI: [10.5281/zenodo.23019081](https://doi.org/10.5281/zenodo.23019081). The linked Zenodo record is a published **dataset/software** deposit (version 11.0.0), not a journal article or the 2015 master's thesis. This GitHub repository is a later version (12.1.1), with six contributors in `CITATION.cff`; the Zenodo record retains its own earlier five-creator metadata. The Zenodo landing page is authoritative for that deposited record.
 
 This companion data/code release accompanies the manuscript “Chemical-Target Dependence in Magnetic versus Proximity Screening of Sequentially Extracted Soil Metals around an Iron Smelter”. It contains a 32-record workbook and reproducible retrospective comparisons of two prioritization rules: highest stored XLF and nearest recorded distance. The chemical targets are the four-fraction sum (F1+F2+F3+F4), F1, and the combined non-residual sum (F1+F2+F3). The full article manuscript is not included; `baseline/table2.tex` contains only the 81 printed numerical entries used by the computational check.
 
 At eight selected records, the Cu comparison favors highest XLF for the four-fraction sum and F1, and nearest recorded distance for F1+F2+F3. All permitted choices at tied cutoffs are enumerated. These results describe this finite candidate table; they do not establish field performance, causal source attribution, bioavailability, or a confirmed mineral carrier. Extraction fractions are operational labels, and the workbook does not establish the underlying laboratory protocol.
+
+
+**November 2026 portability closure (12.1.1):** The public `nov2026_revision/` now has a conventional `requirements.txt` and a cross-platform Python entry point. It reads the hash-locked workbook directly from numeric OOXML cells with Python standard libraries; no Bash or proprietary spreadsheet dependency is needed. The 32×39 numeric source check and 4/4 figure pixel-parity test passed without changing scientific outputs. The older Zenodo DOI is not the DOI of this update.
 
 ## November 2026 — public numerical and figure replay
 

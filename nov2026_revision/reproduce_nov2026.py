@@ -7,7 +7,7 @@ All inputs are the public sanitized dataset or public-safe replay ZIPs.
 from pathlib import Path
 from zipfile import ZipFile
 from tempfile import TemporaryDirectory
-import argparse,subprocess,sys,hashlib,shutil,json,os
+import argparse,subprocess,sys,hashlib,shutil,json
 ROOT=Path(__file__).resolve().parent
 REPO=ROOT.parent
 EXPECTED='1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b'
@@ -18,7 +18,7 @@ def run(cmd,cwd=None):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--output',default='reproduced-nov2026')
-    p.add_argument('--figures',action='store_true',help='run pixel-parity verification for four figures (Bash and artifact_tool required)')
+    p.add_argument('--figures',action='store_true',help='rebuild and pixel-verify all four figures (cross-platform Python; NumPy, Matplotlib and PyMuPDF)')
     args=p.parse_args()
     out=Path(args.output).resolve()
     assert not out.exists() or not any(out.iterdir()),'Choose an empty output directory to avoid overwriting outputs'
@@ -44,8 +44,17 @@ def main():
                 assert z.testzip() is None
                 z.extractall(work/'fig')
             assert sha(work/'fig'/'inputs'/'Iron_Factory_public_sanitized.xlsx')==EXPECTED
-            run(['bash','run_all.sh'],cwd=work/'fig')
-            shutil.copytree(work/'fig'/'output',out/'figures')
+            fig=work/'fig'
+            (fig/'output').mkdir(exist_ok=True)
+            (fig/'map_stage').mkdir(exist_ok=True)
+            run([sys.executable,'scripts/build_v61_visuals.py'],cwd=fig)
+            run([sys.executable,'scripts/build_v61_fig3.py'],cwd=fig)
+            run([sys.executable,'source/render_figures_V57.py','--output','map_stage'],cwd=fig)
+            for name in ['Figure1_Study_Area_and_Records.pdf','Figure1_Study_Area_and_Records.png']:
+                shutil.copy2(fig/'map_stage'/name,fig/'output'/name)
+            run([sys.executable,'scripts/verify_4_figures.py'],cwd=fig)
+            run([sys.executable,'scripts/render_600dpi.py'],cwd=fig)
+            shutil.copytree(fig/'output',out/'figures')
     record={'source_sha256':EXPECTED,'source_unchanged':sha(source)==EXPECTED,'numeric_replay':'PASS','four_figures_pixel_parity':'PASS' if args.figures else 'NOT_RUN_OPTIONAL', 'output':str(out)}
     (out/'EXECUTION_RESULT.json').write_text(json.dumps(record,indent=2)+'\n')
     print(json.dumps(record,indent=2))

@@ -1,0 +1,6 @@
+# Environment verified during the November 2026 replay (Python 3.13.5).
+# The numerical workflow requires NumPy and SciPy; figures also require Matplotlib and PyMuPDF.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+PyMuPDF==1.26.7

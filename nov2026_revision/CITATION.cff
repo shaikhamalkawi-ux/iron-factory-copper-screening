@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this public dataset and code, cite this repository revision. The older Zenodo DOI is a separate earlier archive."
+type: dataset
+title: "Chemical-Target-Conditioned Magnetic versus Proximity Screening: Data and Reproducibility Code"
+authors:
+  - family-names: Al-Momani
+    given-names: Idrees F.
+    affiliation: "Department of Chemistry, Yarmouk University, Irbid, Jordan"
+  - family-names: Lataifeh
+    given-names: Mahdi Salem Q.
+    affiliation: "Department of Physics, Yarmouk University, Irbid, Jordan"
+  - family-names: Al-Sharadqah
+    given-names: Emad Khaled
+    affiliation: "Department of Chemistry, Yarmouk University, Irbid, Jordan"
+  - family-names: Malkawi
+    given-names: Ghassan
+    affiliation: "Higher Colleges of Technology, Al Ain, United Arab Emirates"
+  - family-names: Elsayed
+    given-names: Ahmed
+    affiliation: "Canadian University Dubai, Dubai, United Arab Emirates"
+  - family-names: Albarghouthy
+    given-names: Haroun
+    affiliation: "Higher Colleges of Technology, Al Ain, United Arab Emirates"
+version: 12.1.1
+date-released: 2026-11-08
+repository-code: "https://github.com/shaikhamalkawi-ux/iron-factory-copper-screening"
+license:
+  - CC-BY-4.0
+  - MIT
+abstract: "A public, metadata-sanitized 32-record historical workbook, reproducible ranking comparisons for four-fraction, first-fraction, and non-residual chemical objectives, plus November 2026 numerical and four-figure reproduction scripts. Source-to-output agreement does not validate the historical instrument calibration or field generalization. The previously published Zenodo DOI 10.5281/zenodo.23019081 corresponds to an older archive, not this release."
+keywords:
+  - environmental magnetism
+  - soil screening
+  - sequential extraction
+  - copper
+  - reproducible research

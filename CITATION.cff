@@ -21,7 +21,7 @@ authors:
   - family-names: Albarghouthy
     given-names: Haroun
     affiliation: "Higher Colleges of Technology, Al Ain, United Arab Emirates"
-version: 12.1.0
+version: 12.1.1
 date-released: 2026-11-08
 repository-code: "https://github.com/shaikhamalkawi-ux/iron-factory-copper-screening"
 license:
