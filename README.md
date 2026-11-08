@@ -30,7 +30,11 @@ The latest public code/data update is **version 12.1.0**, tied to the article's 
 python nov2026_revision/reproduce_nov2026.py --output reproduced-nov2026 --figures
 ```
 
-The previous Zenodo DOI **10.5281/zenodo.23019081** remains an earlier published dataset/software deposit; it has **not** been verified as archiving the November 2026 code. The `CITATION.cff` no longer misattributes that old DOI to this new repository revision. A new version DOI would require an actual new Zenodo deposit or GitHub Release capture. No private original workbook, thesis, reviewer reports, credentials, or draft access URLs have been added here. The submitted article manuscript PDF is reserved for author-approved distribution.
+The previous Zenodo DOI **10.5281/zenodo.23019081** remains an earlier published dataset/software deposit; it has **not** been verified as archiving the November 2026 code. The `CITATION.cff` no longer misattributes that old DOI to this new repository revision. A new version DOI would require an actual new Zenodo deposit or GitHub Release capture. The 2015 thesis author agreed to public source access, so a separate thesis reading copy is now available under its own rights notice; the private original workbook, reviewer reports, credentials, and draft access URLs remain unpublished. The submitted article manuscript PDF is reserved for author-approved distribution.
+
+## Historical thesis source (2015)
+
+The full, unmodified 87-page [Al-Sharadqah 2015 Yarmouk University MSc thesis](thesis/Al-Sharadqah_2015_Yarmouk_MSc_Thesis.pdf) is now available as a **public reading/source-verification copy**. See [thesis-specific source and rights notes](thesis/README.md) before using it. Copyright and third-party material rights remain with their holders; neither MIT nor CC BY 4.0 applies to this thesis file. No original private Excel workbook is published.
 
 ## Data and files
 
@@ -112,4 +116,4 @@ print("All distributed file hashes match.")
 
 Use `CITATION.cff` to cite all six authors in the stated order and release 12.0.0. Authorship metadata was updated on 3 October 2026 to match the manuscript author list. Manuscript correspondence was updated on 4 October 2026 to Ghassan Malkawi (`gmalkawi@hct.ac.ae`); the DOI, release version, scientific files and numerical results remain unchanged.
 
-Python source code is licensed under the [MIT License](LICENSE-MIT). The workbook, numerical results, figures, table baseline and narrative documentation are licensed under [CC BY 4.0](LICENSE-CC-BY-4.0.md). Dependency software retains its own licenses and is not bundled. Official license sources are the [Open Source Initiative](https://opensource.org/license/mit) and [Creative Commons](https://creativecommons.org/licenses/by/4.0/).
+Python source code is licensed under the [MIT License](LICENSE-MIT). The workbook, numerical results, project-generated figures, table baseline and project-authored narrative documentation (excluding the thesis reading copy) are licensed under [CC BY 4.0](LICENSE-CC-BY-4.0.md). Dependency software retains its own licenses and is not bundled. Official license sources are the [Open Source Initiative](https://opensource.org/license/mit) and [Creative Commons](https://creativecommons.org/licenses/by/4.0/).

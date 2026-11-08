@@ -40,11 +40,11 @@ The script validates the SHA-256 of the **existing repository public workbook** 
 
 - A common positive rescaling of stored XLF preserves rank order, but does **not** prove the original instrument model, 10 cm³ sample volume, absolute SI units or calibration.
 - BCR fractions are operational extraction pools; their sum is *not* an independently measured total digestion. Four-fraction and non-residual chemical objectives need not favor the same screening rule.
-- Raw thesis PDF, original private workbook, unpublished magnetic raw source, reviewer reports, private access links, credentials and field-personal metadata are **not published** here. No patent, copyright or redistribution right is claimed for unavailable private artifacts.
+- The thesis author has permitted public source access, and an unmodified 2015 thesis PDF is now provided separately at [`../thesis/`](../thesis/README.md), without any open reuse licence. The original private workbook, unpublished magnetic raw source, reviewer reports, private access links, credentials and field-personal metadata are **not published** here. No patent, copyright or redistribution right is claimed for unavailable private artifacts.
 - **Zenodo DOI:** `10.5281/zenodo.23019081` names an **earlier published data/software deposit**. It has **not** been verified as containing this November 2026 release. Do not cite it as a version-specific DOI for this update. Use the cited source-commit permalink for this GitHub update until a new version-specific archival DOI is actually published.
 - Code: MIT; public data and documentation: CC BY 4.0. External geographic outlines retain their own source terms (Natural Earth public domain).
 
-**Release policy:** This public repository is not a manuscript preprint and does not contain the current author-review PDF or proprietary original thesis. A journal manuscript or updated Zenodo deposit should be released only after author approval and the required metadata/licensing checks.
+**Release policy:** This public repository is not a manuscript preprint and does not contain the current author-review paper PDF; the original historical thesis is a separately attributed reading copy, not an openly licensed dataset. A journal manuscript or updated Zenodo deposit should be released only after author approval and the required metadata/licensing checks.
 
 ## Portability correction (12.1.1)
 
