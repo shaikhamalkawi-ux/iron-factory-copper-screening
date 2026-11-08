@@ -4,7 +4,7 @@
 
 **Public source workbook:** [`source/Iron Factory.xlsx`](../source/Iron%20Factory.xlsx) in the repository root. The published input is a metadata-sanitized derivative of the historical 32-record workbook, SHA-256 `1f403f49d399643455cffaad47d4445dee8acfba40ca14b6452283bd9e7e6b8b`. This file was already public in the repository and is retained unchanged. Do not replace it with the original private workbook.
 
-The November 2026 update adds **replayable numeric and four-figure source packages** corresponding to the V63 author-review article. Its analytical content is unchanged from the locked scientific baseline. The work compares higher recorded XLF and shorter recorded distance over the same 32 records, nine elements, three operational chemical targets and budgets 1–31. The primary test collection contains 837 element × target × budget comparisons. This is retrospective deterministic source-to-output reproducibility, not independent soil resampling, instrument calibration, source-attribution validation or field prediction.
+The November 2026 update adds **replayable numeric and four-figure source packages** corresponding to the author-review manuscript revisions through V67. Its analytical content is unchanged from the locked scientific baseline. The work compares higher recorded XLF and shorter recorded distance over the same 32 records, nine elements, three operational chemical targets and budgets 1–31. The primary test collection contains 837 element × target × budget comparisons. This is retrospective deterministic source-to-output reproducibility, not independent soil resampling, instrument calibration, source-attribution validation or field prediction.
 
 ## Available files
 

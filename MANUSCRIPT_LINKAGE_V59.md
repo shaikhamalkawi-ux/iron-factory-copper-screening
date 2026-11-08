@@ -1,3 +1,7 @@
+> **ARCHIVED HISTORICAL NOTE (October 2026).** The version-specific statements below document the V59 stage only; they are not current repository or thesis-access instructions. As of 8 November 2026, the November code is repository version 12.1.1, the 2015 MSc thesis is publicly accessible as a rights-reserved reading copy under `thesis/`, and the journal manuscript's current V67 review copy uses the public repository root as the sole research-materials URL. The older Zenodo DOI still belongs to an earlier dataset/software deposit; no new Zenodo DOI has been issued. See the repository root README and `thesis/README.md` for current guidance.
+
+---
+
 # Companion manuscript linkage (October 2026)
 
 The research article associated with this public dataset/software repository is currently titled:
