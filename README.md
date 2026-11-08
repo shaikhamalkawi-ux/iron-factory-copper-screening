@@ -32,7 +32,7 @@ python nov2026_revision/reproduce_nov2026.py --output reproduced-nov2026 --figur
 
 The previous Zenodo DOI **10.5281/zenodo.23019081** remains an earlier published dataset/software deposit; it has **not** been verified as archiving the November 2026 code. The `CITATION.cff` no longer misattributes that old DOI to this new repository revision. A new version DOI would require an actual new Zenodo deposit or GitHub Release capture. The 2015 thesis author agreed to public source access, so a separate thesis reading copy is now available under its own rights notice; the private original workbook, reviewer reports, credentials, and draft access URLs remain unpublished. The submitted article manuscript PDF is reserved for author-approved distribution.
 
-**V67 first-read editorial alignment (8 November 2026):** The manuscript abstract was shortened to meet MDPI's approximately 200-word guideline and Supplementary Section S1 was reconciled with the publicly accessible 2015 thesis. These are manuscript/documentation edits only; the repository's version 12.1.1 numerical and figure replay, source workbook, and conclusions are unchanged.
+**V68 final editorial production alignment (8 November 2026):** The V67 abstract and publicly accessible 2015-thesis linkage were retained; V68 makes the printed ISO 21226:2019 URL explicit and transparently qualifies unavailable historical AI model/build identifiers. These are manuscript/documentation edits only; the repository's version 12.1.1 numerical and figure replay, source workbook, and conclusions are unchanged.
 
 ## Historical thesis source (2015)
 
